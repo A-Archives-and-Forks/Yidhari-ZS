@@ -1,0 +1,7 @@
+.{
+    .udp_addr = "127.0.0.1",
+    .udp_port = 20501,
+
+    // This is only useful for memory leak testing
+    .shutdown_on_disconnect = false,
+}

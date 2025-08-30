@@ -1,0 +1,14 @@
+.{
+    .name = .protobuf_nap,
+    .version = "2.0.0",
+
+    .fingerprint = 0xd1c942cde46e090e,
+    .minimum_zig_version = "0.15.1",
+    .paths = .{
+        "",
+        "build.zig",
+        "build.zig.zon",
+        "bootstrapped-generator",
+        "src",
+    },
+}
