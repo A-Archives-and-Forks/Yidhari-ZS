@@ -41,8 +41,6 @@
             nativeBuildInputs = [ pkgs.protobuf ];
 
             zigBuildZon = ./build.zig.zon;
-            zigBuildZonLock = ./build.zig.zon2json-lock;
-
             zigBuildFlags = [ "build-yidhari-dispatch" "-Doptimize=ReleaseFast" ];
           }
           // (if target != null then { zigTarget = target; } else { })
@@ -57,8 +55,6 @@
             nativeBuildInputs = [ pkgs.protobuf ];
 
             zigBuildZon = ./build.zig.zon;
-            zigBuildZonLock = ./build.zig.zon2json-lock;
-
             zigBuildFlags = [ "build-yidhari-gameserver" "-Doptimize=ReleaseFast" ];
           }
           // (if target != null then { zigTarget = target; } else { })
