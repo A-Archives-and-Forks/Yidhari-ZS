@@ -5,7 +5,7 @@ const ByName = protocol.ByName;
 const makeProto = protocol.makeProto;
 
 const PropertyHashSet = @import("../property.zig").PropertyHashSet;
-const TemplateCollection = @import("../../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 
 const Allocator = std.mem.Allocator;
 const Self = @This();

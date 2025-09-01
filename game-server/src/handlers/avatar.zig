@@ -175,7 +175,7 @@ pub fn onAvatarSkinDressCsReq(context: *NetContext, req: protocol.ByName(.Avatar
 
     const player = &context.session.player_info.?;
 
-    const template = context.session.globals.templates.getConfigByKey(.avatar_skin_base_template_tb, @as(i32, @intCast(avatar_skin_id))) orelse {
+    const template = context.session.globals.templates.getConfigByKey(.avatar_skin_base_template_tb, avatar_skin_id) orelse {
         std.log.debug("AvatarSkinDress: skin {} doesn't exist", .{avatar_skin_id});
         return protocol.makeProto(.AvatarSkinDressScRsp, .{
             .retcode = 1,

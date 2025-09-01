@@ -49,7 +49,7 @@ pub const ActionChangeInteractCfg = struct {
             .hall => |hall| {
                 for (self.tag_ids) |tag_id| {
                     if (hall.unit_manager.getSceneUnit(context.graph.section_id, tag_id)) |unit| {
-                        var interact = SceneUnitManager.InteractInfo.init(@intCast(self.interact_id), default_interact_name);
+                        var interact = SceneUnitManager.InteractInfo.init(self.interact_id, default_interact_name);
                         interact.setScaleFromConfig(self.interact_scale);
                         unit.setInteract(.npc, interact);
                     }

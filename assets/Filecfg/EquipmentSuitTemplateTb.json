@@ -1,0 +1,1114 @@
+{
+  "data": [
+    {
+      "id": 31000,
+      "name": "EquipmentSuit_31000_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31000_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31000_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitWoodpeckerElectro.png",
+      "suit_story": "EquipmentSuit_31000_story",
+      "suit_filter_option": "EquipmentSuit_31000_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitWoodpeckerElectro.png",
+      "unk_14": 0,
+      "order": 12,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 20103,
+          "value": 800
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831020,
+        831030,
+        831040
+      ],
+      "unk_27": [
+        31041,
+        31042,
+        31043,
+        31044,
+        31045,
+        31046
+      ],
+      "tag": "EquipmentSuit_31000_Tag"
+    },
+    {
+      "id": 31100,
+      "name": "EquipmentSuit_31100_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31100_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31100_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitPufferElectro.png",
+      "suit_story": "EquipmentSuit_31100_story",
+      "suit_filter_option": "EquipmentSuit_31100_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitPufferElectro.png",
+      "unk_14": 0,
+      "order": 11,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 23103,
+          "value": 800
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831120,
+        831130,
+        831140
+      ],
+      "unk_27": [
+        31141,
+        31142,
+        31143,
+        31144,
+        31145,
+        31146
+      ],
+      "tag": "EquipmentSuit_31100_Tag"
+    },
+    {
+      "id": 31200,
+      "name": "EquipmentSuit_31200_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31200_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31200_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitShockstarDisco.png",
+      "suit_story": "EquipmentSuit_31200_story",
+      "suit_filter_option": "EquipmentSuit_31200_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitShockstarDisco.png",
+      "unk_14": 0,
+      "order": 10,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 12202,
+          "value": 600
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831220,
+        831230,
+        831240
+      ],
+      "unk_27": [
+        31241,
+        31242,
+        31243,
+        31244,
+        31245,
+        31246
+      ],
+      "tag": "EquipmentSuit_31200_Tag"
+    },
+    {
+      "id": 31300,
+      "name": "EquipmentSuit_31300_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31300_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31300_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFreedomBlues.png",
+      "suit_story": "EquipmentSuit_31300_story",
+      "suit_filter_option": "EquipmentSuit_31300_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFreedomBlues.png",
+      "unk_14": 0,
+      "order": 9,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31203,
+          "value": 30
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831320,
+        831330,
+        831340
+      ],
+      "unk_27": [
+        31341,
+        31342,
+        31343,
+        31344,
+        31345,
+        31346
+      ],
+      "tag": "EquipmentSuit_31300_Tag"
+    },
+    {
+      "id": 31400,
+      "name": "EquipmentSuit_31400_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31400_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31400_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitHormonePunk.png",
+      "suit_story": "EquipmentSuit_31400_story",
+      "suit_filter_option": "EquipmentSuit_31400_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitHormonePunk.png",
+      "unk_14": 0,
+      "order": 8,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 12102,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831420,
+        831430,
+        831440
+      ],
+      "unk_27": [
+        31441,
+        31442,
+        31443,
+        31444,
+        31445,
+        31446
+      ],
+      "tag": "EquipmentSuit_31400_Tag"
+    },
+    {
+      "id": 31500,
+      "name": "EquipmentSuit_31500_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31500_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31500_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitSoulRock.png",
+      "suit_story": "EquipmentSuit_31500_story",
+      "suit_filter_option": "EquipmentSuit_31500_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitSoulRock.png",
+      "unk_14": 0,
+      "order": 7,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 13102,
+          "value": 1600
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831520,
+        831530,
+        831540
+      ],
+      "unk_27": [
+        31541,
+        31542,
+        31543,
+        31544,
+        31545,
+        31546
+      ],
+      "tag": "EquipmentSuit_31500_Tag"
+    },
+    {
+      "id": 31600,
+      "name": "EquipmentSuit_31600_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31600_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31600_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitSwingJazz.png",
+      "suit_story": "EquipmentSuit_31600_story",
+      "suit_filter_option": "EquipmentSuit_31600_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitSwingJazz.png",
+      "unk_14": 0,
+      "order": 6,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 30502,
+          "value": 2000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831620,
+        831630,
+        831640
+      ],
+      "unk_27": [
+        31641,
+        31642,
+        31643,
+        31644,
+        31645,
+        31646
+      ],
+      "tag": "EquipmentSuit_31600_Tag"
+    },
+    {
+      "id": 31800,
+      "name": "EquipmentSuit_31800_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_31800_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_31800_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitChaosJazz.png",
+      "suit_story": "EquipmentSuit_31800_story",
+      "suit_filter_option": "EquipmentSuit_31800_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitChaosJazz.png",
+      "unk_14": 0,
+      "order": 22,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31203,
+          "value": 30
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831820,
+        831830,
+        831840
+      ],
+      "unk_27": [
+        31841,
+        31842,
+        31843,
+        31844,
+        31845,
+        31846
+      ],
+      "tag": "EquipmentSuit_31800_Tag"
+    },
+    {
+      "id": 31900,
+      "name": "EquipmentSuit_31900_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 128,
+      "primary_description": "EquipmentSuit_31900_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 116,
+      "secondary_description": "EquipmentSuit_31900_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitProtoPunk.png",
+      "suit_story": "EquipmentSuit_31900_story",
+      "suit_filter_option": "EquipmentSuit_31900_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitProtoPunk.png",
+      "unk_14": 0,
+      "order": 21,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        831920,
+        831930,
+        831940
+      ],
+      "unk_27": [
+        31941,
+        31942,
+        31943,
+        31944,
+        31945,
+        31946
+      ],
+      "tag": "EquipmentSuit_31900_Tag"
+    },
+    {
+      "id": 32200,
+      "name": "EquipmentSuit_32200_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_32200_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_32200_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitInfernoMetal.png",
+      "suit_story": "EquipmentSuit_32200_story",
+      "suit_filter_option": "EquipmentSuit_32200_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitInfernoMetal.png",
+      "unk_14": 0,
+      "order": 5,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31603,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832220,
+        832230,
+        832240
+      ],
+      "unk_27": [
+        32241,
+        32242,
+        32243,
+        32244,
+        32245,
+        32246
+      ],
+      "tag": "EquipmentSuit_32200_Tag"
+    },
+    {
+      "id": 32300,
+      "name": "EquipmentSuit_32300_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_32300_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_32300_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitChaosMetal.png",
+      "suit_story": "EquipmentSuit_32300_story",
+      "suit_filter_option": "EquipmentSuit_32300_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitChaosMetal.png",
+      "unk_14": 0,
+      "order": 4,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31903,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832320,
+        832330,
+        832340
+      ],
+      "unk_27": [
+        32341,
+        32342,
+        32343,
+        32344,
+        32345,
+        32346
+      ],
+      "tag": "EquipmentSuit_32300_Tag"
+    },
+    {
+      "id": 32400,
+      "name": "EquipmentSuit_32400_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_32400_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_32400_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitThunderMetal.png",
+      "suit_story": "EquipmentSuit_32400_story",
+      "suit_filter_option": "EquipmentSuit_32400_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitThunderMetal.png",
+      "unk_14": 0,
+      "order": 3,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31803,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832420,
+        832430,
+        832440
+      ],
+      "unk_27": [
+        32441,
+        32442,
+        32443,
+        32444,
+        32445,
+        32446
+      ],
+      "tag": "EquipmentSuit_32400_Tag"
+    },
+    {
+      "id": 32500,
+      "name": "EquipmentSuit_32500_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_32500_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_32500_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitPolarMetal.png",
+      "suit_story": "EquipmentSuit_32500_story",
+      "suit_filter_option": "EquipmentSuit_32500_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitPolarMetal.png",
+      "unk_14": 0,
+      "order": 2,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31703,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832520,
+        832530,
+        832540
+      ],
+      "unk_27": [
+        32541,
+        32542,
+        32543,
+        32544,
+        32545,
+        32546
+      ],
+      "tag": "EquipmentSuit_32500_Tag"
+    },
+    {
+      "id": 32600,
+      "name": "EquipmentSuit_32600_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_32600_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_32600_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFangedMetal.png",
+      "suit_story": "EquipmentSuit_32600_story",
+      "suit_filter_option": "EquipmentSuit_32600_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFangedMetal.png",
+      "unk_14": 0,
+      "order": 1,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31503,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832620,
+        832630,
+        832640
+      ],
+      "unk_27": [
+        32641,
+        32642,
+        32643,
+        32644,
+        32645,
+        32646
+      ],
+      "tag": "EquipmentSuit_32600_Tag"
+    },
+    {
+      "id": 32700,
+      "name": "EquipmentSuit_32700_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_32700_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_32700_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBranch&BladeSong.png",
+      "suit_story": "EquipmentSuit_32700_story",
+      "suit_filter_option": "EquipmentSuit_32700_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitBranch&BladeSong.png",
+      "unk_14": 0,
+      "order": 24,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 21103,
+          "value": 1600
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832720,
+        832730,
+        832740
+      ],
+      "unk_27": [
+        32741,
+        32742,
+        32743,
+        32744,
+        32745,
+        32746
+      ],
+      "tag": "EquipmentSuit_32700_Tag"
+    },
+    {
+      "id": 32800,
+      "name": "EquipmentSuit_32800_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_32800_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_32800_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitAstralVoice.png",
+      "suit_story": "EquipmentSuit_32800_story",
+      "suit_filter_option": "EquipmentSuit_32800_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitAstralVoice.png",
+      "unk_14": 0,
+      "order": 23,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 12102,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832820,
+        832830,
+        832840
+      ],
+      "unk_27": [
+        32841,
+        32842,
+        32843,
+        32844,
+        32845,
+        32846
+      ],
+      "tag": "EquipmentSuit_32800_Tag"
+    },
+    {
+      "id": 32900,
+      "name": "EquipmentSuit_32900_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 128,
+      "primary_description": "EquipmentSuit_32900_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 116,
+      "secondary_description": "EquipmentSuit_32900_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitShadow.png",
+      "suit_story": "EquipmentSuit_32900_story",
+      "suit_filter_option": "EquipmentSuit_32900_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitShadow.png",
+      "unk_14": 0,
+      "order": 25,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        832920,
+        832930,
+        832940
+      ],
+      "unk_27": [
+        32941,
+        32942,
+        32943,
+        32944,
+        32945,
+        32946
+      ],
+      "tag": "EquipmentSuit_32900_Tag"
+    },
+    {
+      "id": 33000,
+      "name": "EquipmentSuit_33000_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_33000_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_33000_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitSavior.png",
+      "suit_story": "EquipmentSuit_33000_story",
+      "suit_filter_option": "EquipmentSuit_33000_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitSavior.png",
+      "unk_14": 0,
+      "order": 26,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 31402,
+          "value": 800
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        833020,
+        833030,
+        833040
+      ],
+      "unk_27": [
+        33041,
+        33042,
+        33043,
+        33044,
+        33045,
+        33046
+      ],
+      "tag": "EquipmentSuit_33000_Tag"
+    },
+    {
+      "id": 33100,
+      "name": "EquipmentSuit_33100_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_33100_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_33100_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitYunkuiTales.png",
+      "suit_story": "EquipmentSuit_33100_story",
+      "suit_filter_option": "EquipmentSuit_33100_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitYunkuiTales.png",
+      "unk_14": 0,
+      "order": 27,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 11102,
+          "value": 1000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        833120,
+        833130,
+        833140
+      ],
+      "unk_27": [
+        33141,
+        33142,
+        33143,
+        33144,
+        33145,
+        33146
+      ],
+      "tag": "EquipmentSuit_33100_Tag"
+    },
+    {
+      "id": 33200,
+      "name": "EquipmentSuit_33200_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 128,
+      "primary_description": "EquipmentSuit_33200_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 116,
+      "secondary_description": "EquipmentSuit_33200_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitKingoftheSummit.png",
+      "suit_story": "EquipmentSuit_33200_story",
+      "suit_filter_option": "EquipmentSuit_33200_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitKingoftheSummit.png",
+      "unk_14": 0,
+      "order": 28,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        833220,
+        833230,
+        833240
+      ],
+      "unk_27": [
+        33241,
+        33242,
+        33243,
+        33244,
+        33245,
+        33246
+      ],
+      "tag": "EquipmentSuit_33200_Tag"
+    },
+    {
+      "id": 33300,
+      "name": "EquipmentSuit_33300_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 128,
+      "primary_description": "EquipmentSuit_33300_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 116,
+      "secondary_description": "EquipmentSuit_33300_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitDawnsBloom.png",
+      "suit_story": "EquipmentSuit_33300_story",
+      "suit_filter_option": "EquipmentSuit_33300_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitDawnsBloom.png",
+      "unk_14": 0,
+      "order": 29,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        833320,
+        833330,
+        833340
+      ],
+      "unk_27": [
+        33341,
+        33342,
+        33343,
+        33344,
+        33345,
+        33346
+      ],
+      "tag": "EquipmentSuit_33300_Tag"
+    },
+    {
+      "id": 33400,
+      "name": "EquipmentSuit_33400_name",
+      "primary_condition": 2,
+      "unk_3": 0,
+      "primary_suit_ability": 0,
+      "primary_description": "EquipmentSuit_33400_2_des",
+      "secondary_condition": 4,
+      "unk_7": 0,
+      "secondary_suit_ability": 124,
+      "secondary_description": "EquipmentSuit_33400_4_des",
+      "suit_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitMoonlightLullaby.png",
+      "suit_story": "EquipmentSuit_33400_story",
+      "suit_filter_option": "EquipmentSuit_33400_SuitFilterOption",
+      "suit_item_icon": "UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitMoonlightLullaby.png",
+      "unk_14": 0,
+      "order": 30,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "unk_21": 0,
+      "primary_suit_propertys": [
+        {
+          "property": 30502,
+          "value": 2000
+        }
+      ],
+      "unk_23": [
+        0
+      ],
+      "unk_24": 40,
+      "unk_25": [
+        0
+      ],
+      "unk_26": [
+        833420,
+        833430,
+        833440
+      ],
+      "unk_27": [
+        33441,
+        33442,
+        33443,
+        33444,
+        33445,
+        33446
+      ],
+      "tag": "EquipmentSuit_33400_Tag"
+    }
+  ]
+}

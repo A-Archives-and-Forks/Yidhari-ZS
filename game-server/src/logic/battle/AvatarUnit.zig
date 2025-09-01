@@ -1,6 +1,7 @@
 const std = @import("std");
 const templates = @import("../../data/templates.zig");
 const protocol = @import("protocol");
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 
 const Avatar = @import("../player/Avatar.zig");
 
@@ -10,7 +11,6 @@ const Equip = ItemData.Equip;
 
 const Allocator = std.mem.Allocator;
 const HashMap = std.AutoArrayHashMapUnmanaged;
-const TemplateCollection = templates.TemplateCollection;
 const AvatarBattleTemplate = templates.AvatarBattleTemplate;
 const AvatarLevelAdvanceTemplate = templates.AvatarLevelAdvanceTemplate;
 const AvatarPassiveSkillTemplate = templates.AvatarPassiveSkillTemplate;
@@ -37,7 +37,7 @@ pub fn init(
         .allocator = allocator,
     };
 
-    const battle_template = tmpl.getConfigByKey(.avatar_battle_template_tb, @as(i32, @intCast(avatar.id))) orelse return error.MissingBattleTemplate;
+    const battle_template = tmpl.getConfigByKey(.avatar_battle_template_tb, avatar.id) orelse return error.MissingBattleTemplate;
     try self.initBaseProperties(battle_template);
 
     const level_advance_template = tmpl.getAvatarLevelAdvanceTemplate(avatar.id, avatar.rank) orelse return error.MissingLevelAdvanceTemplate;
@@ -52,7 +52,7 @@ pub fn init(
     }
 
     if (weapon) |info| {
-        const weapon_template = tmpl.getConfigByKey(.weapon_template_tb, @as(i32, @intCast(info.id))) orelse return error.MissingWeaponTemplate;
+        const weapon_template = tmpl.getConfigByKey(.weapon_template_tb, info.id) orelse return error.MissingWeaponTemplate;
         const rarity: u32 = @mod(@divFloor(info.id, 1000), 10);
 
         const level_template = tmpl.getWeaponLevelTemplate(rarity, info.level) orelse return error.MissingWeaponLevelTemplate;
@@ -128,18 +128,15 @@ fn initEquipmentSuitProperties(self: *Self, equipment: []const ?*const Equip, tm
 
     for (suit_times[0..suit_count]) |suit| {
         const suit_id, const count = suit;
-        if (tmpl.getConfigByKey(.equipment_suit_template_tb, @as(i32, @intCast(suit_id)))) |suit_template| {
+        if (tmpl.getConfigByKey(.equipment_suit_template_tb, suit_id)) |suit_template| {
             if (count >= suit_template.primary_condition) {
-                for (0..suit_template.primary_suit_propertys_value.len) |i| {
-                    const key: u32 = @intCast(suit_template.primary_suit_propertys_property[i]);
-                    const value = suit_template.primary_suit_propertys_value[i];
-
-                    const property = std.meta.intToEnum(PropertyType, key) catch {
-                        std.log.debug("initEquipmentSuitProperties: invalid property {} in suit {}", .{ key, suit_id });
+                for (suit_template.primary_suit_propertys) |prop| {
+                    const property = std.meta.intToEnum(PropertyType, prop.property) catch {
+                        std.log.debug("initEquipmentSuitProperties: invalid property {} in suit {}", .{ prop.property, suit_id });
                         continue;
                     };
 
-                    try self.modifyProperty(property, value);
+                    try self.modifyProperty(property, prop.value);
                 }
             }
         }
@@ -191,23 +188,23 @@ fn initWeaponProperties(self: *Self, weapon: *const WeaponTemplate, level: *cons
     const star_rate: f32 = @floatFromInt(star.star_rate);
     const rand_rate: f32 = @floatFromInt(star.rand_rate);
 
-    const base_property_base_value: f32 = @floatFromInt(weapon.base_property_value);
+    const base_property_base_value: f32 = @floatFromInt(weapon.base_property.value);
     const base_property_level_rate: i32 = @intFromFloat((base_property_base_value * level_rate) / divisor);
     const base_property_star_rate: i32 = @intFromFloat((base_property_base_value * star_rate) / divisor);
 
-    if (std.meta.intToEnum(PropertyType, @as(u32, @intCast(weapon.base_property_property))) catch null) |base_property| {
+    if (std.meta.intToEnum(PropertyType, weapon.base_property.property) catch null) |base_property| {
         try self.modifyProperty(base_property, @as(i32, @intFromFloat(base_property_base_value)) + base_property_level_rate + base_property_star_rate);
     } else {
-        std.log.err("weapon base property is invalid: {} (weapon_id: {})", .{ weapon.base_property_property, weapon.id });
+        std.log.err("weapon base property is invalid: {} (weapon_id: {})", .{ weapon.base_property.property, weapon.item_id });
     }
 
-    const rand_property_base_value: f32 = @floatFromInt(weapon.rand_property_value);
+    const rand_property_base_value: f32 = @floatFromInt(weapon.rand_property.value);
     const rand_property_rate: i32 = @intFromFloat((rand_property_base_value * rand_rate) / divisor);
 
-    if (std.meta.intToEnum(PropertyType, @as(u32, @intCast(weapon.rand_property_property))) catch null) |rand_property| {
+    if (std.meta.intToEnum(PropertyType, weapon.rand_property.property) catch null) |rand_property| {
         try self.modifyProperty(rand_property, @as(i32, @intFromFloat(rand_property_base_value)) + rand_property_rate);
     } else {
-        std.log.err("weapon rand property is invalid: {} (weapon_id: {})", .{ weapon.rand_property_property, weapon.id });
+        std.log.err("weapon rand property is invalid: {} (weapon_id: {})", .{ weapon.rand_property.property, weapon.item_id });
     }
 }
 
@@ -282,16 +279,13 @@ fn setDynamicProperty(self: *Self, prop: PropertyType, base_prop: PropertyType, 
 }
 
 fn applyPassiveSkillProperties(self: *Self, template: *const AvatarPassiveSkillTemplate) !void {
-    for (0..template.propertys_property.len) |i| {
-        const property: u32 = @intCast(template.propertys_property[i]);
-        const value = template.propertys_number[i];
-
-        const key = std.meta.intToEnum(PropertyType, property) catch {
-            std.log.err("invalid property type encountered: {}", .{property});
+    for (template.propertys) |prop| {
+        const key = std.meta.intToEnum(PropertyType, prop.property) catch {
+            std.log.err("invalid property type encountered: {}", .{prop.property});
             continue;
         };
 
-        try self.modifyProperty(key, value);
+        try self.modifyProperty(key, prop.value);
     }
 }
 

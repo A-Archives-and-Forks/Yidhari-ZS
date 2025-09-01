@@ -117,12 +117,12 @@ pub fn addWeapon(self: *Self, template: WeaponTemplate) !void {
     const uid = self.nextUid();
 
     try self.item_map.put(uid, .{ .weapon = .{
-        .id = @intCast(template.id),
+        .id = template.item_id,
         .uid = uid,
         .level = 60,
         .exp = 0,
-        .star = @intCast(template.star_limit + 1),
-        .refine_level = @intCast(template.refine_limit),
+        .star = template.star_limit + 1,
+        .refine_level = template.refine_limit,
         .lock = false,
     } });
 }

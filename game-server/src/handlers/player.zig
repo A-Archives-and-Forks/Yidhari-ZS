@@ -125,8 +125,8 @@ pub fn onGetHadalZoneDataCsReq(context: *NetContext, _: protocol.ByName(.GetHada
             .zone_id = entrance.zone_id,
         }, context.arena);
 
-        for (context.session.globals.templates.zone_info_template_tb.items) |zone_info_template| {
-            if (zone_info_template.zone_id == @as(i32, @intCast(entrance.zone_id))) {
+        for (context.session.globals.templates.zone_info_template_tb.payload.data) |zone_info_template| {
+            if (zone_info_template.zone_id == entrance.zone_id) {
                 const layer_record = protocol.makeProto(.LayerRecord, .{
                     .layer_index = @as(u32, @intCast(zone_info_template.layer_index)),
                     .status = 4, // Completion status

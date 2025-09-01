@@ -2,7 +2,7 @@ const std = @import("std");
 const protocol = @import("protocol");
 
 const PropertyHashSet = @import("../property.zig").PropertyHashSet;
-const TemplateCollection = @import("../../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 
 const Allocator = std.mem.Allocator;
 const Self = @This();
@@ -18,12 +18,12 @@ pub fn init(allocator: Allocator) Self {
 }
 
 pub fn unlockAll(self: *Self, tmpl: *const TemplateCollection) !void {
-    for (tmpl.work_bench_app_dex_template_tb.items) |template| {
-        try self.workbench_app_id_list.put(@intCast(template.id));
+    for (tmpl.work_bench_app_dex_template_tb.payload.data) |template| {
+        try self.workbench_app_id_list.put(template.id);
     }
 
-    for (tmpl.clue_config_template_tb.items) |template| {
-        try self.clue_id_list.put(template.clue_id);
+    for (tmpl.clue_config_template_tb.payload.data) |template| {
+        try self.clue_id_list.put(template.id);
     }
 }
 

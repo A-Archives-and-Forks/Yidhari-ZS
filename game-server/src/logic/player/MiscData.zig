@@ -3,7 +3,7 @@ const protocol = @import("protocol");
 const UnlockInfo = @import("misc/UnlockInfo.zig");
 const TeleportUnlockInfo = @import("misc/TeleportUnlockInfo.zig");
 const PostGirl = @import("misc/PostGirl.zig");
-const TemplateCollection = @import("../../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 
 const Allocator = std.mem.Allocator;
 const Self = @This();
@@ -21,15 +21,15 @@ pub fn init(allocator: Allocator) Self {
 }
 
 pub fn unlockAll(self: *Self, templates: *const TemplateCollection) !void {
-    for (templates.unlock_config_template_tb.items) |config| {
+    for (templates.unlock_config_template_tb.payload.data) |config| {
         try self.unlock.unlock(config);
     }
 
-    for (templates.teleport_config_template_tb.items) |config| {
+    for (templates.teleport_config_template_tb.payload.data) |config| {
         try self.teleport_unlock.unlock(config);
     }
 
-    for (templates.post_girl_config_template_tb.items) |config| {
+    for (templates.post_girl_config_template_tb.payload.data) |config| {
         try self.post_girl.unlocked_post_girl.put(@intCast(config.id));
     }
 

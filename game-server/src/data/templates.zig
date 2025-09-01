@@ -1,171 +1,254 @@
-const std = @import("std");
-const tsv = @import("tsv.zig");
-const TsvTable = @import("table.zig").TsvTable;
-const TemplateTb = tsv.TemplateTb;
+pub const AvatarBaseTemplate = struct {
+    id: u32,
+    camp: u8,
+    gender: u8,
+    name: []const u8,
+    code_name: []const u8,
+    full_name: []const u8,
+    audio_event_replace_param: []const u8,
+};
 
-const ArenaAllocator = std.heap.ArenaAllocator;
+pub const AvatarBattleTemplate = struct {
+    id: u32,
+    avatar_piece_id: u32,
+    hp_max: i32,
+    health_growth: i32,
+    attack: i32,
+    attack_growth: i32,
+    defence: i32,
+    defence_growth: i32,
+    crit: i32,
+    crit_damage: i32,
+    crit_res: i32,
+    crit_damage_res: i32,
+    pen_rate: i32,
+    pen_delta: i32,
+    luck: i32,
+    stun: i32,
+    break_stun: i32,
+    element_abnormal_power: i32,
+    sp_bar_point: i32,
+    sp_recover: i32,
+    element_mystery: i32,
+    rbl: i32,
+    rbl_correction_factor: i32,
+    rbl_probability: i32,
+    tags: [][]const u8 = &.{},
+    weapon_type: i32,
+    element: []const i32 = &.{},
+    hit_type: []const i32 = &.{},
+    base_avatar_id: u32,
+    rp_max: i32,
+    rp_recover: i32,
+    awake_ids: []const u32 = &.{},
+};
 
-pub const AvatarBaseTemplate = TsvTable("AvatarBaseTemplateTb.tsv");
-pub const AvatarBattleTemplate = TsvTable("AvatarBattleTemplateTb.tsv");
-pub const AvatarLevelAdvanceTemplate = TsvTable("AvatarLevelAdvanceTemplateTb.tsv");
-pub const AvatarPassiveSkillTemplate = TsvTable("AvatarPassiveSkillTemplateTb.tsv");
-pub const AvatarSkinBaseTemplate = TsvTable("AvatarSkinBaseTemplateTb.tsv");
-pub const WeaponTemplate = TsvTable("WeaponTemplateTb.tsv");
-pub const WeaponLevelTemplate = TsvTable("WeaponLevelTemplateTb.tsv");
-pub const WeaponStarTemplate = TsvTable("WeaponStarTemplateTb.tsv");
-pub const EquipmentTemplate = TsvTable("EquipmentTemplateTb.tsv");
-pub const EquipmentSuitTemplate = TsvTable("EquipmentSuitTemplateTb.tsv");
-pub const EquipmentLevelTemplate = TsvTable("EquipmentLevelTemplateTb.tsv");
-pub const BuddyBaseTemplate = TsvTable("BuddyBaseTemplateTb.tsv");
-pub const UnlockConfigTemplate = TsvTable("UnlockConfigTemplateTb.tsv");
-pub const TeleportConfigTemplate = TsvTable("TeleportConfigTemplateTb.tsv");
-pub const TipsConfigTemplate = TsvTable("TipsConfigTemplateTb.tsv");
-pub const TipsGroupConfigTemplate = TsvTable("TipsGroupConfigTemplateTb.tsv");
-pub const LoadingPageTipsTemplate = TsvTable("LoadingPageTipsTemplateTb.tsv");
-pub const LockTipConfigTemplate = TsvTable("LockTipConfigTemplateTb.tsv");
-pub const WorkBenchAppDexTemplate = TsvTable("WorkBenchAppDexTemplateTb.tsv");
-pub const ClueConfigTemplate = TsvTable("ClueConfigTemplateTb.tsv");
-pub const PostGirlConfigTemplate = TsvTable("PostGirlConfigTemplateTb.tsv");
-pub const MainCityObjectTemplate = TsvTable("MainCityObjectTemplateTb.tsv");
-pub const SectionConfigTemplate = TsvTable("SectionConfigTemplateTb.tsv");
-pub const UrbanAreaMapTemplate = TsvTable("UrbanAreaMapTemplateTb.tsv");
-pub const UrbanAreaMapGroupTemplate = TsvTable("UrbanAreaMapGroupTemplateTb.tsv");
-pub const ZoneInfoTemplate = TsvTable("ZoneInfoTemplateTb.tsv");
-pub const LayerInfoTemplate = TsvTable("LayerInfoTemplateTb.tsv");
-pub const HadalZoneQuestTemplate = TsvTable("HadalZoneQuestTemplateTb.tsv");
+pub const ItemCount = struct {
+    item_id: u32,
+    number: u32,
+};
+
+pub const AvatarLevelAdvanceTemplate = struct {
+    avatar_id: u32,
+    id: u32,
+    min_level: u32,
+    max_level: u32,
+    hp_max: i32,
+    attack: i32,
+    defence: i32,
+    promotion_costs: []const ItemCount = &.{},
+};
+
+pub const PropertyValue = struct {
+    property: u32,
+    value: i32,
+};
+
+pub const AvatarPassiveSkillTemplate = struct {
+    skill_id: u32,
+    avatar_id: u32,
+    min_avatar_level: u32,
+    min_passive_skill_level: u32,
+    unlock_passive_skill_level: u32,
+    propertys: []const PropertyValue = &.{},
+    material_costs: []const ItemCount = &.{},
+};
+
+pub const AvatarSkinBaseTemplate = struct {
+    id: u32,
+    avatar_id: u32,
+};
+
+pub const WeaponTemplate = struct {
+    item_id: u32,
+    weapon_name: []const u8,
+    base_property: PropertyValue,
+    rand_property: PropertyValue,
+    star_limit: u32,
+    refine_initial: u32,
+    refine_limit: u32,
+    exp_recycle: u32,
+    weapon_script_config: []const u8,
+    weapon_ui_model: []const u8,
+    weapon_release_tag: []const u8,
+    avatar_id: u32,
+    refine_costs: []const ItemCount = &.{},
+};
+
+pub const WeaponLevelTemplate = struct {
+    rarity: u32,
+    level: u32,
+    rate: i32,
+    exp: u32,
+};
+
+pub const WeaponStarTemplate = struct {
+    rarity: u32,
+    star: u32,
+    min_level: u32,
+    max_level: u32,
+    star_rate: i32,
+    rand_rate: i32,
+};
+
+pub const EquipmentTemplate = struct {
+    item_id: u32,
+    equipment_type: u32,
+    suit_type: u32,
+};
+
+pub const EquipmentSuitTemplate = struct {
+    id: u32,
+    name: []const u8,
+    primary_condition: u32,
+    primary_suit_ability: u32,
+    secondary_condition: u32,
+    secondary_suit_ability: u32,
+    order: u32,
+    primary_suit_propertys: []const PropertyValue = &.{},
+};
+
+pub const EquipmentLevelTemplate = struct {
+    rarity: u32,
+    level: u32,
+    property_rate: i32,
+};
+
+pub const BuddyBaseTemplate = struct {
+    id: u32,
+};
+
+pub const UnlockConfigTemplate = struct {
+    id: u32,
+    icon_res: []const u8,
+    name: []const u8,
+};
+
+pub const TeleportConfigTemplate = struct {
+    teleport_id: u32,
+    client_visible: u1,
+    unlock_condition: []const u8,
+    section_id: u32,
+    transform_id: u32,
+};
+
+pub const TipsConfigTemplate = struct {
+    tips_id: i32,
+    tips_text: []const u8,
+    tips_group: u32,
+};
+
+pub const TipsGroupConfigTemplate = struct {
+    tips_group_id: i32,
+    group_icon: []const u8,
+    priority: u32,
+};
+
+pub const LoadingPageTipsTemplate = struct {
+    id: i32,
+    trigger_condition: []const u8,
+};
+
+pub const LockTipConfigTemplate = struct {
+    id: u32,
+};
+
+pub const WorkBenchAppDexTemplate = struct {
+    id: u32,
+};
+
+pub const ClueConfigTemplate = struct {
+    id: i32,
+    name: []const u8,
+    item_prefab_path: []const u8,
+    unlock_condition: []const u8,
+    clue_des: []const u8,
+};
+
+pub const PostGirlConfigTemplate = struct {
+    id: u32,
+    name: []const u8,
+    unlock_condition: []const u8,
+};
+
+pub const MainCityObjectTemplate = struct {
+    tag_id: u32,
+    npc_id: u32,
+    create_position: []const u8,
+    create_type: u32,
+    npc_name: []const u8,
+    interact_name: []const u8,
+    interact_shape: u32,
+    interact_scale: [5]f32 = @splat(0),
+    fan_interact_param: []const u8,
+    focus_interact_scale: f32,
+    default_interact_ids: []const u32 = &.{},
+};
+
+pub const SectionConfigTemplate = struct {
+    section_id: u32,
+    name: []const u8,
+    default_transform: []const u8,
+    section_name: []const u8,
+};
+
+pub const UrbanAreaMapTemplate = struct {
+    area_id: u32,
+    icon: []const u8,
+    group_name: []const u8,
+};
+
+pub const UrbanAreaMapGroupTemplate = struct {
+    area_group_id: u32,
+    group_name: []const u8,
+    is_map_visible: bool,
+};
+
+pub const ZoneInfoTemplate = struct {
+    zone_id: u32,
+    name: []const u8,
+    layer_id: u32,
+    layer_index: u32,
+    group_id: u32,
+    zone_group_id: u32,
+    entrance_id: u32,
+    time_period_list: [][]const u8 = &.{},
+};
+
+pub const LayerInfoTemplate = struct {
+    layer_id: u32,
+    monster_level: u32,
+    layer_room_ids: []const u32 = &.{},
+    layer_items: []const u32 = &.{},
+    weather_list: [][]const u8 = &.{},
+};
+
+pub const HadalZoneQuestTemplate = struct {
+    quest_id: u32,
+    layer_id: u32,
+};
 
 pub const AvatarTemplateConfiguration = struct {
     base_template: *const AvatarBaseTemplate,
     battle_template: *const AvatarBattleTemplate,
 };
-
-pub const TemplateCollection = struct {
-    const max_file_size = 8192 * 1024;
-    const Self = @This();
-
-    arena: ArenaAllocator,
-    avatar_base_template_tb: TemplateTb(AvatarBaseTemplate, .id),
-    avatar_battle_template_tb: TemplateTb(AvatarBattleTemplate, .id),
-    avatar_level_advance_template_tb: TemplateTb(AvatarLevelAdvanceTemplate, .avatar_id),
-    avatar_passive_skill_template_tb: TemplateTb(AvatarPassiveSkillTemplate, .skill_id),
-    avatar_skin_base_template_tb: TemplateTb(AvatarSkinBaseTemplate, .id),
-    weapon_template_tb: TemplateTb(WeaponTemplate, .id),
-    weapon_level_template_tb: TemplateTb(WeaponLevelTemplate, .level),
-    weapon_star_template_tb: TemplateTb(WeaponStarTemplate, .star),
-    equipment_template_tb: TemplateTb(EquipmentTemplate, .item_id),
-    equipment_suit_template_tb: TemplateTb(EquipmentSuitTemplate, .id),
-    equipment_level_template_tb: TemplateTb(EquipmentLevelTemplate, .level),
-    buddy_base_template_tb: TemplateTb(BuddyBaseTemplate, .id),
-    unlock_config_template_tb: TemplateTb(UnlockConfigTemplate, .id),
-    teleport_config_template_tb: TemplateTb(TeleportConfigTemplate, .teleport_id),
-    tips_config_template_tb: TemplateTb(TipsConfigTemplate, .tips_id),
-    tips_group_config_template_tb: TemplateTb(TipsGroupConfigTemplate, .group_id),
-    loading_page_tips_template_tb: TemplateTb(LoadingPageTipsTemplate, .id),
-    lock_tip_config_template_tb: TemplateTb(LockTipConfigTemplate, .id),
-    work_bench_app_dex_template_tb: TemplateTb(WorkBenchAppDexTemplate, .id),
-    clue_config_template_tb: TemplateTb(ClueConfigTemplate, .clue_id),
-    post_girl_config_template_tb: TemplateTb(PostGirlConfigTemplate, .id),
-    main_city_object_template_tb: TemplateTb(MainCityObjectTemplate, .tag_id),
-    section_config_template_tb: TemplateTb(SectionConfigTemplate, .section_id),
-    urban_area_map_template_tb: TemplateTb(UrbanAreaMapTemplate, .area_id),
-    urban_area_map_group_template_tb: TemplateTb(UrbanAreaMapGroupTemplate, .area_group_id),
-    zone_info_template_tb: TemplateTb(ZoneInfoTemplate, .zone_id),
-    layer_info_template_tb: TemplateTb(LayerInfoTemplate, .layer_id),
-    hadal_zone_quest_template_tb: TemplateTb(HadalZoneQuestTemplate, .layer_id),
-
-    pub fn load(gpa: std.mem.Allocator) !Self {
-        var collection: Self = undefined;
-        collection.arena = ArenaAllocator.init(gpa);
-
-        @setEvalBranchQuota(1_000_000);
-        inline for (std.meta.fields(Self)) |field| {
-            if (field.type == ArenaAllocator) continue;
-
-            const content = try std.fs.cwd().readFileAllocOptions(gpa, comptime getTsvPath(field.type), max_file_size, null, .of(u8), 0);
-            defer gpa.free(content);
-
-            @field(collection, field.name) = try tsv.parseFromSlice(field.type, content, collection.arena.allocator());
-        }
-
-        return collection;
-    }
-
-    pub fn getConfigByKey(self: *const Self, field: anytype, key: anytype) ?*const std.meta.Elem(@FieldType(@FieldType(Self, @tagName(field)), "items")) {
-        const template_tb = @field(self, @tagName(field));
-        const key_map = @field(template_tb, tsv.keyMapName(@TypeOf(template_tb)));
-        const index = key_map.get(key) orelse return null;
-
-        return &template_tb.items[index];
-    }
-
-    pub fn getAvatarTemplateConfig(self: *const Self, avatar_id: u32) ?AvatarTemplateConfiguration {
-        const id: i32 = @intCast(avatar_id);
-
-        return .{
-            .base_template = self.getConfigByKey(.avatar_base_template_tb, id) orelse return null,
-            .battle_template = self.getConfigByKey(.avatar_battle_template_tb, id) orelse return null,
-        };
-    }
-
-    pub fn getAvatarLevelAdvanceTemplate(self: *const Self, avatar_id: u32, advance_id: u32) ?AvatarLevelAdvanceTemplate {
-        for (self.avatar_level_advance_template_tb.items) |template| {
-            if (template.avatar_id == @as(i32, @intCast(avatar_id)) and template.id == @as(i32, @intCast(advance_id))) {
-                return template;
-            }
-        }
-
-        return null;
-    }
-
-    pub fn getAvatarPassiveSkillTemplate(self: *const Self, avatar_id: u32, passive_skill_level: u32) ?*const AvatarPassiveSkillTemplate {
-        const skill_id: i32 = @intCast(avatar_id * 1000 + passive_skill_level);
-        return self.getConfigByKey(.avatar_passive_skill_template_tb, skill_id);
-    }
-
-    pub fn getWeaponLevelTemplate(self: *const Self, rarity: u32, level: u32) ?WeaponLevelTemplate {
-        for (self.weapon_level_template_tb.items) |template| {
-            if (template.rarity == @as(i32, @intCast(rarity)) and template.level == @as(i32, @intCast(level))) {
-                return template;
-            }
-        }
-
-        return null;
-    }
-
-    pub fn getWeaponStarTemplate(self: *const Self, rarity: u32, star: u32) ?WeaponStarTemplate {
-        for (self.weapon_star_template_tb.items) |template| {
-            if (template.rarity == @as(i32, @intCast(rarity)) and template.star == @as(i32, @intCast(star))) {
-                return template;
-            }
-        }
-
-        return null;
-    }
-
-    pub fn getEquipmentLevelTemplate(self: *const Self, rarity: u32, level: u32) ?EquipmentLevelTemplate {
-        for (self.equipment_level_template_tb.items) |template| {
-            if (template.rarity == @as(i32, @intCast(rarity)) and template.level == @as(i32, @intCast(level))) {
-                return template;
-            }
-        }
-
-        return null;
-    }
-
-    pub fn getSectionDefaultTransform(self: *const Self, section_id: u32) ?[]const u8 {
-        const config = self.getConfigByKey(.section_config_template_tb, @as(i32, @intCast(section_id))) orelse return null;
-        return config.default_transform;
-    }
-
-    pub fn deinit(self: *Self) void {
-        self.arena.deinit();
-    }
-};
-
-fn getTsvPath(comptime Table: type) []const u8 {
-    const type_name = @typeName(Table);
-    const start_index = std.mem.indexOfScalar(u8, type_name, '"').? + 1;
-    const end_index = std.mem.indexOfScalar(u8, type_name[start_index..type_name.len], '"').?;
-    const file_name = type_name[start_index .. start_index + end_index];
-    return "assets/Filecfg/" ++ file_name;
-}

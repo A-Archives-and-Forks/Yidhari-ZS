@@ -1,7 +1,7 @@
 const std = @import("std");
 const protocol = @import("protocol");
 
-const TemplateCollection = @import("../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../data/TemplateCollection.zig");
 const AvatarUnit = @import("battle/AvatarUnit.zig");
 const BuddyUnit = @import("battle/BuddyUnit.zig");
 const PlayerInfo = @import("player/PlayerInfo.zig");

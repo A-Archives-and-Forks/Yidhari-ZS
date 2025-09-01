@@ -13,7 +13,7 @@ const SceneUnitManager = @import("../SceneUnitManager.zig");
 const ConfigEventAction = @import("../../data/graph/ConfigEventAction.zig");
 
 const PlayerInfo = @import("../player/PlayerInfo.zig");
-const TemplateCollection = @import("../../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 const EventGraphTemplateMap = @import("../../data/graph/EventGraphTemplateMap.zig");
 const LevelEventGraphManager = @import("../event/LevelEventGraphManager.zig");
 
@@ -195,7 +195,7 @@ pub fn interactWithUnit(self: *Self, npc_tag_id: u32, interact_id: u32) !void {
 }
 
 pub fn createNpc(self: *Self, section_id: u32, tag_id: u32) !void {
-    const template = self.templates.getConfigByKey(.main_city_object_template_tb, @as(i32, @intCast(tag_id))) orelse {
+    const template = self.templates.getConfigByKey(.main_city_object_template_tb, tag_id) orelse {
         std.log.err("createNpc: missing MainCityObjectTemplate, tag_id: {}", .{tag_id});
         return;
     };
@@ -203,7 +203,7 @@ pub fn createNpc(self: *Self, section_id: u32, tag_id: u32) !void {
     var unit = SceneUnitInfo.init(tag_id);
 
     for (template.default_interact_ids) |interact_id| {
-        var interact = InteractInfo.init(@intCast(interact_id), template.interact_name);
+        var interact = InteractInfo.init(interact_id, template.interact_name);
         interact.setScale(template.interact_scale);
         unit.setInteract(.npc, interact);
     }

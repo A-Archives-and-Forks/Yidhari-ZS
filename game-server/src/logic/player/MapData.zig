@@ -2,7 +2,7 @@ const std = @import("std");
 const protocol = @import("protocol");
 
 const PropertyHashMap = @import("../property.zig").PropertyHashMap;
-const TemplateCollection = @import("../../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 
 const Allocator = std.mem.Allocator;
 const Self = @This();
@@ -31,14 +31,14 @@ pub fn init(allocator: Allocator) Self {
 }
 
 pub fn unlockAll(self: *Self, tmpl: *const TemplateCollection) !void {
-    for (tmpl.urban_area_map_group_template_tb.items) |template| {
+    for (tmpl.urban_area_map_group_template_tb.payload.data) |template| {
         try self.group.put(@intCast(template.area_group_id), .{
             .group_id = @intCast(template.area_group_id),
             .progress = 99,
         });
     }
 
-    for (tmpl.urban_area_map_template_tb.items) |template| {
+    for (tmpl.urban_area_map_template_tb.payload.data) |template| {
         try self.street.put(@intCast(template.area_id), .{
             .id = @intCast(template.area_id),
             .progress = 99,

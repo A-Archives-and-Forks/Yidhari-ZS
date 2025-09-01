@@ -5,7 +5,7 @@ const ByName = protocol.ByName;
 const makeProto = protocol.makeProto;
 
 const PropertyHashSet = @import("../property.zig").PropertyHashSet;
-const TemplateCollection = @import("../../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 
 const Allocator = std.mem.Allocator;
 const Self = @This();
@@ -25,19 +25,19 @@ pub fn init(allocator: Allocator) Self {
 }
 
 pub fn unlockAll(self: *Self, tmpl: *const TemplateCollection) !void {
-    for (tmpl.tips_config_template_tb.items) |template| {
+    for (tmpl.tips_config_template_tb.payload.data) |template| {
         try self.tips_list.put(template.tips_id);
     }
 
-    for (tmpl.tips_group_config_template_tb.items) |template| {
-        try self.tips_group.put(template.group_id);
+    for (tmpl.tips_group_config_template_tb.payload.data) |template| {
+        try self.tips_group.put(template.tips_group_id);
     }
 
-    for (tmpl.loading_page_tips_template_tb.items) |template| {
+    for (tmpl.loading_page_tips_template_tb.payload.data) |template| {
         try self.loading_page_tips.put(template.id);
     }
 
-    for (tmpl.lock_tip_config_template_tb.items) |template| {
+    for (tmpl.lock_tip_config_template_tb.payload.data) |template| {
         try self.lock_tips_list.put(@intCast(template.id));
     }
 }

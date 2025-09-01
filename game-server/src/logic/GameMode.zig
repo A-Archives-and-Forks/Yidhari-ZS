@@ -8,7 +8,7 @@ const FightScene = @import("scene/FightScene.zig");
 const HadalZoneScene = @import("scene/HadalZoneScene.zig");
 const Scene = @import("scene.zig").Scene;
 const Dungeon = @import("Dungeon.zig");
-const TemplateCollection = @import("../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../data/TemplateCollection.zig");
 const Allocator = std.mem.Allocator;
 
 const Self = @This();
@@ -89,8 +89,8 @@ pub fn loadHadalZoneState(
 
     const base_zone_id = if (zone_id / 1000 != hadal_static_zone_group) ((zone_id / 1000) * 1000) + 1 else zone_id;
 
-    const zone_info_template = for (templates.zone_info_template_tb.items) |tmpl| {
-        if (tmpl.zone_id == @as(i32, @intCast(base_zone_id)) and tmpl.layer_index == @as(i32, @intCast(layer_index))) {
+    const zone_info_template = for (templates.zone_info_template_tb.payload.data) |tmpl| {
+        if (tmpl.zone_id == base_zone_id and tmpl.layer_index == layer_index) {
             break tmpl;
         }
     } else return error.InvalidZoneLayerIndex;

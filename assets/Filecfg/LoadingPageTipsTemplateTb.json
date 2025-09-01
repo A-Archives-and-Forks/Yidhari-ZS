@@ -1,0 +1,5928 @@
+{
+  "data": [
+    {
+      "id": 9901,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9902,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9903,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9904,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9905,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9906,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9907,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9908,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9909,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9910,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9911,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9912,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9913,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9914,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9915,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9916,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9917,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9918,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10044,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10045,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10109,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10110,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10113,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10114,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10115,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10116,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10117,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10118,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10119,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10120,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10121,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10122,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10123,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10125,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10162,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10163,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10164,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10165,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10166,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10172,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10176,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10177,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10203,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10204,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10205,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10206,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10207,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10208,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10209,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10210,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10211,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10212,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10213,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10236,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10237,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10283,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10284,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10285,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10286,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10287,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10288,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10289,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10290,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10291,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10292,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10293,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10297,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10298,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10299,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10303,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10309,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10317,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10318,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10319,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10320,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10323,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10327,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10329,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10330,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10331,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10332,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10333,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10334,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10335,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10336,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10337,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10338,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10339,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10340,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10341,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10342,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10343,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10400,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10402,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10404,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10518,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15421,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15422,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15423,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15424,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15425,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15426,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15427,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15428,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15429,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15430,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15617,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15618,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15619,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15620,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15621,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15701,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15721,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15724,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15727,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15730,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15732,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15733,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15734,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15735,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15736,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15915,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15916,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16205,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16206,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16207,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16208,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16209,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16210,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16211,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16302,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16304,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16312,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20113,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20114,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20115,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20116,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20117,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20118,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20119,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20120,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20121,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20123,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20124,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20125,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30017,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30018,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30020,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30025,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30026,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30027,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30028,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30029,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30030,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30031,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30032,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30033,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30034,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30035,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30036,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30037,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30038,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30039,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30042,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30043,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30044,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30045,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30046,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30047,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30048,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30049,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30050,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30051,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30052,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30053,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30054,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30055,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30060,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30061,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30062,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30063,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30109,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30110,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30117,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30118,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30120,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30121,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30122,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30123,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30124,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30125,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40017,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40018,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40019,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40020,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40025,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40027,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40028,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40029,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40030,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40031,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40032,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40033,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40034,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40035,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40036,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40037,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40038,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40039,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40042,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40043,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40044,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40045,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40048,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40049,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40050,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40051,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40052,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40053,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40054,
+      "trigger_condition": ""
+    },
+    {
+      "id": 41007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 41008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 41009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50000,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50223,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50402,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50404,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50405,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50406,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50407,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50408,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50409,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50410,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50411,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50431,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50432,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50433,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50434,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50435,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50436,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50437,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50438,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50601,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50602,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50603,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50604,
+      "trigger_condition": ""
+    },
+    {
+      "id": 50605,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51801,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51802,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51803,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51804,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51805,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51806,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51807,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51808,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51809,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51810,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51811,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51812,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51813,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51814,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51815,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51816,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51817,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51818,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51819,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51823,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51824,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51825,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51833,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51838,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51839,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51840,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51841,
+      "trigger_condition": ""
+    },
+    {
+      "id": 51842,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55019,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55020,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55025,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55026,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55027,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55028,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55029,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55030,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55031,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55032,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55033,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55034,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55035,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55036,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55037,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55038,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55039,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55042,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55043,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55044,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55045,
+      "trigger_condition": ""
+    },
+    {
+      "id": 55046,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 58012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 59016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60017,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60018,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60019,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60020,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60025,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60026,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60035,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60036,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60037,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60038,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60039,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60042,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60043,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60044,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60045,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60046,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60047,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60048,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60049,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60050,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60051,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60052,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60053,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60054,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60055,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60203,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60204,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60205,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60206,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60207,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60208,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60209,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60210,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60211,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60212,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60213,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60214,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60215,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60216,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60217,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60218,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60220,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60221,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60222,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60302,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60304,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60305,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60306,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60307,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60308,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60309,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60310,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60311,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60312,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60313,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60314,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60315,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60316,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60317,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60318,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60319,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60320,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60321,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60412,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60413,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60414,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60415,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60416,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60422,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60423,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60424,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60425,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60426,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60427,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60428,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60429,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60430,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60502,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60503,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60505,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60506,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60507,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60508,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60509,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60510,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60511,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60512,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60513,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60514,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60515,
+      "trigger_condition": ""
+    },
+    {
+      "id": 60516,
+      "trigger_condition": ""
+    },
+    {
+      "id": 61000,
+      "trigger_condition": ""
+    },
+    {
+      "id": 61001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 61002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 61003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 61004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110408,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110410,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110420,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110425,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110426,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110428,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110429,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110430,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110504,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110505,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110506,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110521,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110522,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110608,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110622,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110627,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110632,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110634,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110636,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110637,
+      "trigger_condition": ""
+    },
+    {
+      "id": 110807,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200017,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200018,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200019,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200020,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200025,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200026,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200027,
+      "trigger_condition": ""
+    },
+    {
+      "id": 200028,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1010111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1010211,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1010811,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1211111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1211211,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1211214,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1211811,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1211814,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1310611,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1310615,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1311411,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1311415,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1311911,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1311915,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1410411,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1410412,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1410413,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1410414,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413611,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1414611,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1512411,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1512415,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1512511,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1512611,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1512711,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1512712,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1611511,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1611611,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1611711,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1612811,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1612815,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1613511,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1613515,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1710911,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1712011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1813111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1912911,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1913311,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013911,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014211,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2110511,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 4030107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 5124103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6000101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6000102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6000105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6000107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6000110,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001308,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001402,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001404,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001405,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001505,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001506,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001602,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001603,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001606,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001607,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001608,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001609,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001610,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001668,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001698,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001699,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001702,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001703,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001706,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001710,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001712,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6001803,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003402,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6003403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6007100,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6007401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6007406,
+      "trigger_condition": ""
+    },
+    {
+      "id": 6054701,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7000101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7001012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7001013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7004721,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7004722,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011501,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011502,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011503,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011504,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011505,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011506,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011507,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011508,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011509,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011510,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011511,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011512,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7011514,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7017601,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7022101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7025001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7025007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7025008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7025701,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7026403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7026404,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7026405,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7026501,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7026502,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7026506,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7026507,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7035006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7035705,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7035804,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7035905,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7036001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7036102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7036403,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7038001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7038002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7040401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052204,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052205,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052207,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052304,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052305,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052307,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052404,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052405,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052407,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052504,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052505,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052507,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052604,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052605,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7052607,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054305,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054308,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054501,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054701,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054702,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054703,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054704,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054705,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054706,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054707,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054708,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054801,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7054802,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7055101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 7059902,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070110,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070114,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070115,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070116,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070117,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070118,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070119,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070120,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070121,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070122,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8070303,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8081416,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8090101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8090103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8090104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8090106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8090109,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8091103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8091110,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8092301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8094302,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8094303,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8130103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8130201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8130302,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8130303,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8130304,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8131102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8131106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8131201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8131303,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8131304,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8131306,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8131311,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8132201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8132203,
+      "trigger_condition": ""
+    },
+    {
+      "id": 8134304,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650203,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650303,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650304,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650305,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650306,
+      "trigger_condition": ""
+    },
+    {
+      "id": 9650307,
+      "trigger_condition": ""
+    },
+    {
+      "id": 10021139,
+      "trigger_condition": ""
+    },
+    {
+      "id": 13119111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 13119112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 14146112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15124111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 15125111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 16117112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 17109111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 19133112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 20137111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 21105111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 21141111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 21141112,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200126,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200129,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200132,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200135,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200136,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200138,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200144,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200147,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200150,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200151,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200152,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30200153,
+      "trigger_condition": ""
+    },
+    {
+      "id": 30480001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40200059,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40200062,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40200065,
+      "trigger_condition": ""
+    },
+    {
+      "id": 40200068,
+      "trigger_condition": ""
+    },
+    {
+      "id": 42019950,
+      "trigger_condition": ""
+    },
+    {
+      "id": 80620041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 80623061,
+      "trigger_condition": ""
+    },
+    {
+      "id": 80623151,
+      "trigger_condition": ""
+    },
+    {
+      "id": 80623191,
+      "trigger_condition": ""
+    },
+    {
+      "id": 91102001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 91212001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101011100,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101011101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101011102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101021101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101021103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101081100,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101081101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101081102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 101081103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 121111101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 121121101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 121181100,
+      "trigger_condition": ""
+    },
+    {
+      "id": 121181101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 121181102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130250241,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990410,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990411,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990412,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990413,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990414,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990415,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990416,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990417,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990418,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990419,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990420,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990701,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990702,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990703,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990704,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990801,
+      "trigger_condition": ""
+    },
+    {
+      "id": 130990802,
+      "trigger_condition": ""
+    },
+    {
+      "id": 131061101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 131061102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 131141101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 131141102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 131141156,
+      "trigger_condition": ""
+    },
+    {
+      "id": 131191101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 131191104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141041101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141301101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141301104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141301106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141301107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141301201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141361101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141361104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141361106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141361107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141461101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141461104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141461201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 141461202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151241101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151241102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151251101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151251102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151261101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151261102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151261103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151261104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151271101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 151271102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161151101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161151104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161161101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161161102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161161104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161171101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161171102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161171104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161281100,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161281101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161281102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161351001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161351002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161351101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161351102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161351104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 161351107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171091101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171091104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171091105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171091106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171131155,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171201101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171201102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171201106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 171201107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181311104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181311106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181311107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181311108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181311109,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181311110,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181321001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181321101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181321107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 181321108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 191291101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 191291106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 191291107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 191291108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 191331101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 191331106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 191331107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201371106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201371107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201391101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201391104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201391106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201421106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 201421107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211051101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211051201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211401101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211401104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211401106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211401108,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211401201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 211401202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221012101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221012103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221012105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221062101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221062103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221062105,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221062107,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221062109,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221202101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221202102,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221202103,
+      "trigger_condition": ""
+    },
+    {
+      "id": 221202104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 230001001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 230001002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 230001003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 230001004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 230001005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 230101001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 230101002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 251060011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 410010101,
+      "trigger_condition": "34940001"
+    },
+    {
+      "id": 410010102,
+      "trigger_condition": "34940001"
+    },
+    {
+      "id": 410010103,
+      "trigger_condition": "34940007"
+    },
+    {
+      "id": 410010104,
+      "trigger_condition": "34940002"
+    },
+    {
+      "id": 410010105,
+      "trigger_condition": "34940004"
+    },
+    {
+      "id": 410010106,
+      "trigger_condition": "34940003"
+    },
+    {
+      "id": 410010107,
+      "trigger_condition": "34940009"
+    },
+    {
+      "id": 410010108,
+      "trigger_condition": "1034160080"
+    },
+    {
+      "id": 410010109,
+      "trigger_condition": "34940001"
+    },
+    {
+      "id": 410010110,
+      "trigger_condition": "34940005"
+    },
+    {
+      "id": 410010111,
+      "trigger_condition": "34940011"
+    },
+    {
+      "id": 410010112,
+      "trigger_condition": "34940012"
+    },
+    {
+      "id": 410010113,
+      "trigger_condition": "34940013"
+    },
+    {
+      "id": 410010114,
+      "trigger_condition": "34940015"
+    },
+    {
+      "id": 410010115,
+      "trigger_condition": "34940016"
+    },
+    {
+      "id": 410010116,
+      "trigger_condition": "1034161312"
+    },
+    {
+      "id": 410010117,
+      "trigger_condition": "1034161226"
+    },
+    {
+      "id": 410010118,
+      "trigger_condition": "1034161226"
+    },
+    {
+      "id": 510010010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010017,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010018,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010019,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010020,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010025,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010026,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010027,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010028,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010029,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010030,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010031,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010032,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010033,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010034,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010035,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010036,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010037,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010038,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010039,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010042,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010043,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010044,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510010045,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510011051,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510011301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510011401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510011411,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510011451,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510011461,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510310010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510310011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510311010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510311011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510710010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510711010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510711011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510711012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510711040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 510711042,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511010010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511010040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511011010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511011011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511310010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511310050,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511311010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511311011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 511311040,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512110010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512110011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512111010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512111011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512111012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512210010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512211010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512211011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 512211510,
+      "trigger_condition": ""
+    },
+    {
+      "id": 600220201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 720000202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 720000302,
+      "trigger_condition": ""
+    },
+    {
+      "id": 720000550,
+      "trigger_condition": ""
+    },
+    {
+      "id": 720000605,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051042,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051051,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051081,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051091,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051141,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051181,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051231,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800051241,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800052071,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800052101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800052161,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800053061,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800053071,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800053111,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800054021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800054061,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800054071,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800054081,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800054091,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800055021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800055071,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800251001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800251007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800251011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800251012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800262061,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800313001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800513011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800517021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800517022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800517023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521026,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521027,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800521028,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800522012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800576001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800576002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800576003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800576004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800576005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800576006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800576007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800600002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800601001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800601002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800602001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 800602002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000000,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000016,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000017,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000019,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000022,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000023,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000024,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000025,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000026,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000032,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000033,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000034,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000035,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000036,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000037,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000038,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000044,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000045,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000046,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000047,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000048,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000049,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000050,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000142,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000143,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000270,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000271,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000272,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000273,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000274,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000275,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000276,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000277,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000278,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000279,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000280,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000281,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000282,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000283,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000284,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000285,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000286,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000287,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000288,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000289,
+      "trigger_condition": ""
+    },
+    {
+      "id": 900000290,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910502001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910503001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910506001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910511001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910512001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910719001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910719002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 910719003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911003000,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911003001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911014000,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911014001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911014002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911014003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911014009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911101004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911102002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911103002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911103003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911104003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911104004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911108001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911109001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911112001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911112002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911113001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911114001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911115001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911116001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911204001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911206002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911206003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911208002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911214001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911403015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911408006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911416001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911416002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911620001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911712101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911901001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911902001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911903001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911905001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911906001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911906002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911906003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911907001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911907002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911907003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911907004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911908001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911908002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911908003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911908004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911909000,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911909001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911909002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911909003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911909004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911909005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911910001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911910002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911911001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911911002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911912001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911912002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911912003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911912004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911913001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911914001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911914002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911915001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911915002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911916001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911917001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911917002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911919001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911919002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911919003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911919004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911920001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911920002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911920003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911920004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911920005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911920006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911922001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911923001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911923002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911924001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911924002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911924003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 911924004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912011201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912012000,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912014001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912014002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912014003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912131400,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912131401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912310901,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912320901,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912321001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912321104,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912321106,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912420005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912420006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912420007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912421001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912421002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912421003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912422001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912422002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912422003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912422004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912601001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912605001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912605003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912606005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912606006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912607001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912609007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912610007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912610008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912611004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912611005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912611006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912612012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912612013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912612014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912613001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912613003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912613004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912613005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912614001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912614004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912614005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912614008,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912614010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912615003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912615005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912616001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912617001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912701005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912701006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912701010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912701011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912702001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912702002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912702003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912702004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912703001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912703002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912703003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912703004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912706002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912706003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912706005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912706006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912708005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912708006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912711009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912711010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912712003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912712004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912712012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912712013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912712014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912713001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912713002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912713003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912713004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912713005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912713006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715007,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715010,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912715013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912719009,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912719014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912720001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912720003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912720004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912720005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912828004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912828005,
+      "trigger_condition": ""
+    },
+    {
+      "id": 912828006,
+      "trigger_condition": ""
+    },
+    {
+      "id": 913904001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 913906001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 913909001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914000071,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914000132,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914502001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914502002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914502003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914503001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914504001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914505001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914506001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914510001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914511001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914512001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914512002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914512003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914513001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914513002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914514001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914519001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914606001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914610001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914611001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 914611002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013008201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013008202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013008203,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013008204,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013008301,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013008401,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013008501,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013009101,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014130,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014150,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014151,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014236,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014240,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014310,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014311,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014320,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014340,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014345,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014346,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014347,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014425,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014426,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014525,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1013014526,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1203650201,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1203650202,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1302502230,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1311911011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413011041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413011061,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413012011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413012012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413012013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1413012014,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1414612011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1611611041,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1613511021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1710911011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1813211011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 1913311012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013711011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013712011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013712012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013712013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013912011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013912012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2013912013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014211001,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014211002,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014211003,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014211004,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014211011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2014212011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2110511011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2110512015,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2110512021,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114111011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114111061,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114111062,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114112011,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114112012,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114112013,
+      "trigger_condition": ""
+    },
+    {
+      "id": 2114112014,
+      "trigger_condition": ""
+    }
+  ]
+}

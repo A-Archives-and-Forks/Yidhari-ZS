@@ -10,7 +10,7 @@ const PropertyPrimitive = property.PropertyPrimitive;
 const PropertyString = property.PropertyString;
 
 const Globals = @import("../../Globals.zig");
-const TemplateCollection = @import("../../data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("../../data/TemplateCollection.zig");
 const Avatar = @import("Avatar.zig");
 const ItemData = @import("ItemData.zig");
 const SwitchData = @import("SwitchData.zig");
@@ -75,17 +75,17 @@ pub fn onFirstLogin(self: *Self, globals: *const Globals) !void {
 }
 
 fn unlockAll(self: *Self, templates: *const TemplateCollection) !void {
-    for (templates.avatar_base_template_tb.items) |avatar_template| {
+    for (templates.avatar_base_template_tb.payload.data) |avatar_template| {
         if (templates.getAvatarTemplateConfig(@intCast(avatar_template.id))) |config| {
             self.item_data.unlockAvatar(config) catch continue;
         }
     }
 
-    for (templates.buddy_base_template_tb.items) |buddy_template| {
+    for (templates.buddy_base_template_tb.payload.data) |buddy_template| {
         self.item_data.unlockBuddy(buddy_template) catch continue;
     }
 
-    for (templates.weapon_template_tb.items) |weapon_template| {
+    for (templates.weapon_template_tb.payload.data) |weapon_template| {
         try self.item_data.addWeapon(weapon_template);
     }
 
@@ -93,7 +93,7 @@ fn unlockAll(self: *Self, templates: *const TemplateCollection) !void {
     try self.item_data.addCurrency(100, 10_000_000);
     try self.item_data.addCurrency(501, 240);
 
-    for (templates.avatar_skin_base_template_tb.items) |skin_template| {
+    for (templates.avatar_skin_base_template_tb.payload.data) |skin_template| {
         try self.item_data.unlockSkin(@intCast(skin_template.id));
     }
 
@@ -161,7 +161,7 @@ pub fn addItemsFromSettings(self: *Self, settings: *const GameplaySettings, temp
 }
 
 fn addWeaponByConfig(self: *Self, config: Globals.WeaponConfig, templates: *const TemplateCollection) !u32 {
-    const template = templates.getConfigByKey(.weapon_template_tb, @as(i32, @intCast(config.id))) orelse {
+    const template = templates.getConfigByKey(.weapon_template_tb, config.id) orelse {
         std.log.err("invalid weapon id {} in GameplaySettings", .{config.id});
         return error.InvalidConfig;
     };
@@ -199,7 +199,7 @@ fn addWeaponByConfig(self: *Self, config: Globals.WeaponConfig, templates: *cons
 }
 
 fn addEquipmentByConfig(self: *Self, config: Globals.EquipConfig, templates: *const TemplateCollection) !u32 {
-    if (templates.getConfigByKey(.equipment_template_tb, @as(i32, @intCast(config.id))) == null) {
+    if (templates.getConfigByKey(.equipment_template_tb, config.id) == null) {
         std.log.err("invalid equip id {} in GameplaySettings", .{config.id});
         return error.InvalidConfig;
     }
@@ -279,10 +279,10 @@ const properties_map: []const struct { u32, []const u32, u32, []const u32, u32 }
 fn addRandomEquipment(self: *Self, templates: *const TemplateCollection) !void {
     for (0..500) |_| {
         const uid = self.item_data.nextUid();
-        const rand_suit_index = rand.int(usize) % templates.equipment_suit_template_tb.items.len;
+        const rand_suit_index = rand.int(usize) % templates.equipment_suit_template_tb.payload.data.len;
         const slot = 1 + (rand.int(u32) % 6);
 
-        const suit_id: u32 = @intCast(templates.equipment_suit_template_tb.items[rand_suit_index].id);
+        const suit_id: u32 = @intCast(templates.equipment_suit_template_tb.payload.data[rand_suit_index].id);
         const id = suit_id + 40 + slot;
 
         var equip = ItemData.Equip{

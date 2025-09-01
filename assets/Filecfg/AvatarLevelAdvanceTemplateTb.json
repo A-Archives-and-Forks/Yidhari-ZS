@@ -1,0 +1,9172 @@
+{
+  "data": [
+    {
+      "avatar_id": 1011,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030001,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1011,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 414,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 34,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1011,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 828,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 68,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030002,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1011,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1242,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 102,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1011,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1656,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 135,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030003,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1011,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2069,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 169,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1021,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030004,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1021,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 417,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 47,
+      "defence": 32,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1021,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 834,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 94,
+      "defence": 65,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030005,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1021,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1251,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 140,
+      "defence": 97,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1021,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1668,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 187,
+      "defence": 130,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030006,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1021,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2086,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 234,
+      "defence": 162,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1031,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030007,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100214,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1031,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 449,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 33,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100224,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1031,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 899,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 67,
+      "defence": 69,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030008,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100224,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1031,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1348,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 100,
+      "defence": 103,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100234,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1031,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1798,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 133,
+      "defence": 137,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030009,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100234,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1031,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2247,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 167,
+      "defence": 172,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1041,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030010,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1041,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 423,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 46,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1041,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 847,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 91,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030011,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1041,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1270,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 137,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1041,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1694,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 183,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030012,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1041,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2117,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 228,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1051,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030124,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100216,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1051,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 469,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 44,
+      "defence": 25,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100226,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1051,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 938,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 88,
+      "defence": 49,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030125,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100226,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1051,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1407,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 132,
+      "defence": 74,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100236,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1051,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1875,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 177,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030126,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100236,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1051,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2344,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 221,
+      "defence": 124,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1061,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030016,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1061,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 385,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 41,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1061,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 770,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 83,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030017,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1061,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1155,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 124,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1061,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1540,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 166,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030018,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1061,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 1925,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 207,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1071,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030019,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100215,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1071,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 526,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 38,
+      "defence": 42,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100225,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1071,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 1051,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 76,
+      "defence": 83,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030020,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100225,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1071,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1577,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 113,
+      "defence": 125,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100235,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1071,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 2102,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 151,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030021,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100235,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1071,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2628,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 189,
+      "defence": 208,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1081,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030022,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1081,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 381,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 40,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1081,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 762,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 81,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030023,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1081,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1143,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 121,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1081,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1524,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 162,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030024,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1081,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 1906,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 202,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1091,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030025,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1091,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 423,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 45,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1091,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 847,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 90,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030026,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1091,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1270,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 136,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1091,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1694,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 181,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030027,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1091,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2117,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 226,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1101,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030028,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1101,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 448,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 38,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1101,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 897,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 76,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030029,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1101,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1345,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 113,
+      "defence": 98,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1101,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1794,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 151,
+      "defence": 131,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030030,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1101,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2242,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 189,
+      "defence": 164,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1111,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030031,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1111,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 398,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 41,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1111,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 797,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 81,
+      "defence": 69,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030032,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1111,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1195,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 122,
+      "defence": 103,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1111,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1593,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 163,
+      "defence": 137,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030033,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1111,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 1992,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 203,
+      "defence": 172,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1121,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030034,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100215,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1121,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 473,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 34,
+      "defence": 40,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100225,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1121,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 947,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 67,
+      "defence": 80,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030035,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100225,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1121,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1420,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 101,
+      "defence": 120,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100235,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1121,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1893,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 134,
+      "defence": 160,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030036,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100235,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1121,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2366,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 168,
+      "defence": 200,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1131,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030037,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100214,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1131,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 443,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 34,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100224,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1131,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 886,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 68,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030038,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100224,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1131,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1329,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 103,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100234,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1131,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1772,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 137,
+      "defence": 132,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030039,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100234,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1131,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2214,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 171,
+      "defence": 165,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1141,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030040,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1141,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 464,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 37,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1141,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 929,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 75,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030041,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1141,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1393,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 112,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1141,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1857,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 150,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030042,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1141,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2322,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 187,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1151,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030043,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100214,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1151,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 443,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 34,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100224,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1151,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 886,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 68,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030044,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100224,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1151,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1329,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 102,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100234,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1151,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1772,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 135,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030045,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100234,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1151,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2214,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 169,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1161,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030046,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1161,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 432,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 47,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1161,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 864,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 95,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030047,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1161,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1296,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 142,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1161,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1727,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 190,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030048,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1161,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2159,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 237,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1171,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030049,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1171,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 407,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 44,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1171,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 813,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 89,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030050,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1171,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1220,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 133,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1171,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1626,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 177,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030051,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1171,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2033,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 222,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1181,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030052,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1181,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 413,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 42,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1181,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 826,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 85,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030053,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1181,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1239,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 127,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1181,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1651,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 170,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030054,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1181,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2064,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 212,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1191,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030055,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1191,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 423,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 48,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1191,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 847,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 96,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030056,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1191,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1270,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 145,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1191,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1694,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 193,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030057,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1191,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2117,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 241,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1201,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030058,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1201,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 409,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 47,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1201,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 817,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 94,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030059,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1201,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1226,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 141,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1201,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1635,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 188,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030060,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1201,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2043,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 235,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1211,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030061,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100214,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1211,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 475,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 37,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100224,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1211,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 950,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 74,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030062,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100224,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1211,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1425,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 111,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100234,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1211,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1900,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 147,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030063,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100234,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1211,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2375,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 184,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1221,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030064,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1221,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 430,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 45,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1221,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 859,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 90,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030065,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1221,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1289,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 134,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1221,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1719,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 179,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030066,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1221,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2149,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 224,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1241,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030070,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1241,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 413,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 47,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1241,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 826,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 95,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030071,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1241,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1239,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 142,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1241,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1651,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 189,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030072,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1241,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2064,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 236,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1251,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030073,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1251,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 455,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1251,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 911,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 78,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030074,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1251,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1366,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 117,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1251,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1821,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 156,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030075,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1251,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2276,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 195,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1261,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030076,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1261,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 430,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 45,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1261,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 859,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 90,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030077,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1261,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1289,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 136,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1261,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1719,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 181,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030078,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1261,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2149,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 226,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1271,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030079,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100215,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1271,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 480,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 33,
+      "defence": 41,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100225,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1271,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 960,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 66,
+      "defence": 82,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030080,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100225,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1271,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1440,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 99,
+      "defence": 123,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100235,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1271,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1920,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 132,
+      "defence": 165,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030081,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100235,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1271,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2401,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 165,
+      "defence": 206,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1281,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030082,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1281,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 385,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1281,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 770,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 78,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030083,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1281,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1155,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 117,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1281,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1540,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 156,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030084,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1281,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 1925,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 195,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1291,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030103,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1291,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 438,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 47,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1291,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 876,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 95,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030104,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1291,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1314,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 142,
+      "defence": 102,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1291,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1753,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 189,
+      "defence": 136,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030105,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1291,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2191,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 236,
+      "defence": 170,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1301,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030115,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1301,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 430,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 48,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1301,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 859,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 95,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030116,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1301,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1289,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 143,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1301,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1719,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 191,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030117,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1301,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2149,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 239,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1311,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030085,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100214,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1311,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 475,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 37,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100224,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1311,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 950,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 74,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030086,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100224,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1311,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1425,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 110,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100234,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1311,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1900,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 147,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030087,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100234,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1311,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2375,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 184,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1321,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030088,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1321,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 430,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 48,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1321,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 859,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 95,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030089,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1321,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1289,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 143,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1321,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1719,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 191,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030090,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1321,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2149,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 239,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1331,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030100,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1331,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 423,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 45,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1331,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 847,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 90,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030101,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1331,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1270,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 136,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1331,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1694,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 181,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030102,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1331,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2117,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 226,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1351,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030097,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1351,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 420,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 34,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1351,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 840,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 68,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030098,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1351,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1260,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 103,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1351,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1680,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 137,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030099,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1351,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2100,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 171,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1361,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030094,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1361,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 437,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1361,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 874,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 77,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030095,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1361,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1311,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 116,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1361,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1749,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 154,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030096,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1361,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2186,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 193,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1371,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030106,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100216,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1371,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 462,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 45,
+      "defence": 24,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100226,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1371,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 924,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 90,
+      "defence": 49,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030107,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100226,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1371,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1386,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 134,
+      "defence": 73,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100236,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1371,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1848,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 179,
+      "defence": 97,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030108,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100236,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1371,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2310,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 224,
+      "defence": 122,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1381,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030091,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1381,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 423,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 48,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1381,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 847,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 95,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030092,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1381,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1270,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 143,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1381,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1694,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 191,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030093,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1381,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2117,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 239,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1391,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030067,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1391,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 455,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1391,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 911,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 79,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030068,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1391,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1366,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 118,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1391,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1821,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 157,
+      "defence": 132,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030069,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1391,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2276,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 197,
+      "defence": 165,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1401,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030109,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100213,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1401,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 423,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 45,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100223,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1401,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 847,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 90,
+      "defence": 67,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030110,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100223,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1401,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1270,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 136,
+      "defence": 100,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100233,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1401,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1694,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 181,
+      "defence": 134,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030111,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100233,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1401,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2117,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 226,
+      "defence": 167,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1411,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030112,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100214,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1411,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 487,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100224,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1411,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 974,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 78,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030113,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100224,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1411,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1461,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 117,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100234,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1411,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1949,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 156,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030114,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100234,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1411,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2436,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 195,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1421,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030013,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100215,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1421,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 466,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 34,
+      "defence": 39,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100225,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1421,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 933,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 68,
+      "defence": 79,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030014,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100225,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1421,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1399,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 102,
+      "defence": 118,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100235,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1421,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1866,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 136,
+      "defence": 157,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030015,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100235,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1421,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2332,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 170,
+      "defence": 197,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1441,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030127,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100216,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1441,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 426,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 24,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100226,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1441,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 852,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 78,
+      "defence": 49,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030128,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100226,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1441,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1279,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 116,
+      "defence": 73,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100236,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1441,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1705,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 155,
+      "defence": 98,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030129,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100236,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1441,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2131,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 194,
+      "defence": 122,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1451,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030121,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100214,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1451,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 468,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 33,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100224,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1451,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 936,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 77,
+      "defence": 66,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030122,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100224,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1451,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1403,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 116,
+      "defence": 99,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100234,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1451,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1871,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 154,
+      "defence": 133,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030123,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100234,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1451,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2339,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 193,
+      "defence": 166,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1461,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030118,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100211,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1461,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 423,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 48,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100221,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1461,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 847,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 95,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030119,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100221,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1461,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1270,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 143,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100231,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1461,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1694,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 191,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 101030120,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100231,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1461,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2117,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 239,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 2031,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 2031,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 2031,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2031,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 2031,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2031,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 2032,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 2032,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 2032,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2032,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 2032,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2032,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 2033,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 2033,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 2033,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2033,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 2033,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2033,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 2034,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 2034,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 2034,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2034,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 2034,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2034,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 2035,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100212,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 2035,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100222,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 2035,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100222,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2035,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100232,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 2035,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100232,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 2035,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    }
+  ]
+}

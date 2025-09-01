@@ -4,7 +4,7 @@ const common = @import("common");
 const gateway = @import("net/gateway.zig");
 const Config = @import("Config.zig");
 const Globals = @import("Globals.zig");
-const TemplateCollection = @import("data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("data/TemplateCollection.zig");
 
 const EventGraphTemplateMap = @import("data/graph/EventGraphTemplateMap.zig");
 const graph_loader = @import("data/graph/graph_loader.zig");
@@ -30,18 +30,16 @@ pub fn main() !void {
         \\
     );
 
-    const allocator = debug_allocator.allocator();
-
     const config = try common.config_util.loadOrCreateConfig(Config, "gameserver_config.zon", gpa);
     defer common.config_util.freeConfig(gpa, config);
 
     const gameplay_settings = try common.config_util.loadOrCreateConfig(Globals.GameplaySettings, "gameplay_settings.zon", gpa);
     defer common.config_util.freeConfig(gpa, gameplay_settings);
 
-    var templates = try TemplateCollection.load(allocator);
+    var templates = try TemplateCollection.load(gpa);
     defer templates.deinit();
 
-    var event_graph_map = try graph_loader.loadTemplateMap(allocator);
+    var event_graph_map = try graph_loader.loadTemplateMap(gpa);
     defer event_graph_map.deinit();
 
     const globals = Globals{
@@ -51,7 +49,7 @@ pub fn main() !void {
     };
 
     const address = try std.net.Address.parseIp4(config.udp_addr, config.udp_port);
-    gateway.listen(allocator, address, config.shutdown_on_disconnect, &globals) catch |err| {
+    gateway.listen(gpa, address, config.shutdown_on_disconnect, &globals) catch |err| {
         std.log.err("failed to initialize gateway: {}", .{err});
         return err;
     };

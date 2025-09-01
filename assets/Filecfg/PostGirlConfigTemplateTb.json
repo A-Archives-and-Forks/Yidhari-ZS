@@ -1,0 +1,340 @@
+{
+  "data": [
+    {
+      "id": 3500000,
+      "name": "Avatar_Male_Size01_Wise",
+      "unk_1": 0,
+      "unlock_condition": "30070001",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3500001,
+      "name": "Avatar_Female_Size02_Belle",
+      "unk_1": 0,
+      "unlock_condition": "30070001",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510000,
+      "name": "Avatar_Female_Size02_Anbi",
+      "unk_1": 0,
+      "unlock_condition": "1051211000",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510001,
+      "name": "Avatar_Female_Size01_Tsubaki",
+      "unk_1": 0,
+      "unlock_condition": "1051211001",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510002,
+      "name": "Avatar_Female_Size02_Nostradamus",
+      "unk_1": 0,
+      "unlock_condition": "1051211002",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510003,
+      "name": "Avatar_Male_Size03_Billy",
+      "unk_1": 0,
+      "unlock_condition": "1051211003",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510004,
+      "name": "Avatar_Female_Size02_Longinus",
+      "unk_1": 0,
+      "unlock_condition": "1051211004",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510005,
+      "name": "Avatar_Female_Size01_OokumaMari",
+      "unk_1": 0,
+      "unlock_condition": "1051211005",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510006,
+      "name": "Avatar_Male_Size03_Ben",
+      "unk_1": 0,
+      "unlock_condition": "1051211006",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510007,
+      "name": "Avatar_Female_Size03_Lisa",
+      "unk_1": 0,
+      "unlock_condition": "1051211007",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510008,
+      "name": "Avatar_Male_Size03_Anton",
+      "unk_1": 0,
+      "unlock_condition": "1051211008",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510009,
+      "name": "Avatar_Male_Size03_Lycaon",
+      "unk_1": 0,
+      "unlock_condition": "1051211009",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510010,
+      "name": "Avatar_Female_Size02_Ellen",
+      "unk_1": 0,
+      "unlock_condition": "1051211010",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510011,
+      "name": "Avatar_Female_Size03_Rina",
+      "unk_1": 0,
+      "unlock_condition": "1051211011",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510012,
+      "name": "Avatar_Female_Size01_Corin",
+      "unk_1": 0,
+      "unlock_condition": "1051211012",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510013,
+      "name": "Avatar_Female_Size03_ZhuYuan",
+      "unk_1": 0,
+      "unlock_condition": "1051211013",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510014,
+      "name": "Avatar_Female_Size01_QingYi",
+      "unk_1": 0,
+      "unlock_condition": "1051211014",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510015,
+      "name": "Avatar_Male_Size01_Seth",
+      "unk_1": 0,
+      "unlock_condition": "1051211015",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510016,
+      "name": "Avatar_Female_Size03_JaneDoe",
+      "unk_1": 0,
+      "unlock_condition": "1051211016",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510017,
+      "name": "Avatar_Female_Size03_Caesar",
+      "unk_1": 0,
+      "unlock_condition": "1051211017",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510018,
+      "name": "Avatar_Female_Size02_Burnice",
+      "unk_1": 0,
+      "unlock_condition": "1051211018",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510019,
+      "name": "Avatar_Female_Size01_Clara",
+      "unk_1": 0,
+      "unlock_condition": "1051211019",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510020,
+      "name": "Avatar_Female_Size01_Lucy",
+      "unk_1": 0,
+      "unlock_condition": "1051211020",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510021,
+      "name": "Avatar_Male_Size02_Lighter",
+      "unk_1": 0,
+      "unlock_condition": "1051211021",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510022,
+      "name": "Avatar_Female_Size03_Yanagi",
+      "unk_1": 0,
+      "unlock_condition": "1051211022",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510023,
+      "name": "Avatar_Female_Size02_Unagi",
+      "unk_1": 0,
+      "unlock_condition": "1051211024",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510024,
+      "name": "Avatar_Male_Size01_Harumasa",
+      "unk_1": 0,
+      "unlock_condition": "1051211023",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510025,
+      "name": "Avatar_Female_Size01_Aokaku",
+      "unk_1": 0,
+      "unlock_condition": "1051211025",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510026,
+      "name": "Avatar_Female_Size03_Astra",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510027,
+      "name": "Avatar_Female_Size03_Evelyn",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510028,
+      "name": "Avatar_Female_Size03_Trigger",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510029,
+      "name": "Avatar_Female_Size02_SilverAnby",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510030,
+      "name": "Avatar_Female_Size03_Pulchra",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510031,
+      "name": "Avatar_Male_Size02_HugoVlad",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510032,
+      "name": "Avatar_Female_Size02_Vivian",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510033,
+      "name": "Avatar_Female_Size01_Jufufu",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510034,
+      "name": "Avatar_Female_Size03_YiXuan",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510035,
+      "name": "Avatar_Male_Size03_PanYinhu",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510036,
+      "name": "Avatar_Female_Size02_Alice",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510037,
+      "name": "Avatar_Female_Size02_Yuzuha",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3550000,
+      "name": "LiveWallpaper_Activity001",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30070.png"
+    },
+    {
+      "id": 3550001,
+      "name": "LiveWallpaper_Activity002",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30186.png"
+    }
+  ]
+}

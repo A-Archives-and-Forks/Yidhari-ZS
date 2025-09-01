@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const TemplateCollection = @import("data/templates.zig").TemplateCollection;
+const TemplateCollection = @import("data/TemplateCollection.zig");
 const EventGraphTemplateMap = @import("data/graph/EventGraphTemplateMap.zig");
 
 templates: TemplateCollection,
