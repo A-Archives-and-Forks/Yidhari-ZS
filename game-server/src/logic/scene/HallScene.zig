@@ -156,7 +156,7 @@ fn buildHallRefreshScNotify(self: *const Self, allocator: Allocator) !ByName(.Ha
         .bgm_id = self.bgm_id,
         .day_of_week = self.day_of_week,
         .scene_time_in_minutes = self.last_time_in_minutes,
-    }, allocator);
+    });
 
     var scene_units = self.unit_manager.sectionUnits(self.section_id);
     while (scene_units.next()) |scene_unit| {
@@ -258,7 +258,7 @@ pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.SceneData) {
         .bgm_id = self.bgm_id,
         .day_of_week = self.day_of_week,
         .scene_time_in_minutes = self.last_time_in_minutes,
-    }, allocator);
+    });
 
     switch (self.pos) {
         .static => |transform_id| {
@@ -288,11 +288,11 @@ pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.SceneData) {
         try protocol.addToList(allocator, &hall_data, .lift_list, protocol.makeProto(.LiftInfo, .{
             .lift_status = entry.value_ptr.*,
             .lift_name = try protocol.protobuf.ManagedString.copy(entry.key_ptr.*, allocator),
-        }, allocator));
+        }));
     }
 
     return protocol.makeProto(.SceneData, .{
         .scene_type = @intFromEnum(SceneType.hall),
         .hall_scene_data = hall_data,
-    }, allocator);
+    });
 }

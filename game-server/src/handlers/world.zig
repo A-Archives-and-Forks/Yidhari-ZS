@@ -7,7 +7,7 @@ const GameMode = @import("../logic/GameMode.zig");
 pub fn onEnterWorldCsReq(context: *NetContext, _: protocol.ByName(.EnterWorldCsReq)) !protocol.ByName(.EnterWorldScRsp) {
     if (context.session.game_mode != null) {
         std.log.err("EnterWorldCsReq received when GameMode is not null! player_uid: {}", .{context.session.player_uid});
-        return protocol.makeProto(.EnterWorldScRsp, .{ .retcode = 1 }, context.arena);
+        return protocol.makeProto(.EnterWorldScRsp, .{ .retcode = 1 });
     }
 
     context.session.game_mode = try GameMode.loadHallState(
@@ -16,11 +16,11 @@ pub fn onEnterWorldCsReq(context: *NetContext, _: protocol.ByName(.EnterWorldCsR
         context.gpa,
     );
 
-    return protocol.makeProto(.EnterWorldScRsp, .{ .retcode = 0 }, context.arena);
+    return protocol.makeProto(.EnterWorldScRsp, .{ .retcode = 0 });
 }
 
-pub fn onEnterSectionCompleteCsReq(context: *NetContext, _: protocol.ByName(.EnterSectionCompleteCsReq)) !protocol.ByName(.EnterSectionCompleteScRsp) {
-    return protocol.makeProto(.EnterSectionCompleteScRsp, .{ .retcode = 0 }, context.arena);
+pub fn onEnterSectionCompleteCsReq(_: *NetContext, _: protocol.ByName(.EnterSectionCompleteCsReq)) !protocol.ByName(.EnterSectionCompleteScRsp) {
+    return protocol.makeProto(.EnterSectionCompleteScRsp, .{ .retcode = 0 });
 }
 
 pub fn onInteractWithUnitCsReq(context: *NetContext, req: protocol.ByName(.InteractWithUnitCsReq)) !protocol.ByName(.InteractWithUnitScRsp) {
@@ -29,18 +29,18 @@ pub fn onInteractWithUnitCsReq(context: *NetContext, req: protocol.ByName(.Inter
     const npc_tag_id = protocol.getField(req, .npc_tag_id, i32);
     const interact_id = protocol.getField(req, .interact_id, i32);
 
-    if (npc_tag_id == null or interact_id == null) return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = 0 }, context.arena);
+    if (npc_tag_id == null or interact_id == null) return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = 0 });
 
     if (context.session.game_mode == null) {
         std.log.debug("InteractWithUnitCsReq received when GameMode is null!", .{});
-        return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = 1 }, context.arena);
+        return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = 1 });
     }
 
     const hall = switch (context.session.game_mode.?.scene) {
         .hall => |scene| scene,
         else => {
             std.log.debug("InteractWithUnitCsReq received in wrong state!", .{});
-            return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = 1 }, context.arena);
+            return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = 1 });
         },
     };
 
@@ -51,7 +51,7 @@ pub fn onInteractWithUnitCsReq(context: *NetContext, req: protocol.ByName(.Inter
         retcode = 1;
     };
 
-    return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = retcode }, context.arena);
+    return protocol.makeProto(.InteractWithUnitScRsp, .{ .retcode = retcode });
 }
 
 pub fn onEnterSectionCsReq(context: *NetContext, req: protocol.ByName(.EnterSectionCsReq)) !protocol.ByName(.EnterSectionScRsp) {
@@ -87,7 +87,7 @@ pub fn onEnterSectionCsReq(context: *NetContext, req: protocol.ByName(.EnterSect
         break :blk 0;
     };
 
-    return protocol.makeProto(.EnterSectionScRsp, .{ .retcode = retcode }, context.arena);
+    return protocol.makeProto(.EnterSectionScRsp, .{ .retcode = retcode });
 }
 
 pub fn onSavePosInMainCityCsReq(context: *NetContext, req: protocol.ByName(.SavePosInMainCityCsReq)) !protocol.ByName(.SavePosInMainCityScRsp) {
@@ -127,14 +127,14 @@ pub fn onSavePosInMainCityCsReq(context: *NetContext, req: protocol.ByName(.Save
 
     return protocol.makeProto(.SavePosInMainCityScRsp, .{
         .retcode = 0,
-    }, context.arena);
+    });
 }
 
-pub fn onEndBattleCsReq(context: *NetContext, _: protocol.ByName(.EndBattleCsReq)) !protocol.ByName(.EndBattleScRsp) {
+pub fn onEndBattleCsReq(_: *NetContext, _: protocol.ByName(.EndBattleCsReq)) !protocol.ByName(.EndBattleScRsp) {
     return protocol.makeProto(.EndBattleScRsp, .{
         .retcode = 0,
-        .fight_settle = protocol.makeProto(.FightSettle, .{}, context.arena),
-    }, context.arena);
+        .fight_settle = protocol.makeProto(.FightSettle, .{}),
+    });
 }
 
 pub fn onLeaveCurSceneCsReq(context: *NetContext, _: protocol.ByName(.LeaveCurSceneCsReq)) !protocol.ByName(.LeaveCurSceneScRsp) {
@@ -148,5 +148,5 @@ pub fn onLeaveCurSceneCsReq(context: *NetContext, _: protocol.ByName(.LeaveCurSc
         context.gpa,
     );
 
-    return protocol.makeProto(.LeaveCurSceneScRsp, .{ .retcode = 0 }, context.arena);
+    return protocol.makeProto(.LeaveCurSceneScRsp, .{ .retcode = 0 });
 }

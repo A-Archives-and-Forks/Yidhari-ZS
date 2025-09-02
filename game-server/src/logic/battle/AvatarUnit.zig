@@ -79,7 +79,7 @@ pub fn deinit(self: *Self) void {
 pub fn toProto(self: *const Self, allocator: Allocator) !protocol.ByName(.AvatarUnitInfo) {
     var info = protocol.makeProto(.AvatarUnitInfo, .{
         .avatar_id = self.avatar_id,
-    }, allocator);
+    });
 
     var properties = self.properties.iterator();
     while (properties.next()) |entry| {

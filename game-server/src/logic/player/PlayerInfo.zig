@@ -400,7 +400,7 @@ pub fn hasChangedFields(self: *const Self) bool {
 }
 
 pub fn ackPlayerSync(self: *Self, allocator: Allocator) !ByName(.PlayerSyncScNotify) {
-    var notify = makeProto(.PlayerSyncScNotify, .{}, allocator);
+    var notify = makeProto(.PlayerSyncScNotify, .{});
 
     if (self.isBasicInfoChanged()) {
         const self_basic_info = try self.ackSelfBasicInfo(allocator);
@@ -453,7 +453,7 @@ pub fn isBasicInfoChanged(self: *const Self) bool {
 }
 
 pub fn ackSelfBasicInfo(self: *Self, allocator: Allocator) !ByName(.SelfBasicInfo) {
-    var info = makeProto(.SelfBasicInfo, .{}, allocator);
+    var info = makeProto(.SelfBasicInfo, .{});
 
     inline for (basic_info_group) |field| {
         if (@FieldType(Self, @tagName(field)) == PropertyString) {

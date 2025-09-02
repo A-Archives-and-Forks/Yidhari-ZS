@@ -114,9 +114,9 @@ pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.DungeonInfo) {
         .quest_id = self.quest_id,
         .quest_type = self.quest_type,
         .begin_time = self.begin_time,
-    }, allocator);
+    });
 
-    var package = protocol.makeProto(.DungeonPackageInfo, .{}, allocator);
+    var package = protocol.makeProto(.DungeonPackageInfo, .{});
 
     for (self.package_items.items) |package_item| {
         switch (package_item) {

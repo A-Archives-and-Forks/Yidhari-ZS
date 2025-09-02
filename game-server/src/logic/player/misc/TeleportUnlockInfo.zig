@@ -24,7 +24,7 @@ pub fn unlock(self: *Self, config: TeleportConfigTemplate) !void {
 }
 
 pub fn toProto(self: *const Self, misc_data: *ByName(.MiscData), allocator: Allocator) !void {
-    var proto = protocol.makeProto(.TeleportUnlockInfo, .{}, allocator);
+    var proto = protocol.makeProto(.TeleportUnlockInfo, .{});
 
     for (self.unlocked_id.values()) |id| {
         try protocol.addToList(allocator, &proto, .unlocked_list, id);

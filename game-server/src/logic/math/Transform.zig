@@ -5,7 +5,7 @@ position: [3]f64,
 rotation: [3]f64,
 
 pub fn toProto(self: *const @This(), allocator: Allocator) !protocol.ByName(.Transform) {
-    var proto = protocol.makeProto(.Transform, .{}, allocator);
+    var proto = protocol.makeProto(.Transform, .{});
 
     try protocol.addManyToList(allocator, &proto, .position, self.position);
     try protocol.addManyToList(allocator, &proto, .rotation, self.rotation);

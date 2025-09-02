@@ -137,8 +137,8 @@ pub fn isChanged(self: *const Self) bool {
 }
 
 pub fn ackPlayerSync(self: *const Self, notify: *ByName(.PlayerSyncScNotify), allocator: Allocator) !void {
-    var avatar_sync = protocol.makeProto(.AvatarSync, .{}, allocator);
-    var item_sync = protocol.makeProto(.ItemSync, .{}, allocator);
+    var avatar_sync = protocol.makeProto(.AvatarSync, .{});
+    var item_sync = protocol.makeProto(.ItemSync, .{});
 
     for (self.item_map.changed_keys.items) |changed_key| {
         if (self.item_map.get(changed_key)) |item| {
@@ -170,7 +170,7 @@ pub const Weapon = struct {
     refine_level: u32,
     lock: bool,
 
-    pub fn toProto(self: *const @This(), allocator: Allocator) !ByName(.WeaponInfo) {
+    pub fn toProto(self: *const @This(), _: Allocator) !ByName(.WeaponInfo) {
         return protocol.makeProto(.WeaponInfo, .{
             .id = self.id,
             .uid = self.uid,
@@ -179,7 +179,7 @@ pub const Weapon = struct {
             .star = self.star,
             .refine_level = self.refine_level,
             .lock = self.lock,
-        }, allocator);
+        });
     }
 };
 
@@ -209,7 +209,7 @@ pub const Equip = struct {
             .level = self.level,
             .exp = self.exp,
             .star = self.star,
-        }, allocator);
+        });
 
         for (self.properties) |equip_prop| {
             if (equip_prop) |prop| {
@@ -217,7 +217,7 @@ pub const Equip = struct {
                     .key = prop.key,
                     .base_value = prop.base_value,
                     .add_value = prop.add_value,
-                }, allocator);
+                });
 
                 try protocol.addToList(allocator, &proto, .propertys, prop_proto);
             }
@@ -229,7 +229,7 @@ pub const Equip = struct {
                     .key = prop.key,
                     .base_value = prop.base_value,
                     .add_value = prop.add_value,
-                }, allocator);
+                });
 
                 try protocol.addToList(allocator, &proto, .sub_propertys, prop_proto);
             }
@@ -244,8 +244,8 @@ pub const Dress = struct {
 
     id: u32,
 
-    pub fn toProto(self: *const @This(), allocator: Allocator) !ByName(.ItemInfo) {
-        return makeItemInfo(self.id, 1, allocator);
+    pub fn toProto(self: *const @This(), _: Allocator) !ByName(.ItemInfo) {
+        return makeItemInfo(self.id, 1);
     }
 };
 
@@ -255,16 +255,16 @@ pub const Currency = struct {
     id: u32,
     count: i32,
 
-    pub fn toProto(self: *const @This(), allocator: Allocator) !ByName(.ItemInfo) {
-        return makeItemInfo(self.id, self.count, allocator);
+    pub fn toProto(self: *const @This(), _: Allocator) !ByName(.ItemInfo) {
+        return makeItemInfo(self.id, self.count);
     }
 };
 
-fn makeItemInfo(id: u32, count: i32, allocator: Allocator) ByName(.ItemInfo) {
+fn makeItemInfo(id: u32, count: i32) ByName(.ItemInfo) {
     return protocol.makeProto(.ItemInfo, .{
         .id = id,
         .count = count,
-    }, allocator);
+    });
 }
 
 pub const ItemType = enum(u32) {

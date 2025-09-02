@@ -95,13 +95,13 @@ pub fn toProto(self: *const @This(), allocator: Allocator) !ByName(.AvatarInfo) 
         .show_weapon_type = @intFromEnum(self.show_weapon_type),
         .is_awake_available = self.is_awake_available,
         .awake_id = self.awake_id,
-    }, allocator);
+    });
 
     for (self.skill_type_level, 0..self.skill_type_level.len) |level, skill_type| {
         try protocol.addToList(allocator, &proto, .skill_type_level, protocol.makeProto(.AvatarSkillLevel, .{
             .skill_type = @as(u32, @intCast(skill_type)),
             .level = level,
-        }, allocator));
+        }));
     }
 
     for (self.dressed_equip, 0..self.dressed_equip.len) |equip_uid, index| {
@@ -109,7 +109,7 @@ pub fn toProto(self: *const @This(), allocator: Allocator) !ByName(.AvatarInfo) 
             try protocol.addToList(allocator, &proto, .dressed_equip_list, protocol.makeProto(.DressedEquip, .{
                 .equip_uid = uid,
                 .index = @as(u32, @intCast(index)) + 1,
-            }, allocator));
+            }));
         }
     }
 

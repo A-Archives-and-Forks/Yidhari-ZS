@@ -93,7 +93,7 @@ pub const SceneUnitInfo = struct {
         var unit_proto = makeProto(.SceneUnitProtocolInfo, .{
             .npc_id = self.tag_id,
             .is_active = true,
-        }, allocator);
+        });
 
         for (self.interacts_info, 0..self.interacts_info.len) |interact, i| {
             const tag_id: i32 = @intCast(self.tag_id);
@@ -109,7 +109,7 @@ pub const SceneUnitInfo = struct {
                 .scale_z = info.scale_z,
                 .scale_w = info.scale_w,
                 .scale_r = info.scale_r,
-            }, allocator);
+            });
 
             try protocol.addToList(allocator, &interact_proto, .interact_target_list, interact_target);
             try protocol.addToMap(allocator, &interact_proto, .participators, self.tag_id, try protocol.protobuf.ManagedString.copy(info.name, allocator));

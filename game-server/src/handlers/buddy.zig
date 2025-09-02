@@ -4,7 +4,7 @@ const NetContext = @import("../net/NetContext.zig");
 const protocol = @import("protocol");
 
 pub fn onGetBuddyDataCsReq(context: *NetContext, _: protocol.ByName(.GetBuddyDataCsReq)) !protocol.ByName(.GetBuddyDataScRsp) {
-    var rsp = protocol.makeProto(.GetBuddyDataScRsp, .{}, context.arena);
+    var rsp = protocol.makeProto(.GetBuddyDataScRsp, .{});
 
     var items = context.session.player_info.?.item_data.item_map.iterator();
 

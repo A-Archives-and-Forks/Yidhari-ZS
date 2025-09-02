@@ -4,7 +4,7 @@ const pb = @import("protobuf");
 const plugin = @import("google/protobuf/compiler.pb.zig");
 const descriptor = @import("google/protobuf.pb.zig");
 const mem = std.mem;
-const FullName = @import("./FullName.zig").FullName;
+const FullName = @import("FullName.zig").FullName;
 
 const allocator = std.heap.page_allocator;
 
@@ -21,7 +21,7 @@ pub fn main() !void {
     const file_buffer = try stdin.readToEndAlloc(allocator, buffer_size);
     defer allocator.free(file_buffer);
 
-    const request: plugin.CodeGeneratorRequest = try plugin.CodeGeneratorRequest.decode(file_buffer, allocator);
+    const request: plugin.CodeGeneratorRequest = try pb.decodeMessage(plugin.CodeGeneratorRequest, file_buffer, allocator);
 
     var ctx: GenerationContext = GenerationContext{ .req = request };
 
@@ -30,13 +30,13 @@ pub fn main() !void {
     const stdout = &std.fs.File.stdout();
     var buffer: [4096]u8 = undefined;
     var writer = stdout.writer(&buffer);
-    try ctx.res.encode(&writer.interface);
+    try ctx.res.pb.encode(&writer.interface);
     try writer.interface.flush();
 }
 
 const GenerationContext = struct {
     req: plugin.CodeGeneratorRequest,
-    res: plugin.CodeGeneratorResponse = plugin.CodeGeneratorResponse.init(allocator),
+    res: plugin.CodeGeneratorResponse = .{},
 
     /// map of known packages
     known_packages: std.StringHashMap(FullName) = std.StringHashMap(FullName).init(allocator),
@@ -80,7 +80,7 @@ const GenerationContext = struct {
 
         var it = self.output_lists.iterator();
         while (it.next()) |entry| {
-            var ret = plugin.CodeGeneratorResponse.File.init(allocator);
+            var ret = plugin.CodeGeneratorResponse.File{};
 
             ret.name = pb.ManagedString.move(try self.fileNameFromPackage(entry.key_ptr.*), allocator);
             ret.content = pb.ManagedString.move(try std.mem.concat(allocator, u8, entry.value_ptr.*.items), allocator);
@@ -380,10 +380,8 @@ const GenerationContext = struct {
         return try std.mem.concat(allocator, u8, &.{ prefix, infix, postfix });
     }
 
-    fn getFieldDefault(ctx: *Self, field: descriptor.FieldDescriptorProto, file: descriptor.FileDescriptorProto, nullable: bool) !?string {
-        // ArrayLists need to be initialized
-        const repeated = ctx.isRepeated(field);
-        if (repeated) return null;
+    fn getFieldDefault(ctx: *Self, field: descriptor.FieldDescriptorProto, file: descriptor.FileDescriptorProto, nullable: bool) !string {
+        if (ctx.isRepeated(field)) return ".empty";
 
         const is_proto3 = is_proto3_file(file);
 
@@ -410,22 +408,17 @@ const GenerationContext = struct {
                 .TYPE_BOOL => "false",
                 .TYPE_STRING, .TYPE_BYTES => ".Empty",
                 .TYPE_ENUM => "@enumFromInt(0)",
-                else => null,
+                else => @panic("Unexpected type"),
             };
         }
 
-        if (field.default_value == null) return null;
-
         return switch (field.type.?) {
-            .TYPE_SINT32, .TYPE_SFIXED32, .TYPE_INT32, .TYPE_UINT32, .TYPE_FIXED32, .TYPE_INT64, .TYPE_SINT64, .TYPE_SFIXED64, .TYPE_UINT64, .TYPE_FIXED64, .TYPE_BOOL => field.default_value.?.getSlice(),
+            .TYPE_SINT32, .TYPE_SFIXED32, .TYPE_INT32, .TYPE_UINT32, .TYPE_FIXED32, .TYPE_INT64, .TYPE_SINT64, .TYPE_SFIXED64, .TYPE_UINT64, .TYPE_FIXED64, .TYPE_BOOL => "0",
             .TYPE_FLOAT => if (std.mem.eql(u8, field.default_value.?.getSlice(), "inf")) "std.math.inf(f32)" else if (std.mem.eql(u8, field.default_value.?.getSlice(), "-inf")) "-std.math.inf(f32)" else if (std.mem.eql(u8, field.default_value.?.getSlice(), "nan")) "std.math.nan(f32)" else field.default_value.?.getSlice(),
             .TYPE_DOUBLE => if (std.mem.eql(u8, field.default_value.?.getSlice(), "inf")) "std.math.inf(f64)" else if (std.mem.eql(u8, field.default_value.?.getSlice(), "-inf")) "-std.math.inf(f64)" else if (std.mem.eql(u8, field.default_value.?.getSlice(), "nan")) "std.math.nan(f64)" else field.default_value.?.getSlice(),
-            .TYPE_STRING, .TYPE_BYTES => if (field.default_value.?.isEmpty())
-                ".Empty"
-            else
-                try std.mem.concat(allocator, u8, &.{ "ManagedString.static(", try formatSliceEscapeImpl(field.default_value.?.getSlice()), ")" }),
+            .TYPE_STRING, .TYPE_BYTES => ".Empty",
             .TYPE_ENUM => try std.mem.concat(allocator, u8, &.{ ".", field.default_value.?.getSlice() }),
-            else => null,
+            else => @panic("Unexpected type"),
         };
     }
 
@@ -481,11 +474,8 @@ const GenerationContext = struct {
         const field_name = try ctx.getFieldName(field);
         const nullable = type_str[0] == '?';
 
-        if (try ctx.getFieldDefault(field, file, nullable)) |default_value| {
-            try list.append(allocator, try std.fmt.allocPrint(allocator, "    {s}: {s} = {s},\n", .{ field_name, type_str, default_value }));
-        } else {
-            try list.append(allocator, try std.fmt.allocPrint(allocator, "    {s}: {s},\n", .{ field_name, type_str }));
-        }
+        const default_value = try ctx.getFieldDefault(field, file, nullable);
+        try list.append(allocator, try std.fmt.allocPrint(allocator, "    {s}: {s} = {s},\n", .{ field_name, type_str, default_value }));
     }
 
     /// this function returns the amount of options available for a given "oneof" declaration
@@ -517,6 +507,8 @@ const GenerationContext = struct {
             if (cmd_id) |id| {
                 try list.append(allocator, try std.fmt.allocPrint(allocator, "\n    pub const cmd_id: u16 = {};\n\n", .{id}));
             }
+
+            try list.append(allocator, "\n    pb: protobuf.ProtobufMixins(@This()) = .{},\n");
 
             // append all fields that are not part of a oneof
             for (m.field.items) |f| {
@@ -622,64 +614,8 @@ const GenerationContext = struct {
             try ctx.generateEnums(list, messageFqn, file, m.enum_type);
             try ctx.generateMessages(list, messageFqn, file, m.nested_type);
 
-            if (cmd_id != null) {
-                try list.append(allocator,
-                    \\    pub fn getCmdId(_: @This()) u16 {
-                    \\        return @This().cmd_id;
-                    \\    }
-                );
-            }
-
             try list.append(allocator, try std.fmt.allocPrint(allocator,
                 \\
-                \\    pub fn encode(self: @This(), writer: *std.Io.Writer) std.Io.Writer.Error!void {{
-                \\        return protobuf.encodeMessage(self, writer);
-                \\    }}
-                \\    pub fn encodingLength(self: @This()) usize {{
-                \\        return protobuf.messageEncodingLength(self);
-                \\    }}
-                \\    pub fn decode(input: []const u8, allocator: Allocator) UnionDecodingError!@This() {{
-                \\        return protobuf.decodeMessage(@This(), input, allocator);
-                \\    }}
-                \\    pub fn init(allocator: Allocator) @This() {{
-                \\        return protobuf.initMessage(@This(), allocator);
-                \\    }}
-                \\    pub fn deinit(self: @This(), allocator: Allocator) void {{
-                \\        return protobuf.deinitializeMessage(self, allocator);
-                \\    }}
-                \\    pub fn dupe(self: @This(), allocator: Allocator) Allocator.Error!@This() {{
-                \\        return protobuf.dupeMessage(@This(), self, allocator);
-                \\    }}
-                \\    pub fn json_decode(
-                \\        input: []const u8,
-                \\        options: json.ParseOptions,
-                \\        allocator: Allocator,
-                \\    ) !std.json.Parsed(@This()) {{
-                \\        return protobuf.deserializeMessage(@This(), input, options, allocator);
-                \\    }}
-                \\    pub fn json_encode(
-                \\        self: @This(),
-                \\        options: json.StringifyOptions,
-                \\        allocator: Allocator,
-                \\    ) ![]const u8 {{
-                \\        return protobuf.serializeMessage(self, options, allocator);
-                \\    }}
-                \\
-                \\    // This method is used by std.json
-                \\    // internally for deserialization. DO NOT RENAME!
-                \\      pub fn jsonParse(
-                \\        allocator: Allocator,
-                \\        source: anytype,
-                \\        options: json.ParseOptions,
-                \\    ) !@This() {{
-                \\        return protobuf.parseMessageFromJson(@This(), allocator, source, options);
-                \\    }}
-                \\
-                \\    // This method is used by std.json
-                \\    // internally for serialization. DO NOT RENAME!
-                \\    pub fn jsonStringify(self: *const @This(), jws: anytype) !void {{
-                \\        return protobuf.stringifyMessageAsJson(@This(), self, jws);
-                \\    }}
                 \\}};
                 \\
             , .{}));

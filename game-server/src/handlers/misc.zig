@@ -3,8 +3,8 @@ const std = @import("std");
 const NetContext = @import("../net/NetContext.zig");
 const protocol = @import("protocol");
 
-pub fn onVideoGetInfoCsReq(context: *NetContext, _: protocol.ByName(.VideoGetInfoCsReq)) !protocol.ByName(.VideoGetInfoScRsp) {
-    return protocol.makeProto(.VideoGetInfoScRsp, .{}, context.arena);
+pub fn onVideoGetInfoCsReq(_: *NetContext, _: protocol.ByName(.VideoGetInfoCsReq)) !protocol.ByName(.VideoGetInfoScRsp) {
+    return protocol.makeProto(.VideoGetInfoScRsp, .{});
 }
 
 pub fn onGetSwitchDataCsReq(context: *NetContext, req: protocol.ByName(.GetSwitchDataCsReq)) !protocol.ByName(.GetSwitchDataScRsp) {
@@ -12,14 +12,14 @@ pub fn onGetSwitchDataCsReq(context: *NetContext, req: protocol.ByName(.GetSwitc
         .retcode = 0,
         .type = protocol.getField(req, .type, u32) orelse 0,
         .switch_data = try context.session.player_info.?.switch_data.toProto(context.arena),
-    }, context.arena);
+    });
 }
 
 pub fn onGetMiscDataCsReq(context: *NetContext, _: protocol.ByName(.GetMiscDataCsReq)) !protocol.ByName(.GetMiscDataScRsp) {
     return protocol.makeProto(.GetMiscDataScRsp, .{
         .retcode = 0,
         .data = try context.session.player_info.?.misc_data.toProto(context.arena),
-    }, context.arena);
+    });
 }
 
 pub fn onModPostGirlCsReq(context: *NetContext, req: protocol.ByName(.ModPostGirlCsReq)) !protocol.ByName(.ModPostGirlScRsp) {
@@ -36,5 +36,5 @@ pub fn onModPostGirlCsReq(context: *NetContext, req: protocol.ByName(.ModPostGir
         }
     }
 
-    return protocol.makeProto(.ModPostGirlScRsp, .{}, context.arena);
+    return protocol.makeProto(.ModPostGirlScRsp, .{});
 }

@@ -37,13 +37,13 @@ pub fn unlockAll(self: *Self, templates: *const TemplateCollection) !void {
 }
 
 pub fn toProto(self: *Self, allocator: Allocator) !protocol.ByName(.MiscData) {
-    var data = protocol.makeProto(.MiscData, .{}, allocator);
+    var data = protocol.makeProto(.MiscData, .{});
 
     protocol.setFields(&data, .{
-        .business_card = protocol.makeProto(.BusinessCardData, .{}, allocator),
+        .business_card = protocol.makeProto(.BusinessCardData, .{}),
         .player_accessory = protocol.makeProto(.PlayerAccessoryData, .{
             .control_guise_avatar_id = @as(u32, @intCast(1051)),
-        }, allocator),
+        }),
     });
 
     inline for (std.meta.fields(Self)) |field| {
@@ -66,7 +66,7 @@ pub fn isChanged(self: *const Self) bool {
 }
 
 pub fn ackPlayerSync(self: *const Self, notify: *protocol.ByName(.PlayerSyncScNotify), allocator: Allocator) !void {
-    var data = protocol.makeProto(.MiscSync, .{}, allocator);
+    var data = protocol.makeProto(.MiscSync, .{});
 
     inline for (std.meta.fields(Self)) |field| {
         const field_type = @FieldType(Self, field.name);

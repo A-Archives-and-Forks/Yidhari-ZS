@@ -28,11 +28,11 @@ pub fn initAssistingBuddy() !Self {
 
 pub fn deinit(_: *Self) void {}
 
-pub fn toProto(self: *const Self, allocator: Allocator) !protocol.ByName(.BuddyUnitInfo) {
+pub fn toProto(self: *const Self, _: Allocator) !protocol.ByName(.BuddyUnitInfo) {
     return protocol.makeProto(.BuddyUnitInfo, .{
         .buddy_id = self.buddy_id,
         .team_type = @intFromEnum(self.team_type),
-    }, allocator);
+    });
 }
 
 pub const BuddyTeamType = enum(i32) {

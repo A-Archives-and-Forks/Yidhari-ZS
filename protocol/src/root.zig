@@ -19,8 +19,8 @@ pub fn ByName(comptime pb_type: anytype) type {
     }
 }
 
-pub inline fn makeProto(comptime pb_type: anytype, values: anytype, allocator: std.mem.Allocator) ByName(pb_type) {
-    var proto = ByName(pb_type).init(allocator);
+pub inline fn makeProto(comptime pb_type: anytype, values: anytype) ByName(pb_type) {
+    var proto: ByName(pb_type) = .{};
     setFields(&proto, values);
     return proto;
 }
@@ -146,58 +146,7 @@ fn cmdNames(comptime T: type) [10_000]?[]const u8 {
 
 pub const DummyMessage = struct {
     pub const cmd_id = 4855;
+    pb: protobuf.ProtobufMixins(@This()) = .{},
 
     pub const _desc_table = .{};
-
-    pub fn getCmdId(_: @This()) u16 {
-        return @This().cmd_id;
-    }
-    pub fn encode(self: @This(), writer: *std.Io.Writer) std.Io.Writer.Error!void {
-        return protobuf.encodeMessage(self, writer);
-    }
-    pub fn encodingLength(self: @This()) usize {
-        return protobuf.messageEncodingLength(self);
-    }
-    pub fn decode(input: []const u8, allocator: Allocator) !@This() {
-        return protobuf.decodeMessage(@This(), input, allocator);
-    }
-    pub fn init(allocator: Allocator) @This() {
-        return protobuf.initMessage(@This(), allocator);
-    }
-    pub fn deinit(self: @This(), allocator: Allocator) void {
-        return protobuf.deinitializeMessage(self, allocator);
-    }
-    pub fn dupe(self: @This(), allocator: Allocator) Allocator.Error!@This() {
-        return protobuf.dupeMessage(@This(), self, allocator);
-    }
-    pub fn json_decode(
-        input: []const u8,
-        options: std.json.ParseOptions,
-        allocator: Allocator,
-    ) !std.json.Parsed(@This()) {
-        return protobuf.deserializeMessage(@This(), input, options, allocator);
-    }
-    pub fn json_encode(
-        self: @This(),
-        options: std.json.StringifyOptions,
-        allocator: Allocator,
-    ) ![]const u8 {
-        return protobuf.serializeMessage(self, options, allocator);
-    }
-
-    // This method is used by std.json
-    // internally for deserialization. DO NOT RENAME!
-    pub fn jsonParse(
-        allocator: Allocator,
-        source: anytype,
-        options: std.json.ParseOptions,
-    ) !@This() {
-        return protobuf.parseMessageFromJson(@This(), allocator, source, options);
-    }
-
-    // This method is used by std.json
-    // internally for serialization. DO NOT RENAME!
-    pub fn jsonStringify(self: *const @This(), jws: anytype) !void {
-        return protobuf.stringifyMessageAsJson(@This(), self, jws);
-    }
 };

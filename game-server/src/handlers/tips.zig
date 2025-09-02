@@ -7,5 +7,5 @@ pub fn onGetTipsDataCsReq(context: *NetContext, _: protocol.ByName(.GetTipsDataC
     return protocol.makeProto(.GetTipsDataScRsp, .{
         .retcode = 0,
         .data = try context.session.player_info.?.tips_info.toProto(context.arena),
-    }, context.arena);
+    });
 }

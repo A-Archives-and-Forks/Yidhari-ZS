@@ -140,7 +140,7 @@ fn flushTransitionEvent(self: *Self, context: anytype) !void {
             if (scene.clearTransitionState()) {
                 var enter_notify = protocol.makeProto(.EnterSceneScNotify, .{
                     .scene = try scene.toProto(context.arena),
-                }, context.arena);
+                });
 
                 if (self.dungeon) |dungeon| {
                     protocol.setFields(&enter_notify, .{

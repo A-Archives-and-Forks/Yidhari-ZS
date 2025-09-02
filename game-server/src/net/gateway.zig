@@ -133,12 +133,12 @@ const NetPacket = struct {
 
         try w.writeAll(&head_magic);
         try w.writeInt(u16, cmd_id, .big);
-        try w.writeInt(u16, @truncate(head.encodingLength()), .big);
-        try w.writeInt(u32, @truncate(body.encodingLength()), .big);
-        try head.encode(w);
+        try w.writeInt(u16, @truncate(head.pb.encodingLength()), .big);
+        try w.writeInt(u32, @truncate(body.pb.encodingLength()), .big);
+        try head.pb.encode(w);
 
         writer.pushXorStartIndex();
-        try body.encode(w);
+        try body.pb.encode(w);
         writer.popXorStartIndex();
 
         try w.writeAll(&tail_magic);
@@ -244,7 +244,7 @@ pub const Client = struct {
     }
 
     pub fn sendPacket(self: *@This(), head: protocol.head.PacketHead, body: anytype) !void {
-        try NetPacket.write(&self.writer, body.getCmdId(), head, body);
+        try NetPacket.write(&self.writer, body.pb.getCmdId(), head, body);
     }
 };
 
@@ -390,8 +390,8 @@ fn handlePacket(gpa: Allocator, sessions: *SessionMap, client: *Client, packet: 
         .{ packet.cmd_id, packet.head, packet.body },
     );
 
-    const req_head = try protocol.head.PacketHead.decode(packet.head, gpa);
-    defer req_head.deinit(gpa);
+    const req_head = try protocol.protobuf.decodeMessage(protocol.head.PacketHead, packet.head, gpa);
+    defer req_head.pb.deinit(gpa);
 
     if (std.meta.intToEnum(CmdId, packet.cmd_id)) |cmd_id_tag| {
         return dispatchPacket(client, session, gpa, cmd_id_tag, req_head, packet.body);
@@ -428,8 +428,8 @@ fn dispatchPacket(client: *Client, session: *Session, gpa: Allocator, cmd_id_tag
                             const handler_cmd_id: CmdId = @enumFromInt(@field(Message, "cmd_id"));
 
                             if (cmd_id == handler_cmd_id) {
-                                const req = try Message.decode(body, gpa);
-                                defer req.deinit(gpa);
+                                const req = try protocol.protobuf.decodeMessage(Message, body, gpa);
+                                defer req.pb.deinit(gpa);
 
                                 var arena_allocator = std.heap.ArenaAllocator.init(gpa);
                                 defer arena_allocator.deinit();
@@ -443,13 +443,13 @@ fn dispatchPacket(client: *Client, session: *Session, gpa: Allocator, cmd_id_tag
                                 };
 
                                 const rsp = try @field(Module, decl.name)(&context, req);
-                                defer if (@TypeOf(rsp) != void) rsp.deinit(context.arena);
+                                defer if (@TypeOf(rsp) != void) rsp.pb.deinit(context.arena);
 
                                 if (context.session.player_info != null) {
                                     const player_info = &context.session.player_info.?;
                                     if (player_info.hasChangedFields()) {
                                         const player_sync = try player_info.ackPlayerSync(context.arena);
-                                        defer player_sync.deinit(context.arena);
+                                        defer player_sync.pb.deinit(context.arena);
 
                                         player_info.reset();
                                         try context.notify(player_sync);
@@ -498,7 +498,7 @@ fn handleGetToken(client: *Client, packet: *const NetPacket, gpa: Allocator, glo
     const arena = arena_allocator.allocator();
 
     xorBuffer(@constCast(packet.body), initial_xorpad);
-    const req = try protocol.ByName(.PlayerGetTokenCsReq).decode(packet.body, arena);
+    const req = try protocol.protobuf.decodeMessage(protocol.ByName(.PlayerGetTokenCsReq), packet.body, arena);
     const result = try handlers.player.onPlayerGetTokenCsReq(req, arena);
 
     try client.sendPacket(.{}, &result.rsp);

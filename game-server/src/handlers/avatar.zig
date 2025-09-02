@@ -6,7 +6,7 @@ const Avatar = @import("../logic/player/Avatar.zig");
 const ItemData = @import("../logic/player/ItemData.zig");
 
 pub fn onGetAvatarDataCsReq(context: *NetContext, _: protocol.ByName(.GetAvatarDataCsReq)) !protocol.ByName(.GetAvatarDataScRsp) {
-    var rsp = protocol.makeProto(.GetAvatarDataScRsp, .{}, context.arena);
+    var rsp = protocol.makeProto(.GetAvatarDataScRsp, .{});
 
     var items = context.session.player_info.?.item_data.item_map.iterator();
 
@@ -28,7 +28,7 @@ pub fn onAvatarFavoriteCsReq(context: *NetContext, req: protocol.ByName(.AvatarF
         avatar.is_favorite = is_favorite;
     }
 
-    return protocol.makeProto(.AvatarFavoriteScRsp, .{}, context.arena);
+    return protocol.makeProto(.AvatarFavoriteScRsp, .{});
 }
 
 pub fn onWeaponDressCsReq(context: *NetContext, req: protocol.ByName(.WeaponDressCsReq)) !protocol.ByName(.WeaponDressScRsp) {
@@ -41,7 +41,7 @@ pub fn onWeaponDressCsReq(context: *NetContext, req: protocol.ByName(.WeaponDres
         std.log.debug("WeaponDress: weapon_uid {} doesn't exist", .{weapon_uid});
         return protocol.makeProto(.WeaponDressScRsp, .{
             .retcode = 1,
-        }, context.arena);
+        });
     }
 
     var prev_weapon_uid: ?u32 = null;
@@ -53,7 +53,7 @@ pub fn onWeaponDressCsReq(context: *NetContext, req: protocol.ByName(.WeaponDres
         std.log.debug("WeaponDress: avatar_id {} is not unlocked", .{avatar_id});
         return protocol.makeProto(.WeaponDressScRsp, .{
             .retcode = 1,
-        }, context.arena);
+        });
     }
 
     var items = player.item_data.item_map.iterator();
@@ -73,7 +73,7 @@ pub fn onWeaponDressCsReq(context: *NetContext, req: protocol.ByName(.WeaponDres
 
     return protocol.makeProto(.WeaponDressScRsp, .{
         .retcode = 0,
-    }, context.arena);
+    });
 }
 
 pub fn onWeaponUnDressCsReq(context: *NetContext, req: protocol.ByName(.WeaponUnDressCsReq)) !protocol.ByName(.WeaponUnDressScRsp) {
@@ -86,7 +86,7 @@ pub fn onWeaponUnDressCsReq(context: *NetContext, req: protocol.ByName(.WeaponUn
 
     return protocol.makeProto(.WeaponUnDressScRsp, .{
         .retcode = 0,
-    }, context.arena);
+    });
 }
 
 pub fn onEquipmentDressCsReq(context: *NetContext, req: protocol.ByName(.EquipmentDressCsReq)) !protocol.ByName(.EquipmentDressScRsp) {
@@ -111,7 +111,7 @@ pub fn onEquipmentDressCsReq(context: *NetContext, req: protocol.ByName(.Equipme
 
     return protocol.makeProto(.EquipmentDressScRsp, .{
         .retcode = retcode,
-    }, context.arena);
+    });
 }
 
 pub fn onEquipmentSuitDressCsReq(context: *NetContext, req: protocol.ByName(.EquipmentSuitDressCsReq)) !protocol.ByName(.EquipmentSuitDressScRsp) {
@@ -140,7 +140,7 @@ pub fn onEquipmentSuitDressCsReq(context: *NetContext, req: protocol.ByName(.Equ
 
     return protocol.makeProto(.EquipmentSuitDressScRsp, .{
         .retcode = retcode,
-    }, context.arena);
+    });
 }
 
 pub fn onEquipmentUnDressCsReq(context: *NetContext, req: protocol.ByName(.EquipmentUnDressCsReq)) !protocol.ByName(.EquipmentUnDressScRsp) {
@@ -166,7 +166,7 @@ pub fn onEquipmentUnDressCsReq(context: *NetContext, req: protocol.ByName(.Equip
 
     return protocol.makeProto(.EquipmentUnDressScRsp, .{
         .retcode = retcode,
-    }, context.arena);
+    });
 }
 
 pub fn onAvatarSkinDressCsReq(context: *NetContext, req: protocol.ByName(.AvatarSkinDressCsReq)) !protocol.ByName(.AvatarSkinDressScRsp) {
@@ -186,26 +186,26 @@ pub fn onAvatarSkinDressCsReq(context: *NetContext, req: protocol.ByName(.Avatar
         std.log.debug("AvatarSkinDress: skin {} doesn't matcha avatar_id: {}", .{ avatar_skin_id, avatar_id });
         return protocol.makeProto(.AvatarSkinDressScRsp, .{
             .retcode = 1,
-        }, context.arena);
+        });
     }
 
     if (player.item_data.getItemCount(avatar_skin_id) == 0) {
         std.log.debug("AvatarSkinDress: skin {} is not unlocked", .{avatar_skin_id});
         return protocol.makeProto(.AvatarSkinDressScRsp, .{
             .retcode = 1,
-        }, context.arena);
+        });
     }
 
     if (player.item_data.getItemPtrAs(Avatar, avatar_id)) |avatar| {
         avatar.avatar_skin_id = avatar_skin_id;
         return protocol.makeProto(.AvatarSkinDressScRsp, .{
             .retcode = 0,
-        }, context.arena);
+        });
     } else {
         std.log.debug("AvatarSkinDress: avatar {} is not unlocked", .{avatar_id});
         return protocol.makeProto(.AvatarSkinDressScRsp, .{
             .retcode = 1,
-        }, context.arena);
+        });
     }
 }
 
@@ -217,12 +217,12 @@ pub fn onAvatarSkinUnDressCsReq(context: *NetContext, req: protocol.ByName(.Avat
         avatar.avatar_skin_id = 0;
         return protocol.makeProto(.AvatarSkinUnDressScRsp, .{
             .retcode = 0,
-        }, context.arena);
+        });
     } else {
         std.log.debug("AvatarSkinUnDress: avatar {} is not unlocked", .{avatar_id});
         return protocol.makeProto(.AvatarSkinUnDressScRsp, .{
             .retcode = 1,
-        }, context.arena);
+        });
     }
 }
 
@@ -249,5 +249,5 @@ pub fn onAvatarSetAwakeCsReq(context: *NetContext, req: protocol.ByName(.AvatarS
 
     return protocol.makeProto(.AvatarSetAwakeScRsp, .{
         .retcode = retcode,
-    }, context.arena);
+    });
 }

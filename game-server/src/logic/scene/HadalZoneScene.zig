@@ -97,13 +97,13 @@ fn getEnemyPropertyScaleByPlayType(play_type: LocalPlayType) u32 {
 
 pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.SceneData) {
     var hadal_zone_data = protocol.makeProto(.HadalZoneSceneData, .{
-        .scene_perform = protocol.makeProto(.ScenePerformInfo, .{}, allocator),
+        .scene_perform = protocol.makeProto(.ScenePerformInfo, .{}),
         .zone_id = self.zone_id,
         .layer_index = self.layer_index,
         .layer_item_id = self.layer_item_id,
         .first_room_buddy_id = self.buddy_ids[0],
         .second_room_buddy_id = self.buddy_ids[1],
-    }, allocator);
+    });
 
     for (self.first_room_avatars) |avatar_id| {
         if (avatar_id) |id| try protocol.addToList(allocator, &hadal_zone_data, .first_room_avatar_id_list, id);
@@ -121,5 +121,5 @@ pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.SceneData) {
         .play_type = @intFromEnum(play_type),
         .enemy_property_scale = getEnemyPropertyScaleByPlayType(play_type),
         .hadal_zone_scene_data = hadal_zone_data,
-    }, allocator);
+    });
 }

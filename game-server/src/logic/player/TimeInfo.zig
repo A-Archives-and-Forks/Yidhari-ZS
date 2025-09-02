@@ -48,11 +48,11 @@ pub fn getMinutesByStage(self: *const Self, period_type: TimePeriodType) u32 {
     return stage_list[@intFromEnum(period_type) - 1];
 }
 
-pub fn toProto(self: *Self, allocator: Allocator) !protocol.ByName(.TimeInfo) {
+pub fn toProto(self: *Self) protocol.ByName(.TimeInfo) {
     return protocol.makeProto(.TimeInfo, .{
         .day_period = @intFromEnum(self.day_period.value),
         .is_lock_time = self.is_lock_time.value,
-    }, allocator);
+    });
 }
 
 pub fn isChanged(self: *const Self) bool {

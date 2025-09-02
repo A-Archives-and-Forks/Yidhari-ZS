@@ -8,7 +8,7 @@ const Avatar = @import("../logic/player/Avatar.zig");
 const AvatarUnit = @import("../logic/battle/AvatarUnit.zig");
 const ItemData = @import("../logic/player/ItemData.zig");
 
-pub fn onGetQuestDataCsReq(context: *NetContext, req: protocol.ByName(.GetQuestDataCsReq)) !protocol.ByName(.GetQuestDataScRsp) {
+pub fn onGetQuestDataCsReq(_: *NetContext, req: protocol.ByName(.GetQuestDataCsReq)) !protocol.ByName(.GetQuestDataScRsp) {
     const quest_type = protocol.getField(req, .quest_type, u32) orelse 0;
 
     std.log.debug("GetQuestDataCsReq quest_type: {}", .{quest_type});
@@ -16,30 +16,30 @@ pub fn onGetQuestDataCsReq(context: *NetContext, req: protocol.ByName(.GetQuestD
     return protocol.makeProto(.GetQuestDataScRsp, .{
         .retcode = 0,
         .quest_type = quest_type,
-        .quest_data = protocol.makeProto(.QuestData, .{}, context.arena),
-    }, context.arena);
+        .quest_data = protocol.makeProto(.QuestData, .{}),
+    });
 }
 
-pub fn onGetArchiveDataCsReq(context: *NetContext, _: protocol.ByName(.GetArchiveDataCsReq)) !protocol.ByName(.GetArchiveDataScRsp) {
+pub fn onGetArchiveDataCsReq(_: *NetContext, _: protocol.ByName(.GetArchiveDataCsReq)) !protocol.ByName(.GetArchiveDataScRsp) {
     return protocol.makeProto(.GetArchiveDataScRsp, .{
         .retcode = 0,
-        .archive_data = protocol.makeProto(.ArchiveData, .{}, context.arena),
-    }, context.arena);
+        .archive_data = protocol.makeProto(.ArchiveData, .{}),
+    });
 }
 
-pub fn onGetHollowDataCsReq(context: *NetContext, _: protocol.ByName(.GetHollowDataCsReq)) !protocol.ByName(.GetHollowDataScRsp) {
+pub fn onGetHollowDataCsReq(_: *NetContext, _: protocol.ByName(.GetHollowDataCsReq)) !protocol.ByName(.GetHollowDataScRsp) {
     return protocol.makeProto(.GetHollowDataScRsp, .{
         .retcode = 0,
-        .hollow_data = protocol.makeProto(.HollowData, .{}, context.arena),
-    }, context.arena);
+        .hollow_data = protocol.makeProto(.HollowData, .{}),
+    });
 }
 
-pub fn onAbyssGetDataCsReq(context: *NetContext, _: protocol.ByName(.AbyssGetDataCsReq)) !protocol.ByName(.AbyssGetDataScRsp) {
-    return protocol.makeProto(.AbyssGetDataScRsp, .{ .retcode = 0 }, context.arena);
+pub fn onAbyssGetDataCsReq(_: *NetContext, _: protocol.ByName(.AbyssGetDataCsReq)) !protocol.ByName(.AbyssGetDataScRsp) {
+    return protocol.makeProto(.AbyssGetDataScRsp, .{ .retcode = 0 });
 }
 
-pub fn onAbyssArpeggioGetDataCsReq(context: *NetContext, _: protocol.ByName(.AbyssArpeggioGetDataCsReq)) !protocol.ByName(.AbyssArpeggioGetDataScRsp) {
-    return protocol.makeProto(.AbyssArpeggioGetDataScRsp, .{ .retcode = 0 }, context.arena);
+pub fn onAbyssArpeggioGetDataCsReq(_: *NetContext, _: protocol.ByName(.AbyssArpeggioGetDataCsReq)) !protocol.ByName(.AbyssArpeggioGetDataScRsp) {
+    return protocol.makeProto(.AbyssArpeggioGetDataScRsp, .{ .retcode = 0 });
 }
 
 pub fn onStartTrainingQuestCsReq(context: *NetContext, req: protocol.ByName(.StartTrainingQuestCsReq)) !protocol.ByName(.StartTrainingQuestScRsp) {
@@ -58,5 +58,5 @@ pub fn onStartTrainingQuestCsReq(context: *NetContext, req: protocol.ByName(.Sta
         context.gpa,
     );
 
-    return protocol.makeProto(.StartTrainingQuestScRsp, .{ .retcode = 0 }, context.arena);
+    return protocol.makeProto(.StartTrainingQuestScRsp, .{ .retcode = 0 });
 }

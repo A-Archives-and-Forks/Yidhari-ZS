@@ -49,12 +49,12 @@ pub fn onPlayerGetTokenCsReq(req: protocol.ByName(.PlayerGetTokenCsReq), arena: 
             .player_uid = 1337,
             .rand_key = std.mem.readInt(u64, client_rand_key[0..8], .little) ^ std.mem.readInt(u64, &server_rand_key, .little),
         },
-        .rsp = .{
+        .rsp = protocol.makeProto(.PlayerGetTokenScRsp, .{
             .retcode = 0,
             .uid = 1337,
-            .server_rand_key = .move(try std.fmt.allocPrint(arena, "{b64}", .{server_rand_key_ciphertext}), arena),
-            .sign = .move(try std.fmt.allocPrint(arena, "{b64}", .{sign}), arena),
-        },
+            .server_rand_key = protocol.protobuf.ManagedString.move(try std.fmt.allocPrint(arena, "{b64}", .{server_rand_key_ciphertext}), arena),
+            .sign = protocol.protobuf.ManagedString.move(try std.fmt.allocPrint(arena, "{b64}", .{sign}), arena),
+        }),
     };
 }
 
@@ -71,7 +71,7 @@ pub fn onPlayerLoginCsReq(context: *NetContext, _: protocol.ByName(.PlayerLoginC
     try context.session.player_info.?.addItemsFromSettings(&context.session.globals.gameplay_settings, &context.session.globals.templates);
     context.session.player_info.?.reset();
 
-    return protocol.makeProto(.PlayerLoginScRsp, .{}, context.arena);
+    return protocol.makeProto(.PlayerLoginScRsp, .{});
 }
 
 pub fn onKeepAliveNotify(_: *NetContext, _: protocol.ByName(.KeepAliveNotify)) !void {}
@@ -82,17 +82,17 @@ pub fn onGetSelfBasicInfoCsReq(context: *NetContext, _: protocol.ByName(.GetSelf
     return protocol.makeProto(.GetSelfBasicInfoScRsp, .{
         .retcode = 0,
         .self_basic_info = info,
-    }, context.arena);
+    });
 }
 
-pub fn onGetServerTimestampCsReq(context: *NetContext, _: protocol.ByName(.GetServerTimestampCsReq)) !protocol.ByName(.GetServerTimestampScRsp) {
+pub fn onGetServerTimestampCsReq(_: *NetContext, _: protocol.ByName(.GetServerTimestampCsReq)) !protocol.ByName(.GetServerTimestampScRsp) {
     const timestamp: u64 = @intCast(std.time.milliTimestamp());
 
     return protocol.makeProto(.GetServerTimestampScRsp, .{
         .retcode = 0,
         .utc_offset = 3,
         .timestamp = timestamp,
-    }, context.arena);
+    });
 }
 
 pub fn onModAvatarCsReq(context: *NetContext, req: protocol.ByName(.ModAvatarCsReq)) !protocol.ByName(.ModAvatarScRsp) {
@@ -114,23 +114,23 @@ pub fn onModAvatarCsReq(context: *NetContext, req: protocol.ByName(.ModAvatarCsR
 
     return protocol.makeProto(.ModAvatarScRsp, .{
         .retcode = 0,
-    }, context.arena);
+    });
 }
 
 pub fn onGetHadalZoneDataCsReq(context: *NetContext, _: protocol.ByName(.GetHadalZoneDataCsReq)) !protocol.ByName(.GetHadalZoneDataScRsp) {
-    var rsp = protocol.makeProto(.GetHadalZoneDataScRsp, .{}, context.arena);
+    var rsp = protocol.makeProto(.GetHadalZoneDataScRsp, .{});
 
     for (context.session.globals.gameplay_settings.hadal_entrance_list) |entrance| {
         var cur_zone_record = protocol.makeProto(.ZoneRecord, .{
             .zone_id = entrance.zone_id,
-        }, context.arena);
+        });
 
         for (context.session.globals.templates.zone_info_template_tb.payload.data) |zone_info_template| {
             if (zone_info_template.zone_id == entrance.zone_id) {
                 const layer_record = protocol.makeProto(.LayerRecord, .{
                     .layer_index = @as(u32, @intCast(zone_info_template.layer_index)),
                     .status = 4, // Completion status
-                }, context.arena);
+                });
 
                 try protocol.addToList(context.arena, &cur_zone_record, .layer_record_list, layer_record);
             }
@@ -148,7 +148,7 @@ pub fn onGetHadalZoneDataCsReq(context: *NetContext, _: protocol.ByName(.GetHada
             .entrance_id = entrance.entrance_id,
             .state = 3,
             .cur_zone_record = cur_zone_record,
-        }, context.arena);
+        });
 
         try protocol.addToList(context.arena, &rsp, .hadal_entrance_list, entrance_info);
     }
@@ -192,5 +192,5 @@ pub fn onStartHadalZoneBattleCsReq(context: *NetContext, req: protocol.ByName(.S
         break :blk 0;
     };
 
-    return protocol.makeProto(.StartHadalZoneBattleScRsp, .{ .retcode = retcode }, context.arena);
+    return protocol.makeProto(.StartHadalZoneBattleScRsp, .{ .retcode = retcode });
 }

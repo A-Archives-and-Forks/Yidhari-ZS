@@ -14,6 +14,7 @@ const UnionDecodingError = protobuf.UnionDecodingError;
 const google_protobuf = @import("../protobuf.pb.zig");
 
 pub const Version = struct {
+    pb: protobuf.ProtobufMixins(@This()) = .{},
     major: ?i32 = null,
     minor: ?i32 = null,
     patch: ?i32 = null,
@@ -25,61 +26,13 @@ pub const Version = struct {
         .patch = fd(3, null, .{ .Varint = .Simple }),
         .suffix = fd(4, null, .String),
     };
-
-    pub fn encode(self: @This(), writer: *std.Io.Writer) std.Io.Writer.Error!void {
-        return protobuf.encodeMessage(self, writer);
-    }
-    pub fn encodingLength(self: @This()) usize {
-        return protobuf.messageEncodingLength(self);
-    }
-    pub fn decode(input: []const u8, allocator: Allocator) UnionDecodingError!@This() {
-        return protobuf.decodeMessage(@This(), input, allocator);
-    }
-    pub fn init(allocator: Allocator) @This() {
-        return protobuf.initMessage(@This(), allocator);
-    }
-    pub fn deinit(self: @This(), allocator: Allocator) void {
-        return protobuf.deinitializeMessage(self, allocator);
-    }
-    pub fn dupe(self: @This(), allocator: Allocator) Allocator.Error!@This() {
-        return protobuf.dupeMessage(@This(), self, allocator);
-    }
-    pub fn json_decode(
-        input: []const u8,
-        options: json.ParseOptions,
-        allocator: Allocator,
-    ) !std.json.Parsed(@This()) {
-        return protobuf.deserializeMessage(@This(), input, options, allocator);
-    }
-    pub fn json_encode(
-        self: @This(),
-        options: json.StringifyOptions,
-        allocator: Allocator,
-    ) ![]const u8 {
-        return protobuf.serializeMessage(self, options, allocator);
-    }
-
-    // This method is used by std.json
-    // internally for deserialization. DO NOT RENAME!
-    pub fn jsonParse(
-        allocator: Allocator,
-        source: anytype,
-        options: json.ParseOptions,
-    ) !@This() {
-        return protobuf.parseMessageFromJson(@This(), allocator, source, options);
-    }
-
-    // This method is used by std.json
-    // internally for serialization. DO NOT RENAME!
-    pub fn jsonStringify(self: *const @This(), jws: anytype) !void {
-        return protobuf.stringifyMessageAsJson(@This(), self, jws);
-    }
 };
 
 pub const CodeGeneratorRequest = struct {
-    file_to_generate: ArrayList(ManagedString),
+    pb: protobuf.ProtobufMixins(@This()) = .{},
+    file_to_generate: ArrayList(ManagedString) = .empty,
     parameter: ?ManagedString = null,
-    proto_file: ArrayList(google_protobuf.FileDescriptorProto),
+    proto_file: ArrayList(google_protobuf.FileDescriptorProto) = .empty,
     compiler_version: ?Version = null,
 
     pub const _desc_table = .{
@@ -88,61 +41,13 @@ pub const CodeGeneratorRequest = struct {
         .proto_file = fd(15, null, .{ .List = .{ .SubMessage = {} } }),
         .compiler_version = fd(3, null, .{ .SubMessage = {} }),
     };
-
-    pub fn encode(self: @This(), writer: *std.Io.Writer) std.Io.Writer.Error!void {
-        return protobuf.encodeMessage(self, writer);
-    }
-    pub fn encodingLength(self: @This()) usize {
-        return protobuf.messageEncodingLength(self);
-    }
-    pub fn decode(input: []const u8, allocator: Allocator) UnionDecodingError!@This() {
-        return protobuf.decodeMessage(@This(), input, allocator);
-    }
-    pub fn init(allocator: Allocator) @This() {
-        return protobuf.initMessage(@This(), allocator);
-    }
-    pub fn deinit(self: @This(), allocator: Allocator) void {
-        return protobuf.deinitializeMessage(self, allocator);
-    }
-    pub fn dupe(self: @This(), allocator: Allocator) Allocator.Error!@This() {
-        return protobuf.dupeMessage(@This(), self, allocator);
-    }
-    pub fn json_decode(
-        input: []const u8,
-        options: json.ParseOptions,
-        allocator: Allocator,
-    ) !std.json.Parsed(@This()) {
-        return protobuf.deserializeMessage(@This(), input, options, allocator);
-    }
-    pub fn json_encode(
-        self: @This(),
-        options: json.StringifyOptions,
-        allocator: Allocator,
-    ) ![]const u8 {
-        return protobuf.serializeMessage(self, options, allocator);
-    }
-
-    // This method is used by std.json
-    // internally for deserialization. DO NOT RENAME!
-    pub fn jsonParse(
-        allocator: Allocator,
-        source: anytype,
-        options: json.ParseOptions,
-    ) !@This() {
-        return protobuf.parseMessageFromJson(@This(), allocator, source, options);
-    }
-
-    // This method is used by std.json
-    // internally for serialization. DO NOT RENAME!
-    pub fn jsonStringify(self: *const @This(), jws: anytype) !void {
-        return protobuf.stringifyMessageAsJson(@This(), self, jws);
-    }
 };
 
 pub const CodeGeneratorResponse = struct {
+    pb: protobuf.ProtobufMixins(@This()) = .{},
     @"error": ?ManagedString = null,
     supported_features: ?u64 = null,
-    file: ArrayList(CodeGeneratorResponse.File),
+    file: ArrayList(CodeGeneratorResponse.File) = .empty,
 
     pub const _desc_table = .{
         .@"error" = fd(1, null, .String),
@@ -157,6 +62,7 @@ pub const CodeGeneratorResponse = struct {
     };
 
     pub const File = struct {
+        pb: protobuf.ProtobufMixins(@This()) = .{},
         name: ?ManagedString = null,
         insertion_point: ?ManagedString = null,
         content: ?ManagedString = null,
@@ -168,103 +74,5 @@ pub const CodeGeneratorResponse = struct {
             .content = fd(15, null, .String),
             .generated_code_info = fd(16, null, .{ .SubMessage = {} }),
         };
-
-        pub fn encode(self: @This(), writer: *std.Io.Writer) std.Io.Writer.Error!void {
-            return protobuf.encodeMessage(self, writer);
-        }
-        pub fn encodingLength(self: @This()) usize {
-            return protobuf.messageEncodingLength(self);
-        }
-        pub fn decode(input: []const u8, allocator: Allocator) UnionDecodingError!@This() {
-            return protobuf.decodeMessage(@This(), input, allocator);
-        }
-        pub fn init(allocator: Allocator) @This() {
-            return protobuf.initMessage(@This(), allocator);
-        }
-        pub fn deinit(self: @This(), allocator: Allocator) void {
-            return protobuf.deinitializeMessage(self, allocator);
-        }
-        pub fn dupe(self: @This(), allocator: Allocator) Allocator.Error!@This() {
-            return protobuf.dupeMessage(@This(), self, allocator);
-        }
-        pub fn json_decode(
-            input: []const u8,
-            options: json.ParseOptions,
-            allocator: Allocator,
-        ) !std.json.Parsed(@This()) {
-            return protobuf.deserializeMessage(@This(), input, options, allocator);
-        }
-        pub fn json_encode(
-            self: @This(),
-            options: json.StringifyOptions,
-            allocator: Allocator,
-        ) ![]const u8 {
-            return protobuf.serializeMessage(self, options, allocator);
-        }
-
-        // This method is used by std.json
-        // internally for deserialization. DO NOT RENAME!
-        pub fn jsonParse(
-            allocator: Allocator,
-            source: anytype,
-            options: json.ParseOptions,
-        ) !@This() {
-            return protobuf.parseMessageFromJson(@This(), allocator, source, options);
-        }
-
-        // This method is used by std.json
-        // internally for serialization. DO NOT RENAME!
-        pub fn jsonStringify(self: *const @This(), jws: anytype) !void {
-            return protobuf.stringifyMessageAsJson(@This(), self, jws);
-        }
     };
-
-    pub fn encode(self: @This(), writer: *std.Io.Writer) std.Io.Writer.Error!void {
-        return protobuf.encodeMessage(self, writer);
-    }
-    pub fn encodingLength(self: @This()) usize {
-        return protobuf.messageEncodingLength(self);
-    }
-    pub fn decode(input: []const u8, allocator: Allocator) UnionDecodingError!@This() {
-        return protobuf.decodeMessage(@This(), input, allocator);
-    }
-    pub fn init(allocator: Allocator) @This() {
-        return protobuf.initMessage(@This(), allocator);
-    }
-    pub fn deinit(self: @This(), allocator: Allocator) void {
-        return protobuf.deinitializeMessage(self, allocator);
-    }
-    pub fn dupe(self: @This(), allocator: Allocator) Allocator.Error!@This() {
-        return protobuf.dupeMessage(@This(), self, allocator);
-    }
-    pub fn json_decode(
-        input: []const u8,
-        options: json.ParseOptions,
-        allocator: Allocator,
-    ) !std.json.Parsed(@This()) {
-        return protobuf.deserializeMessage(@This(), input, options, allocator);
-    }
-    pub fn json_encode(
-        self: @This(),
-        options: json.StringifyOptions,
-        allocator: Allocator,
-    ) ![]const u8 {
-        return protobuf.serializeMessage(self, options, allocator);
-    }
-
-    // This method is used by std.json
-    // internally for deserialization. DO NOT RENAME!
-    pub fn jsonParse(
-        allocator: Allocator,
-        source: anytype,
-        options: json.ParseOptions,
-    ) !@This() {
-        return protobuf.parseMessageFromJson(@This(), allocator, source, options);
-    }
-
-    // This method is used by std.json
-    // internally for serialization. DO NOT RENAME!
-    pub fn jsonStringify(self: *const @This(), jws: anytype) !void {
-        return protobuf.stringifyMessageAsJson(@This(), self, jws);
-    }
 };

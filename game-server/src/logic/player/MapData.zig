@@ -47,7 +47,7 @@ pub fn unlockAll(self: *Self, tmpl: *const TemplateCollection) !void {
 }
 
 pub fn toProto(self: *Self, allocator: Allocator) !protocol.ByName(.AreaMapData) {
-    var data = protocol.makeProto(.AreaMapData, .{}, allocator);
+    var data = protocol.makeProto(.AreaMapData, .{});
 
     var streets = self.street.iterator();
     while (streets.next()) |entry| {
@@ -60,7 +60,7 @@ pub fn toProto(self: *Self, allocator: Allocator) !protocol.ByName(.AreaMapData)
             .is_urban_area_show = street.is_urban_area_show != 0,
             .is_3d_area_show = street.is_3d_area_show != 0,
             .is_unlocked = true,
-        }, allocator));
+        }));
     }
 
     var groups = self.group.iterator();
@@ -71,7 +71,7 @@ pub fn toProto(self: *Self, allocator: Allocator) !protocol.ByName(.AreaMapData)
             .group_id = group.group_id,
             .area_progress = group.progress,
             .is_unlocked = true,
-        }, allocator));
+        }));
     }
 
     return data;

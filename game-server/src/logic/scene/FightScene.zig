@@ -38,16 +38,16 @@ pub fn clearTransitionState(self: *Self) bool {
     return false;
 }
 
-pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.SceneData) {
+pub fn toProto(self: *const Self, _: Allocator) !ByName(.SceneData) {
     const fight_data = protocol.makeProto(.FightSceneData, .{
-        .scene_reward = protocol.makeProto(.SceneRewardInfo, .{}, allocator),
-        .scene_perform = protocol.makeProto(.ScenePerformInfo, .{}, allocator),
-    }, allocator);
+        .scene_reward = protocol.makeProto(.SceneRewardInfo, .{}),
+        .scene_perform = protocol.makeProto(.ScenePerformInfo, .{}),
+    });
 
     return protocol.makeProto(.SceneData, .{
         .scene_type = @intFromEnum(SceneType.fight),
         .scene_id = self.scene_id,
         .play_type = self.play_type,
         .fight_scene_data = fight_data,
-    }, allocator);
+    });
 }

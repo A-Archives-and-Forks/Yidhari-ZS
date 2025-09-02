@@ -7,8 +7,8 @@ const protocol = @import("protocol");
 pub fn onGetTimeInfoCsReq(context: *NetContext, _: protocol.ByName(.GetTimeInfoCsReq)) !protocol.ByName(.GetTimeInfoScRsp) {
     return protocol.makeProto(.GetTimeInfoScRsp, .{
         .retcode = 0,
-        .time_info = try context.session.player_info.?.time_info.toProto(context.arena),
-    }, context.arena);
+        .time_info = context.session.player_info.?.time_info.toProto(),
+    });
 }
 
 pub fn onModMainCityTimeCsReq(context: *NetContext, req: protocol.ByName(.ModMainCityTimeCsReq)) !protocol.ByName(.ModMainCityTimeScRsp) {
@@ -36,5 +36,5 @@ pub fn onModMainCityTimeCsReq(context: *NetContext, req: protocol.ByName(.ModMai
 
     return protocol.makeProto(.ModMainCityTimeScRsp, .{
         .retcode = retcode,
-    }, context.arena);
+    });
 }

@@ -60,7 +60,7 @@ pub fn toProto(self: *const @This(), allocator: Allocator) !ByName(.BuddyInfo) {
         .star = self.star,
         .rank = self.rank,
         .is_favorite = self.is_favorite,
-    }, allocator);
+    });
 
     for (self.skill_type_level) |entry| {
         const skill_type, const level = entry;
@@ -68,7 +68,7 @@ pub fn toProto(self: *const @This(), allocator: Allocator) !ByName(.BuddyInfo) {
         try protocol.addToList(allocator, &proto, .skill_type_level, protocol.makeProto(.BuddySkillLevel, .{
             .skill_type = @intFromEnum(skill_type),
             .level = level,
-        }, allocator));
+        }));
     }
 
     return proto;

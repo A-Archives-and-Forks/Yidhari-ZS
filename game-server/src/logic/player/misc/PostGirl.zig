@@ -28,13 +28,13 @@ pub fn deinit(self: *Self) void {
 }
 
 pub fn toProto(self: *const Self, misc_data: *ByName(.MiscData), allocator: Allocator) !void {
-    var proto = protocol.makeProto(.PostGirlInfo, .{}, allocator);
+    var proto = protocol.makeProto(.PostGirlInfo, .{});
 
     for (self.unlocked_post_girl.values()) |id| {
         try protocol.addToList(allocator, &proto, .post_girl_item_list, protocol.makeProto(.PostGirlItem, .{
             .id = id,
             .unlock_time = 1000,
-        }, allocator));
+        }));
     }
 
     for (self.show_post_girl.values()) |id| {
@@ -51,13 +51,13 @@ pub fn isChanged(self: *const Self) bool {
 }
 
 pub fn ackSync(self: *const Self, misc_sync: *ByName(.MiscSync), allocator: Allocator) !void {
-    var proto = protocol.makeProto(.PostGirlSync, .{}, allocator);
+    var proto = protocol.makeProto(.PostGirlSync, .{});
 
     for (self.show_post_girl.values()) |id| {
         try protocol.addToList(allocator, &proto, .new_post_girl_item_list, protocol.makeProto(.PostGirlItem, .{
             .id = id,
             .unlock_time = 1000,
-        }, allocator));
+        }));
     }
 
     for (self.show_post_girl.values()) |id| {

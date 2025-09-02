@@ -7,13 +7,13 @@ pub fn onGetAreaMapDataCsReq(context: *NetContext, _: protocol.ByName(.GetAreaMa
     return protocol.makeProto(.GetAreaMapDataScRsp, .{
         .retcode = 0,
         .data = try context.session.player_info.?.map_data.toProto(context.arena),
-    }, context.arena);
+    });
 }
 
-pub fn onGetNewAreaPortalListCsReq(context: *NetContext, _: protocol.ByName(.GetNewAreaPortalListCsReq)) !protocol.ByName(.GetNewAreaPortalListScRsp) {
+pub fn onGetNewAreaPortalListCsReq(_: *NetContext, _: protocol.ByName(.GetNewAreaPortalListCsReq)) !protocol.ByName(.GetNewAreaPortalListScRsp) {
     return protocol.makeProto(.GetNewAreaPortalListScRsp, .{
         .retcode = 0,
-    }, context.arena);
+    });
 }
 
 pub fn onUrbanAreaShowCsReq(context: *NetContext, req: protocol.ByName(.UrbanAreaShowCsReq)) !protocol.ByName(.UrbanAreaShowScRsp) {
@@ -32,5 +32,5 @@ pub fn onUrbanAreaShowCsReq(context: *NetContext, req: protocol.ByName(.UrbanAre
 
     return protocol.makeProto(.UrbanAreaShowScRsp, .{
         .retcode = 0,
-    }, context.arena);
+    });
 }

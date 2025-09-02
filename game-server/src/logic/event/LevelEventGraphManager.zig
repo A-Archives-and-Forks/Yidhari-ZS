@@ -56,7 +56,7 @@ pub fn flushNetEvents(self: *Self, context: anytype) !void {
         const graph = entry.value_ptr.*;
 
         if (shouldNotifyEventToClient(graph)) {
-            var notify = protocol.makeProto(.SectionEventScNotify, .{ .section_id = graph.section_id }, context.arena);
+            var notify = protocol.makeProto(.SectionEventScNotify, .{ .section_id = graph.section_id });
 
             for (graph.last_run_nodes.items) |node_action| {
                 switch (node_action.inner) {
@@ -64,12 +64,12 @@ pub fn flushNetEvents(self: *Self, context: anytype) !void {
                         const Action = @TypeOf(action);
                         if (@hasDecl(Action, "toProto")) {
                             const proto = try action.toProto(self.gpa);
-                            defer proto.deinit(self.gpa);
+                            defer proto.pb.deinit(self.gpa);
 
                             var writer = std.Io.Writer.Allocating.init(context.arena);
                             defer writer.deinit();
 
-                            try proto.encode(&writer.writer);
+                            try proto.pb.encode(&writer.writer);
                             const action_data = try writer.toOwnedSlice();
 
                             const action_type = @intFromEnum(std.meta.activeTag(node_action.inner));
@@ -77,7 +77,7 @@ pub fn flushNetEvents(self: *Self, context: anytype) !void {
                             const action_info = protocol.makeProto(.ActionInfo, .{
                                 .body = protocol.protobuf.ManagedString.move(action_data, context.arena),
                                 .action_type = action_type,
-                            }, context.arena);
+                            });
 
                             try protocol.addToList(context.arena, &notify, .action_list, action_info);
                         }
