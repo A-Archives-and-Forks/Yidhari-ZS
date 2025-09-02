@@ -1,3 +1,6 @@
+const std = @import("std");
+const TemplateCollection = @import("TemplateCollection.zig");
+
 pub const AvatarBaseTemplate = struct {
     id: u32,
     camp: u8,
@@ -243,9 +246,67 @@ pub const LayerInfoTemplate = struct {
     weather_list: [][]const u8 = &.{},
 };
 
+pub const QuestType = enum(u32) {
+    training = 17,
+};
+
+pub const QuestConfigTemplate = struct {
+    quest_id: u32,
+    quest_name: []const u8,
+    quest_type: u32,
+    desc: []const u8,
+    target_desc: []const u8,
+    quest_desc: []const u8,
+    icon: []const u8,
+    auto_finish: bool,
+    unlock_condition: []const u8,
+    finish_condition: []const u8,
+
+    pub const QuestConfigExt = union(QuestType) {
+        training: *const TrainingQuestTemplate,
+
+        pub fn getSceneId(self: @This()) ?u32 {
+            return switch (self) {
+                .training => |training| training.battle_event_id,
+                // TODO: uncomment this when there will be other quest types that don't have scene bound to them.
+                // else => null,
+            };
+        }
+    };
+
+    pub fn getExtendedTemplate(self: *const @This(), collection: *const TemplateCollection) !QuestConfigExt {
+        const quest_type: QuestType = std.meta.intToEnum(QuestType, self.quest_type) catch return error.UnknownQuestType; // Quest type is not implemented yet
+
+        switch (quest_type) {
+            inline else => |quest_type_case| {
+                const template = collection.getConfigByKey(@tagName(quest_type_case) ++ "_quest_template_tb", self.quest_id) orelse return error.MissingQuestTemplate;
+                return @unionInit(QuestConfigExt, @tagName(quest_type_case), template);
+            },
+        }
+    }
+};
+
 pub const HadalZoneQuestTemplate = struct {
     quest_id: u32,
     layer_id: u32,
+};
+
+pub const TrainingQuestTemplate = struct {
+    id: u32,
+    training_type: u32,
+    battle_event_id: u32,
+    special_training_name: []const u8,
+    special_training_icon: []const u8,
+};
+
+pub const BattleEventConfigTemplate = struct {
+    id: u32,
+    level_design_id: u32,
+    unlock_condition: []const u8,
+    play_type: u32,
+    desc: []const u8,
+    normal_drop: []const u8,
+    special_reward: []const u32 = &.{},
 };
 
 pub const AvatarTemplateConfiguration = struct {

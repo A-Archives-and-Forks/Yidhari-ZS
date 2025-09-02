@@ -4,6 +4,7 @@ const NetContext = @import("../net/NetContext.zig");
 const GameMode = @import("../logic/GameMode.zig");
 const protocol = @import("protocol");
 
+const templates = @import("../data/templates.zig");
 const Avatar = @import("../logic/player/Avatar.zig");
 const AvatarUnit = @import("../logic/battle/AvatarUnit.zig");
 const ItemData = @import("../logic/player/ItemData.zig");
@@ -45,18 +46,35 @@ pub fn onAbyssArpeggioGetDataCsReq(_: *NetContext, _: protocol.ByName(.AbyssArpe
 pub fn onStartTrainingQuestCsReq(context: *NetContext, req: protocol.ByName(.StartTrainingQuestCsReq)) !protocol.ByName(.StartTrainingQuestScRsp) {
     std.log.debug("StartTrainingQuest: {}", .{req});
 
-    if (context.session.game_mode != null) {
-        context.session.game_mode.?.deinit();
-    }
+    const retcode: i32 = blk: {
+        const quest_id = protocol.getField(req, .quest_id, u32) orelse 0;
+        const avatar_id_list: std.ArrayList(u32) = protocol.getField(req, .avatar_id_list, std.ArrayList(u32)) orelse .empty;
 
-    const avatar_id_list = protocol.getField(req, .avatar_id_list, std.ArrayList(u32)) orelse return error.AvatarIdListNotDefined;
+        const quest_config = context.session.globals.templates.getConfigByKey(.quest_config_template_tb, quest_id) orelse {
+            std.log.debug("StartTrainingQuest: quest with id {} doesn't exist", .{quest_id});
+            break :blk 1;
+        };
 
-    context.session.game_mode = try GameMode.loadFightState(
-        &context.session.player_info.?,
-        &context.session.globals.templates,
-        avatar_id_list.items,
-        context.gpa,
-    );
+        if (quest_config.quest_type != @intFromEnum(templates.QuestType.training)) {
+            std.log.debug("StartTrainingQuest: invalid quest type {}, id: {}", .{ quest_config.quest_type, quest_id });
+            break :blk 1;
+        }
 
-    return protocol.makeProto(.StartTrainingQuestScRsp, .{ .retcode = 0 });
+        if (context.session.game_mode != null) {
+            context.session.game_mode.?.deinit();
+        }
+
+        context.session.game_mode = try GameMode.loadFightState(
+            context.gpa,
+            &context.session.player_info.?,
+            &context.session.globals.templates,
+            quest_config,
+            avatar_id_list.items,
+            .training_room,
+        );
+
+        break :blk 0;
+    };
+
+    return protocol.makeProto(.StartTrainingQuestScRsp, .{ .retcode = retcode });
 }

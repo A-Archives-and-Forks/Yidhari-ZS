@@ -1,5 +1,5 @@
 const std = @import("std");
-const templates = @import("templates.zig");
+pub const templates = @import("templates.zig");
 
 const ArenaAllocator = std.heap.ArenaAllocator;
 
@@ -36,7 +36,10 @@ urban_area_map_template_tb: TemplateTb(templates.UrbanAreaMapTemplate, .area_id)
 urban_area_map_group_template_tb: TemplateTb(templates.UrbanAreaMapGroupTemplate, .area_group_id),
 zone_info_template_tb: TemplateTb(templates.ZoneInfoTemplate, .zone_id),
 layer_info_template_tb: TemplateTb(templates.LayerInfoTemplate, .layer_id),
+quest_config_template_tb: TemplateTb(templates.QuestConfigTemplate, .quest_id),
 hadal_zone_quest_template_tb: TemplateTb(templates.HadalZoneQuestTemplate, .layer_id),
+training_quest_template_tb: TemplateTb(templates.TrainingQuestTemplate, .id),
+battle_event_config_template_tb: TemplateTb(templates.BattleEventConfigTemplate, .id),
 
 pub fn load(gpa: std.mem.Allocator) !Self {
     @setEvalBranchQuota(1_000_000);
@@ -56,8 +59,15 @@ pub fn load(gpa: std.mem.Allocator) !Self {
     return collection;
 }
 
-pub fn getConfigByKey(self: *const Self, field: anytype, key: anytype) ?*const std.meta.Elem(@FieldType(@FieldType(@FieldType(Self, @tagName(field)), "payload"), "data")) {
-    const template_tb = @field(self, @tagName(field));
+fn TableItemType(comptime table_name: anytype) type {
+    const tb_name = if (@typeInfo(@TypeOf(table_name)) == .enum_literal) @tagName(table_name) else table_name;
+    return std.meta.Elem(@FieldType(@FieldType(@FieldType(Self, tb_name), "payload"), "data"));
+}
+
+pub fn getConfigByKey(self: *const Self, comptime table_name: anytype, key: anytype) ?*const TableItemType(table_name) {
+    const tb_name = if (@typeInfo(@TypeOf(table_name)) == .enum_literal) @tagName(table_name) else table_name;
+
+    const template_tb = @field(self, tb_name);
     const key_map = @field(template_tb, keyMapName(@TypeOf(template_tb)));
     const index = key_map.get(key) orelse return null;
 

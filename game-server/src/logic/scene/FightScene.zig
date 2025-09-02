@@ -4,16 +4,19 @@ const protocol = @import("protocol");
 const Allocator = std.mem.Allocator;
 const ByName = protocol.ByName;
 const String = protocol.protobuf.ManagedString;
-const SceneType = @import("../scene.zig").SceneType;
+const scene_base = @import("../scene.zig");
+
+const LocalPlayType = scene_base.LocalPlayType;
+const SceneType = scene_base.SceneType;
 
 const Self = @This();
 
 gpa: Allocator,
 scene_id: u32,
-play_type: u32,
+play_type: LocalPlayType,
 is_in_transition: bool = true,
 
-pub fn create(scene_id: u32, play_type: u32, gpa: Allocator) !*Self {
+pub fn create(scene_id: u32, play_type: LocalPlayType, gpa: Allocator) !*Self {
     const ptr = try gpa.create(Self);
 
     ptr.* = .{
@@ -45,9 +48,9 @@ pub fn toProto(self: *const Self, _: Allocator) !ByName(.SceneData) {
     });
 
     return protocol.makeProto(.SceneData, .{
-        .scene_type = @intFromEnum(SceneType.fight),
         .scene_id = self.scene_id,
-        .play_type = self.play_type,
+        .scene_type = @intFromEnum(SceneType.fight),
+        .play_type = @intFromEnum(self.play_type),
         .fight_scene_data = fight_data,
     });
 }

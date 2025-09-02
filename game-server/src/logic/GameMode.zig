@@ -6,10 +6,12 @@ const PlayerInfo = @import("player/PlayerInfo.zig");
 const HallScene = @import("scene/HallScene.zig");
 const FightScene = @import("scene/FightScene.zig");
 const HadalZoneScene = @import("scene/HadalZoneScene.zig");
-const Scene = @import("scene.zig").Scene;
 const Dungeon = @import("Dungeon.zig");
 const TemplateCollection = @import("../data/TemplateCollection.zig");
 const Allocator = std.mem.Allocator;
+
+const scene_base = @import("scene.zig");
+const Scene = scene_base.Scene;
 
 const Self = @This();
 
@@ -36,7 +38,14 @@ pub fn loadHallState(player_info: *PlayerInfo, globals: *const Globals, allocato
     };
 }
 
-pub fn loadFightState(player_info: *PlayerInfo, templates: *const TemplateCollection, avatar_ids: []const u32, allocator: Allocator) !Self {
+pub fn loadFightState(
+    allocator: Allocator,
+    player_info: *PlayerInfo,
+    templates: *const TemplateCollection,
+    quest: *const TemplateCollection.templates.QuestConfigTemplate,
+    avatar_ids: []const u32,
+    play_type: scene_base.LocalPlayType,
+) !Self {
     var dungeon = try Dungeon.init(player_info, templates, allocator);
     errdefer dungeon.deinit();
 
@@ -44,12 +53,18 @@ pub fn loadFightState(player_info: *PlayerInfo, templates: *const TemplateCollec
         try dungeon.addAvatarFighter(id, Dungeon.PackageType.player);
     }
 
-    // TODO: pass proper quest information, scene_id should be obtained from Quest/BattleEventTemplate
-    dungeon.setDungeonQuest(0, 12254000);
+    // TODO: maybe pass the pointer itself at this point?
+    dungeon.setDungeonQuest(quest.quest_type, quest.quest_id);
+
+    const extended_template = try quest.getExtendedTemplate(templates);
+    const scene_id = extended_template.getSceneId() orelse {
+        std.log.err("GameMode.loadFightState: got non-fight quest config, id: {}", .{quest.quest_id});
+        return error.InvalidQuestType;
+    };
 
     return .{
         .allocator = allocator,
-        .scene = .{ .fight = try FightScene.create(19800014, 290, allocator) },
+        .scene = .{ .fight = try FightScene.create(scene_id, play_type, allocator) },
         .dungeon = dungeon,
     };
 }
