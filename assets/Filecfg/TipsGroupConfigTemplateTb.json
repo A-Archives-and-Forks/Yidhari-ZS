@@ -406,6 +406,11 @@
       "priority": 1
     },
     {
+      "tips_group_id": 2013,
+      "group_icon": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle2027_1.png",
+      "priority": 1
+    },
+    {
       "tips_group_id": 2021,
       "group_icon": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle2015.png",
       "priority": 1
@@ -423,6 +428,11 @@
     {
       "tips_group_id": 2024,
       "group_icon": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30030.png",
+      "priority": 1
+    },
+    {
+      "tips_group_id": 2025,
+      "group_icon": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle2015_1.png",
       "priority": 1
     },
     {
@@ -1832,7 +1842,7 @@
     },
     {
       "tips_group_id": 20000051,
-      "group_icon": "",
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle48.png",
       "priority": 0
     },
     {
@@ -2247,7 +2257,7 @@
     },
     {
       "tips_group_id": 20000134,
-      "group_icon": "",
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle52.png",
       "priority": 0
     },
     {
@@ -2262,7 +2272,7 @@
     },
     {
       "tips_group_id": 20000137,
-      "group_icon": "",
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle50.png",
       "priority": 0
     },
     {

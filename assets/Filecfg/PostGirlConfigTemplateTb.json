@@ -321,6 +321,22 @@
       "role_icon_name": ""
     },
     {
+      "id": 3510038,
+      "name": "Avatar_Female_Size02_Seed",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510039,
+      "name": "Avatar_Female_Size02_Brujas",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
       "id": 3550000,
       "name": "LiveWallpaper_Activity001",
       "unk_1": 0,

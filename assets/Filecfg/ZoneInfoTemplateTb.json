@@ -6782,9 +6782,9 @@
     },
     {
       "zone_id": 69024,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C24\u671F3\u2014\u2014\u5E9E\u57F9\u4E9A\u79CD",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C24\u671F3\u2014\u2014\u6885\u82E5\u62C9\u53EF",
       "on_schedule": true,
-      "name": "OfficialName_Monster_NotoriousPompey",
+      "name": "OfficialName_Monster_MentorMevorakh",
       "layer_id": 6902403,
       "layer_index": 3,
       "unk_6": 0,
@@ -7902,9 +7902,9 @@
     },
     {
       "zone_id": 690241,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C24\u671FBeta\u6D4B\u8BD53\u2014\u2014\u5E9E\u57F9\u4E9A\u79CD",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C24\u671FBeta\u6D4B\u8BD53\u2014\u2014\u6885\u82E5\u62C9\u53EF",
       "on_schedule": true,
-      "name": "OfficialName_Monster_NotoriousPompey",
+      "name": "OfficialName_Monster_MentorMevorakh",
       "layer_id": 6902403,
       "layer_index": 3,
       "unk_6": 0,

@@ -218,16 +218,16 @@
     },
     {
       "section_id": 252,
-      "section_photo": "Photo_SectionName_251",
+      "section_photo": "Photo_SectionName_252",
       "name": "Stage_Story_MonsterFantasy_2",
       "default_transform": "MonsterFantasy_2_PlayerPos_Default",
       "alternative_born_transform": "MonsterFantasy_2_PlayerPos_Default",
       "unk_3": 3,
-      "section_name": "SectionName_ConstructionSite_3_4"
+      "section_name": "SectionName_MonsterFantasy_2"
     },
     {
       "section_id": 253,
-      "section_photo": "Photo_SectionName_251",
+      "section_photo": "Photo_SectionName_253",
       "name": "Stage_Story_MonsterFantasy_1",
       "default_transform": "MonsterFantasy_1_PlayerPos_Default",
       "alternative_born_transform": "MonsterFantasy_1_PlayerPos_Default",

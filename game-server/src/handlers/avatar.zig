@@ -179,11 +179,11 @@ pub fn onAvatarSkinDressCsReq(context: *NetContext, req: protocol.ByName(.Avatar
         std.log.debug("AvatarSkinDress: skin {} doesn't exist", .{avatar_skin_id});
         return protocol.makeProto(.AvatarSkinDressScRsp, .{
             .retcode = 1,
-        }, context.arena);
+        });
     };
 
     if (template.avatar_id != avatar_id) {
-        std.log.debug("AvatarSkinDress: skin {} doesn't matcha avatar_id: {}", .{ avatar_skin_id, avatar_id });
+        std.log.debug("AvatarSkinDress: skin {} doesn't match avatar_id: {}", .{ avatar_skin_id, avatar_id });
         return protocol.makeProto(.AvatarSkinDressScRsp, .{
             .retcode = 1,
         });

@@ -316,6 +316,20 @@
       "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconSupport.png"
     },
     {
+      "id": 12254045,
+      "training_type": 2,
+      "battle_event_id": 19810045,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_45",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconAnomaly.png"
+    },
+    {
+      "id": 12254046,
+      "training_type": 2,
+      "battle_event_id": 19810046,
+      "special_training_name": "TrainingRoomTxt_SpecialTraining_Name_46",
+      "special_training_icon": "UI/Sprite/A1DynamicLoad/TrainingCourse/UnPacker/TrainingSkill/IconRupture.png"
+    },
+    {
       "id": 12255001,
       "training_type": 3,
       "battle_event_id": 70200005,

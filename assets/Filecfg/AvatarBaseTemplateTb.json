@@ -353,6 +353,17 @@
       "camp": 9
     },
     {
+      "id": 1341,
+      "code_name": "Avatar_Female_Size00_XiaoZhao_En",
+      "name": "Avatar_Female_Size00_XiaoZhao",
+      "full_name": "Avatar_Female_Size00_XiaoZhao_FullName",
+      "audio_event_replace_param": "xiaozhao",
+      "audio_bank": "BK_XiaoZhao|BK_CHR_Common|BK_XiaoZhao_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 0
+    },
+    {
       "id": 1351,
       "code_name": "Avatar_Female_Size03_Pulchra_En",
       "name": "Avatar_Female_Size03_Pulchra",
