@@ -4552,13 +4552,19 @@
         "Size3",
         "AidTypeParry",
         "Norano",
-        "EtherEyesSize3"
+        "EtherEyesSize2"
       ],
       "unk_68": [
 
       ],
       "unk_69": [
 
+      ],
+      "unk_70": [
+        1,
+        5,
+        6,
+        19
       ],
       "weapon_type": 6,
       "element": [
@@ -4604,10 +4610,10 @@
       "unk_18": 0,
       "unk_19": 0,
       "unk_20": 0,
-      "attack": 108,
-      "attack_growth": 63517,
+      "attack": 109,
+      "attack_growth": 64272,
       "defence": 48,
-      "defence_growth": 65524,
+      "defence_growth": 64845,
       "crit": 500,
       "crit_damage": 5000,
       "crit_res": 0,
@@ -4666,6 +4672,9 @@
       ],
       "unk_69": [
 
+      ],
+      "unk_70": [
+        1
       ],
       "weapon_type": 4,
       "element": [
@@ -4759,7 +4768,8 @@
       "unk_66": 3000,
       "tags": [
         "Seed",
-        "Pierce",
+        "Cut",
+        "Punch",
         "Electric",
         "Female",
         "Camp5",
@@ -4784,7 +4794,7 @@
         203
       ],
       "hit_type": [
-        103,
+        101,
         102
       ],
       "unk_element_camp": [
@@ -4798,6 +4808,113 @@
       "unk_80": 100,
       "rp_max": 0,
       "rp_recover": 0
+    },
+    {
+      "id": 1471,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5471,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 603,
+      "health_growth": 818426,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 95,
+      "attack_growth": 54230,
+      "defence": 49,
+      "defence_growth": 66882,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 118,
+      "element_abnormal_power": 94,
+      "sp_bar_point": 0,
+      "sp_recover": 0,
+      "element_mystery": 93,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 1903559297,
+      "unk_61": 2625382358,
+      "unk_62": 277324399,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "BanYue",
+        "Punch",
+        "Fire",
+        "Male",
+        "Camp1",
+        "Size3",
+        "AidTypeParry",
+        "BanYue",
+        "EtherEyesSize3"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "weapon_type": 6,
+      "element": [
+        201
+      ],
+      "hit_type": [
+        102
+      ],
+      "unk_element_camp": [
+        "1:1:2",
+        "2:203:2"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 120,
+      "rp_recover": 200
     },
     {
       "id": 2011,
@@ -5835,9 +5952,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        12984,
-        10968,
-        13444
+        13216,
+        11200,
+        13676
       ],
       "awake_ids": [
         119100
@@ -5955,9 +6072,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        13400,
-        11384,
-        13860
+        13632,
+        11616,
+        14092
       ],
       "awake_ids": [
         119100

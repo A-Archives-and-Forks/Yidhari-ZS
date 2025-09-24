@@ -7905,7 +7905,7 @@
       "hp_max": 936,
       "unk_5": 0,
       "unk_6": 0,
-      "attack": 77,
+      "attack": 78,
       "defence": 66,
       "unk_9": 0,
       "unk_10": 0,
@@ -7938,8 +7938,8 @@
       "hp_max": 1403,
       "unk_5": 0,
       "unk_6": 0,
-      "attack": 116,
-      "defence": 99,
+      "attack": 117,
+      "defence": 98,
       "unk_9": 0,
       "unk_10": 0,
       "unk_11": 0,
@@ -7971,8 +7971,8 @@
       "hp_max": 1871,
       "unk_5": 0,
       "unk_6": 0,
-      "attack": 154,
-      "defence": 133,
+      "attack": 156,
+      "defence": 131,
       "unk_9": 0,
       "unk_10": 0,
       "unk_11": 0,
@@ -8004,8 +8004,8 @@
       "hp_max": 2339,
       "unk_5": 0,
       "unk_6": 0,
-      "attack": 193,
-      "defence": 166,
+      "attack": 195,
+      "defence": 164,
       "unk_9": 0,
       "unk_10": 0,
       "unk_11": 0,
@@ -8196,6 +8196,197 @@
       "unk_5": 0,
       "unk_6": 0,
       "attack": 239,
+      "defence": 169,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 5,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+
+      ]
+    },
+    {
+      "avatar_id": 1471,
+      "id": 1,
+      "min_level": 0,
+      "max_level": 10,
+      "hp_max": 0,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 0,
+      "defence": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 24000
+        },
+        {
+          "item_id": 100216,
+          "number": 4
+        }
+      ]
+    },
+    {
+      "avatar_id": 1471,
+      "id": 2,
+      "min_level": 10,
+      "max_level": 20,
+      "hp_max": 455,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 39,
+      "defence": 34,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 1,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 56000
+        },
+        {
+          "item_id": 100226,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "avatar_id": 1471,
+      "id": 3,
+      "min_level": 20,
+      "max_level": 30,
+      "hp_max": 911,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 78,
+      "defence": 68,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 2,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 120000
+        },
+        {
+          "item_id": 100226,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1471,
+      "id": 4,
+      "min_level": 30,
+      "max_level": 40,
+      "hp_max": 1366,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 117,
+      "defence": 101,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 3,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 200000
+        },
+        {
+          "item_id": 100236,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "avatar_id": 1471,
+      "id": 5,
+      "min_level": 40,
+      "max_level": 50,
+      "hp_max": 1821,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 156,
+      "defence": 135,
+      "unk_9": 0,
+      "unk_10": 0,
+      "unk_11": 0,
+      "unk_12": 0,
+      "unk_13": 0,
+      "unk_14": 0,
+      "unk_15": 0,
+      "unk_16": 0,
+      "unk_17": 4,
+      "unk_18": [
+
+      ],
+      "promotion_costs": [
+        {
+          "item_id": 10,
+          "number": 400000
+        },
+        {
+          "item_id": 100236,
+          "number": 20
+        }
+      ]
+    },
+    {
+      "avatar_id": 1471,
+      "id": 6,
+      "min_level": 50,
+      "max_level": 60,
+      "hp_max": 2276,
+      "unk_5": 0,
+      "unk_6": 0,
+      "attack": 195,
       "defence": 169,
       "unk_9": 0,
       "unk_10": 0,

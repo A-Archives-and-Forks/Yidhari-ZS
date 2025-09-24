@@ -79,6 +79,14 @@
       "group_name": "WorldMap_UrbanMapGroupName_CN_12",
       "unk_6": true,
       "is_map_visible": true
+    },
+    {
+      "area_group_id": 110,
+      "unk_2": 0,
+      "unk_3": 0,
+      "group_name": "WorldMap_UrbanMapGroupName_MonsterFantasy_Map_Category",
+      "unk_6": true,
+      "is_map_visible": false
     }
   ]
 }
