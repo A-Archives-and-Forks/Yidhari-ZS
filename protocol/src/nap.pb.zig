@@ -10389,7 +10389,7 @@ pub const ACMABKJFNKB = struct {
     };
 };
 
-pub const CMJGDONHAKP = struct {
+pub const AvatarSetAwakeCsReq = struct {
     pub const cmd_id: u16 = 3211;
 
     pb: protobuf.ProtobufMixins(@This()) = .{},
