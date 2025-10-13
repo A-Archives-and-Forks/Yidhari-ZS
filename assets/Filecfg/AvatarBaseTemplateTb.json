@@ -485,6 +485,28 @@
       "camp": 5
     },
     {
+      "id": 1471,
+      "code_name": "Avatar_Male_Size03_BanYue_En",
+      "name": "Avatar_Male_Size03_BanYue",
+      "full_name": "Avatar_Male_Size03_BanYue_FullName",
+      "audio_event_replace_param": "banyue",
+      "audio_bank": "BK_BanYue|BK_CHR_Common|BK_BanYue_VO",
+      "unk_1": 0,
+      "gender": 1,
+      "camp": 11
+    },
+    {
+      "id": 1491,
+      "code_name": "Avatar_Female_Size01_Summer_En",
+      "name": "Avatar_Female_Size01_Summer",
+      "full_name": "Avatar_Female_Size01_Summer_FullName",
+      "audio_event_replace_param": "summer",
+      "audio_bank": "BK_Summer|BK_CHR_Common|BK_Summer_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 7
+    },
+    {
       "id": 2011,
       "code_name": "Avatar_Male_Size01_Wise_En",
       "name": "Avatar_Male_Size01_Wise",
@@ -557,6 +579,17 @@
       "full_name": "",
       "audio_event_replace_param": "mazingerGoldenBomb",
       "audio_bank": "BK_MazingerGoldenBomb",
+      "unk_1": 0,
+      "gender": 0,
+      "camp": 0
+    },
+    {
+      "id": 2036,
+      "code_name": "",
+      "name": "",
+      "full_name": "",
+      "audio_event_replace_param": "Eous",
+      "audio_bank": "BK_Eous",
       "unk_1": 0,
       "gender": 0,
       "camp": 0

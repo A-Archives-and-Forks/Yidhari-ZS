@@ -10420,8 +10420,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 6
+          "property": 21101,
+          "value": 960
         },
         {
           "property": 12101,
@@ -10455,8 +10455,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 6
+          "property": 21101,
+          "value": 960
         },
         {
           "property": 12101,
@@ -10475,7 +10475,7 @@
           "number": 12000
         },
         {
-          "item_id": 110503,
+          "item_id": 110510,
           "number": 2
         }
       ]
@@ -10494,8 +10494,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 12
+          "property": 21101,
+          "value": 1920
         },
         {
           "property": 12101,
@@ -10514,7 +10514,7 @@
           "number": 28000
         },
         {
-          "item_id": 110503,
+          "item_id": 110510,
           "number": 4
         }
       ]
@@ -10533,8 +10533,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 12
+          "property": 21101,
+          "value": 1920
         },
         {
           "property": 12101,
@@ -10553,11 +10553,11 @@
           "number": 60000
         },
         {
-          "item_id": 110503,
+          "item_id": 110510,
           "number": 9
         },
         {
-          "item_id": 110002,
+          "item_id": 110007,
           "number": 2
         }
       ]
@@ -10576,8 +10576,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 18
+          "property": 21101,
+          "value": 2880
         },
         {
           "property": 12101,
@@ -10596,11 +10596,11 @@
           "number": 100000
         },
         {
-          "item_id": 110503,
+          "item_id": 110510,
           "number": 15
         },
         {
-          "item_id": 110002,
+          "item_id": 110007,
           "number": 3
         }
       ]
@@ -10619,8 +10619,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 18
+          "property": 21101,
+          "value": 2880
         },
         {
           "property": 12101,
@@ -10639,11 +10639,11 @@
           "number": 200000
         },
         {
-          "item_id": 110503,
+          "item_id": 110510,
           "number": 30
         },
         {
-          "item_id": 110002,
+          "item_id": 110007,
           "number": 4
         }
       ]

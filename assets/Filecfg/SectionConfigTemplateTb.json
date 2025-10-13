@@ -235,6 +235,15 @@
       "section_name": "SectionName_MonsterFantasy_1"
     },
     {
+      "section_id": 254,
+      "section_photo": "Photo_SectionName_254",
+      "name": "BangbooMegaRobot_WhiteBase",
+      "default_transform": "BangbooMegaRobot_PlayerPos_Default",
+      "alternative_born_transform": "BangbooMegaRobot_PlayerPos_Default",
+      "unk_3": 3,
+      "section_name": "SectionName_BangbooMegaRobot"
+    },
+    {
       "section_id": 301,
       "section_photo": "",
       "name": "",
