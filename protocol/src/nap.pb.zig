@@ -55967,7 +55967,7 @@ pub const DDGHHGMHGKF = struct {
     pub const _desc_table = .{};
 };
 
-pub const GFKDCOILCCG = struct {
+pub const AvatarSetAwakeCsReq = struct {
     pub const cmd_id: u16 = 7500;
 
     pb: protobuf.ProtobufMixins(@This()) = .{},

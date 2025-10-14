@@ -91,10 +91,16 @@ pub fn toProto(self: *const Self, allocator: Allocator) !protocol.ByName(.Avatar
 
 // TODO: find out where this is actually configured
 const core_skill_specials = [_]struct { u32, PropertyType, PropertyType, [7]i32 }{
+    // Yidhari - 10% HP -> SheerForce
     .{ 1051, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
+    // Ben - 40-80% DEF -> ATK
     .{ 1121, PropertyType.Atk, PropertyType.Def, .{ 40, 46, 52, 60, 66, 72, 80 } },
+    // Yixuan - 10% HP -> SheerForce
     .{ 1371, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
+    // Komano Manato - 10% HP -> SheerForce
     .{ 1441, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
+    // BanYue - 10% HP -> SheerForce
+    .{ 1471, PropertyType.SkipDefAtk, PropertyType.HpMax, .{ 10, 10, 10, 10, 10, 10, 10 } },
 };
 
 fn applyCoreSkillBonus(self: *Self, level: u32) !void {
