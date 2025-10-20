@@ -337,6 +337,30 @@
       "role_icon_name": ""
     },
     {
+      "id": 3510040,
+      "name": "Avatar_Female_Size02_Lucia",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510041,
+      "name": "Avatar_Female_Size03_Yidhari",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
+      "id": 3510042,
+      "name": "Avatar_Male_Size03_Norano",
+      "unk_1": 0,
+      "unlock_condition": "",
+      "unk_3": 0,
+      "role_icon_name": ""
+    },
+    {
       "id": 3550000,
       "name": "LiveWallpaper_Activity001",
       "unk_1": 0,

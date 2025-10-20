@@ -5,8 +5,8 @@
     .hadal_entrance_list = .{
         .{ .entrance_id = 2, .zone_id = 61001 }, // Stable Node
         .{ .entrance_id = 3, .zone_id = 61002 }, // Disputed Node
-        .{ .entrance_id = 1, .zone_id = 62033 }, // Critical Node
-        .{ .entrance_id = 9, .zone_id = 69022 }, // Deadly Assault
+        .{ .entrance_id = 1, .zone_id = 62036 }, // Critical Node
+        .{ .entrance_id = 9, .zone_id = 69025 }, // Deadly Assault
     },
 
     // Overrides avatar parameters. By default they're maxed out.

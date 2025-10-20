@@ -3119,6 +3119,46 @@
         }
       ],
       "unk_3": 1
+    },
+    {
+      "item_id": 14148,
+      "weapon_name": "Weapon_S_1481",
+      "unk_missing_field": 0,
+      "base_property": {
+        "property": 12101,
+        "value": 48
+      },
+      "rand_property": {
+        "property": 21103,
+        "value": 1920
+      },
+      "star_limit": 4,
+      "exp_recycle": 30000,
+      "weapon_script_config": "Data/ScriptConfig/Character/Weapon_S_1481",
+      "weapon_ui_model": "UI/3D/Weapon/Weapon_S_1481",
+      "unk_1": 1,
+      "unk_missing_field_2": 0,
+      "unk_weapon_path": "Weapon/Weapon_S_1481",
+      "unk_missing_field_3": 0,
+      "refine_initial": 1,
+      "refine_limit": 5,
+      "unk_missing_field_4": 0,
+      "unk_missing_field_5": 0,
+      "unk_string_with_values": "10:12000,101011:4|10:28000,101021:12|10:60000,101021:20|10:100000,101031:10|10:200000,101031:20",
+      "unk_missing_field_6": 0,
+      "unk_2": 2,
+      "weapon_desc": "Item_Weapon_S_1481_Desc",
+      "weapon_release_tag": "",
+      "unk_empty_string": "",
+      "avatar_id": 1481,
+      "weapon_comment": "Weapon_S_1481_Comment",
+      "refine_costs": [
+        {
+          "item_id": 10,
+          "number": 2000
+        }
+      ],
+      "unk_3": 1
     }
   ]
 }

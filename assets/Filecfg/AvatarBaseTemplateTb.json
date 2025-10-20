@@ -496,6 +496,17 @@
       "camp": 11
     },
     {
+      "id": 1481,
+      "code_name": "Avatar_Female_Size01_Azural_En",
+      "name": "Avatar_Female_Size01_Azural",
+      "full_name": "Avatar_Female_Size01_Azural_FullName",
+      "audio_event_replace_param": "azural",
+      "audio_bank": "BK_Azural|BK_CHR_Common|BK_Azural_VO",
+      "unk_1": 0,
+      "gender": 2,
+      "camp": 7
+    },
+    {
       "id": 1491,
       "code_name": "Avatar_Female_Size01_Summer_En",
       "name": "Avatar_Female_Size01_Summer",
