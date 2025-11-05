@@ -7082,9 +7082,9 @@
     },
     {
       "zone_id": 69025,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671F1\u2014\u2014\u590D\u5408\u4FB5\u8680\u4F53",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671F1\u2014\u2014\u53CC\u5B50\u821E\u8005\u4E9A\u79CD",
       "on_schedule": true,
-      "name": "OfficialName_Monster_ComplexCorrupted",
+      "name": "OfficialName_Monster_NotoriousMarionette",
       "layer_id": 6902501,
       "layer_index": 1,
       "unk_6": 0,
@@ -7104,7 +7104,7 @@
       "zone_id": 69025,
       "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671F2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
       "on_schedule": true,
-      "name": "OfficialName_Monster_Sobek",
+      "name": "OfficialName_Monster_Awakener",
       "layer_id": 6902502,
       "layer_index": 2,
       "unk_6": 0,
@@ -7122,7 +7122,7 @@
     },
     {
       "zone_id": 69025,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C22\u671F3\u2014\u2014\u540D\u53EF\u540D",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671F3\u2014\u2014\u540D\u53EF\u540D",
       "on_schedule": true,
       "name": "OfficialName_Monster_NamelessOne",
       "layer_id": 6902503,
@@ -7162,9 +7162,9 @@
     },
     {
       "zone_id": 69026,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671F2\u2014\u2014\u6B7B\u8DEF\u5C60\u592B\u4E9A\u79CD",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671F2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
       "on_schedule": true,
-      "name": "OfficialName_Monster_NotoriousCottus",
+      "name": "OfficialName_Monster_Awakener",
       "layer_id": 6902602,
       "layer_index": 2,
       "unk_6": 0,
@@ -7182,70 +7182,10 @@
     },
     {
       "zone_id": 69026,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671F3\u2014\u2014\u4EB5\u6E0E\u8005\u4F0A\u745F\u5C14\u5FB7",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_IsoldetheDefiler",
-      "layer_id": 6902603,
-      "layer_index": 3,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 0,
-      "entrance_id": 9,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 69027,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F1\u2014\u2014\u5F77\u5FA8\u730E\u624B",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_WanderingHunter",
-      "layer_id": 6902701,
-      "layer_index": 1,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 69001,
-      "entrance_id": 9,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 69027,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_Sobek",
-      "layer_id": 6902702,
-      "layer_index": 2,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 0,
-      "entrance_id": 9,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 69027,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F3\u2014\u2014\u7272\u9B3C",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671F3\u2014\u2014\u7272\u9B3C",
       "on_schedule": true,
       "name": "OfficialName_Monster_SacrificeBringer",
-      "layer_id": 6902703,
+      "layer_id": 6902603,
       "layer_index": 3,
       "unk_6": 0,
       "unk_7": [
@@ -8062,9 +8002,9 @@
     },
     {
       "zone_id": 690251,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671FBeta1\u2014\u2014\u590D\u5408\u4FB5\u8680\u4F53",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671FBeta1\u2014\u2014\u53CC\u5B50\u821E\u8005\u4E9A\u79CD",
       "on_schedule": true,
-      "name": "OfficialName_Monster_ComplexCorrupted",
+      "name": "OfficialName_Monster_NotoriousMarionette",
       "layer_id": 6902501,
       "layer_index": 1,
       "unk_6": 0,
@@ -8084,7 +8024,7 @@
       "zone_id": 690251,
       "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671FBeta2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
       "on_schedule": true,
-      "name": "OfficialName_Monster_Sobek",
+      "name": "OfficialName_Monster_Awakener",
       "layer_id": 6902502,
       "layer_index": 2,
       "unk_6": 0,
@@ -8102,7 +8042,7 @@
     },
     {
       "zone_id": 690251,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C22\u671FBeta3\u2014\u2014\u540D\u53EF\u540D",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671FBeta3\u2014\u2014\u540D\u53EF\u540D",
       "on_schedule": true,
       "name": "OfficialName_Monster_NamelessOne",
       "layer_id": 6902503,
@@ -8142,9 +8082,9 @@
     },
     {
       "zone_id": 690261,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671FBeta2\u2014\u2014\u6B7B\u8DEF\u5C60\u592B\u4E9A\u79CD",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671FBeta2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
       "on_schedule": true,
-      "name": "OfficialName_Monster_NotoriousCottus",
+      "name": "OfficialName_Monster_Awakener",
       "layer_id": 6902602,
       "layer_index": 2,
       "unk_6": 0,
@@ -8162,9 +8102,9 @@
     },
     {
       "zone_id": 690261,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671FBeta3\u2014\u2014\u4EB5\u6E0E\u8005\u4F0A\u745F\u5C14\u5FB7",
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671FBeta3\u2014\u2014\u7272\u9B3C",
       "on_schedule": true,
-      "name": "OfficialName_Monster_IsoldetheDefiler",
+      "name": "OfficialName_Monster_SacrificeBringer",
       "layer_id": 6902603,
       "layer_index": 3,
       "unk_6": 0,
@@ -8175,66 +8115,6 @@
       "group_id": 1001,
       "zone_group_id": 0,
       "entrance_id": 10,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 690271,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671FBeta1\u2014\u2014\u5F77\u5FA8\u730E\u624B",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_WanderingHunter",
-      "layer_id": 6902701,
-      "layer_index": 1,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 69001,
-      "entrance_id": 11,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 690271,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671FBeta2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_Sobek",
-      "layer_id": 6902702,
-      "layer_index": 2,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 0,
-      "entrance_id": 11,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 690271,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671FBeta3\u2014\u2014\u7272\u9B3C",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_SacrificeBringer",
-      "layer_id": 6902703,
-      "layer_index": 3,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 0,
-      "entrance_id": 11,
       "unk_12": 0,
       "time_period_list": [
         "Morning"

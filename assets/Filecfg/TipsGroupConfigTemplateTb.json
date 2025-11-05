@@ -1266,6 +1266,11 @@
       "priority": 1
     },
     {
+      "tips_group_id": 540201,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30216.png",
+      "priority": 1
+    },
+    {
       "tips_group_id": 614002,
       "group_icon": "UI/Sprite/A1DynamicLoad/ItemIconWeaponBig/UnPacker/Weapon_S_Common_01Big.png",
       "priority": 1
@@ -2284,6 +2289,156 @@
       "tips_group_id": 20000139,
       "group_icon": "",
       "priority": 0
+    },
+    {
+      "tips_group_id": 20000140,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000141,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000142,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000143,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000144,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000145,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle53.png",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000146,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000147,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000148,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000149,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000150,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000151,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000152,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000153,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000154,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000155,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000156,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000157,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000158,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000159,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000160,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000161,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000162,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000163,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000164,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000165,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000167,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000168,
+      "group_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle54.png",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000169,
+      "group_icon": "",
+      "priority": 0
+    },
+    {
+      "tips_group_id": 20000175,
+      "group_icon": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconNPCCircle30175.png",
+      "priority": 1
     }
   ]
 }

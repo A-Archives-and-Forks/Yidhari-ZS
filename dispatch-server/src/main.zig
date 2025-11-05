@@ -20,6 +20,7 @@ pub const std_options: std.Options = .{
 const req_handler_map: http.ReqHandlerMap = .initComptime(.{
     .{ "/query_dispatch", @import("query_dispatch.zig").handle },
     .{ "/query_gateway", @import("query_gateway.zig").handle },
+    .{ "/query_pre_ifix", @import("query_pre_ifix.zig").handle },
 });
 
 pub fn main() !void {

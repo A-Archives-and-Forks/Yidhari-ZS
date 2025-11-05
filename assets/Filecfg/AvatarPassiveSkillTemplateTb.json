@@ -10420,8 +10420,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 21101,
-          "value": 960
+          "property": 20101,
+          "value": 480
         },
         {
           "property": 12101,
@@ -10455,8 +10455,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 21101,
-          "value": 960
+          "property": 20101,
+          "value": 480
         },
         {
           "property": 12101,
@@ -10494,8 +10494,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 21101,
-          "value": 1920
+          "property": 20101,
+          "value": 960
         },
         {
           "property": 12101,
@@ -10533,8 +10533,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 21101,
-          "value": 1920
+          "property": 20101,
+          "value": 960
         },
         {
           "property": 12101,
@@ -10576,8 +10576,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 21101,
-          "value": 2880
+          "property": 20101,
+          "value": 1440
         },
         {
           "property": 12101,
@@ -10619,8 +10619,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 21101,
-          "value": 2880
+          "property": 20101,
+          "value": 1440
         },
         {
           "property": 12101,
@@ -10662,8 +10662,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 6
+          "property": 20101,
+          "value": 480
         },
         {
           "property": 12101,
@@ -10697,8 +10697,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 6
+          "property": 20101,
+          "value": 480
         },
         {
           "property": 12101,
@@ -10736,8 +10736,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 12
+          "property": 20101,
+          "value": 960
         },
         {
           "property": 12101,
@@ -10775,8 +10775,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 12
+          "property": 20101,
+          "value": 960
         },
         {
           "property": 12101,
@@ -10818,8 +10818,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 18
+          "property": 20101,
+          "value": 1440
         },
         {
           "property": 12101,
@@ -10861,8 +10861,8 @@
       "unk_10": 0,
       "propertys": [
         {
-          "property": 12201,
-          "value": 18
+          "property": 20101,
+          "value": 1440
         },
         {
           "property": 12101,

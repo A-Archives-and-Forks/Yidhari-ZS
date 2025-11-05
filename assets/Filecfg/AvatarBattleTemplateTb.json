@@ -2114,9 +2114,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        3472,
-        1456,
-        3932
+        3560,
+        1496,
+        4028
       ],
       "awake_ids": [
         119100
@@ -4885,13 +4885,19 @@
         "Size3",
         "AidTypeParry",
         "BanYue",
-        "EtherEyesSize3"
+        "EtherEyesSize2"
       ],
       "unk_68": [
 
       ],
       "unk_69": [
 
+      ],
+      "unk_70": [
+        1,
+        5,
+        6,
+        19
       ],
       "weapon_type": 6,
       "element": [
@@ -4911,7 +4917,7 @@
       "base_avatar_id": 0,
       "unk_80": 100,
       "rp_max": 120,
-      "rp_recover": 0
+      "rp_recover": 200
     },
     {
       "id": 1481,
@@ -4949,7 +4955,7 @@
       "pen_delta": 0,
       "luck": 0,
       "stun": 0,
-      "break_stun": 118,
+      "break_stun": 110,
       "element_abnormal_power": 94,
       "sp_bar_point": 120,
       "sp_recover": 120,
@@ -4986,9 +4992,9 @@
       "tags": [
         "Azural",
         "Cut",
-        "Electric",
+        "Physics",
         "Female",
-        "Camp7",
+        "Camp12",
         "Size1",
         "AidTypeParry",
         "Azural",
@@ -5001,7 +5007,8 @@
 
       ],
       "unk_70": [
-        4
+        5,
+        11
       ],
       "weapon_type": 2,
       "element": [
@@ -8047,9 +8054,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        17968,
-        15952,
-        18428
+        18232,
+        16168,
+        18700
       ],
       "awake_ids": [
         119100
@@ -8167,9 +8174,9 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        18384,
-        16368,
-        18844
+        18660,
+        16596,
+        19128
       ],
       "awake_ids": [
         119100
@@ -11612,13 +11619,19 @@
         "Size3",
         "AidTypeParry",
         "BanYue",
-        "EtherEyesSize3"
+        "EtherEyesSize2"
       ],
       "unk_68": [
 
       ],
       "unk_69": [
 
+      ],
+      "unk_70": [
+        1,
+        5,
+        6,
+        19
       ],
       "weapon_type": 6,
       "element": [
@@ -11638,7 +11651,7 @@
       "base_avatar_id": 1471,
       "unk_80": 100,
       "rp_max": 120,
-      "rp_recover": 0
+      "rp_recover": 200
     },
     {
       "id": 3114810,
@@ -11676,7 +11689,7 @@
       "pen_delta": 0,
       "luck": 0,
       "stun": 0,
-      "break_stun": 118,
+      "break_stun": 110,
       "element_abnormal_power": 94,
       "sp_bar_point": 120,
       "sp_recover": 120,
@@ -11713,9 +11726,9 @@
       "tags": [
         "Azural",
         "Cut",
-        "Electric",
+        "Physics",
         "Female",
-        "Camp7",
+        "Camp12",
         "Size1",
         "AidTypeParry",
         "Azural",
@@ -11728,7 +11741,8 @@
 
       ],
       "unk_70": [
-        4
+        5,
+        11
       ],
       "weapon_type": 2,
       "element": [

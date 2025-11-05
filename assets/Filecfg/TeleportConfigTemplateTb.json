@@ -27,7 +27,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/Icon141.png",
       "unk_2": 100002,
       "section_id": 1,
-      "transform_id": 58036,
+      "transform_id": 58356,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1917274453,
@@ -67,7 +67,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconNoodle.png",
       "unk_2": 100003,
       "section_id": 1,
-      "transform_id": 38248,
+      "transform_id": 38316,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -85,7 +85,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconBardicBeedie.png",
       "unk_2": 100004,
       "section_id": 1,
-      "transform_id": 59996,
+      "transform_id": 60080,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -121,7 +121,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconCoff.png",
       "unk_2": 100006,
       "section_id": 1,
-      "transform_id": 74468,
+      "transform_id": 74856,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -157,7 +157,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconCod.png",
       "unk_2": 100008,
       "section_id": 1,
-      "transform_id": 78276,
+      "transform_id": 78664,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -175,7 +175,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconNewsstand.png",
       "unk_2": 100009,
       "section_id": 1,
-      "transform_id": 76024,
+      "transform_id": 76412,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -337,7 +337,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStaff.png",
       "unk_2": 100018,
       "section_id": 2,
-      "transform_id": 57460,
+      "transform_id": 57528,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -355,7 +355,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconHDD.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 57756,
+      "transform_id": 57824,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -481,7 +481,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconHIA.png",
       "unk_2": 100011,
       "section_id": 103,
-      "transform_id": 56696,
+      "transform_id": 56764,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -499,7 +499,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/Icon141.png",
       "unk_2": 100002,
       "section_id": 101,
-      "transform_id": 56528,
+      "transform_id": 56596,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -517,7 +517,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconNoodle.png",
       "unk_2": 100003,
       "section_id": 101,
-      "transform_id": 56376,
+      "transform_id": 56444,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -553,7 +553,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconNewStand.png",
       "unk_2": 100009,
       "section_id": 101,
-      "transform_id": 56740,
+      "transform_id": 56808,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -589,7 +589,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconHIACampIdle.png",
       "unk_2": 100011,
       "section_id": 103,
-      "transform_id": 57232,
+      "transform_id": 57300,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -607,7 +607,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconGardeningShop.png",
       "unk_2": 100011,
       "section_id": 101,
-      "transform_id": 16644,
+      "transform_id": 16712,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -643,7 +643,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconInterior.png",
       "unk_2": 100011,
       "section_id": 151,
-      "transform_id": 41064,
+      "transform_id": 41132,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -661,7 +661,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconLogistics.png",
       "unk_2": 100011,
       "section_id": 151,
-      "transform_id": 66444,
+      "transform_id": 66832,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -679,7 +679,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconAssault.png",
       "unk_2": 100011,
       "section_id": 151,
-      "transform_id": 59952,
+      "transform_id": 60020,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -787,7 +787,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconCheesetopia.png",
       "unk_2": 100011,
       "section_id": 104,
-      "transform_id": 71112,
+      "transform_id": 71180,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -2915,7 +2915,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 2204,
+      "transform_id": 2508,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1983990101,
@@ -2967,7 +2967,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 2272,
+      "transform_id": 2576,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1983990101,
@@ -3019,7 +3019,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 151,
-      "transform_id": 7904,
+      "transform_id": 8208,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1648445781,
@@ -3103,7 +3103,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 2680,
+      "transform_id": 2984,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1983990101,
@@ -3155,7 +3155,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 2748,
+      "transform_id": 3052,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1983990101,
@@ -3207,7 +3207,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 151,
-      "transform_id": 8368,
+      "transform_id": 8672,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1868122453,
@@ -3259,7 +3259,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 2864,
+      "transform_id": 3168,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1983990101,
@@ -3311,7 +3311,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 151,
-      "transform_id": 9336,
+      "transform_id": 9640,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1381386581,
@@ -3374,7 +3374,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 3232,
+      "transform_id": 3536,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1983990101,
@@ -3478,7 +3478,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 3468,
+      "transform_id": 3772,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1983990101,
@@ -3577,10 +3577,10 @@
       "teleport_id": 1077,
       "unk_1": 200,
       "client_visible": 0,
-      "unlock_condition": "1040140742",
+      "unlock_condition": "2002860135",
       "teleport_name": "TeleportName_01",
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
-      "unk_2": 100001,
+      "unk_2": 100019,
       "section_id": 201,
       "transform_id": 16,
       "unk_3": "TeleportName_01_DecorativeText",
@@ -4332,19 +4332,19 @@
         1920233071,
         1701604463,
         114,
-        -61848,
+        -62168,
         200,
         2028,
-        70916,
-        70876,
-        70908,
+        71236,
+        71196,
+        71228,
         2028,
-        70764,
+        71084,
         201,
         16,
         1,
         100011,
-        70880,
+        71200,
         60,
         1701079379,
         1684624223,
@@ -4385,9 +4385,9 @@
         200,
         2029,
         776,
-        71008,
-        70968,
-        70424,
+        71328,
+        71288,
+        70744,
         2029
       ],
       "unk_7": 0,
@@ -4418,9 +4418,9 @@
         200,
         2030,
         68,
-        71100,
-        71060,
-        70516,
+        71420,
+        71380,
+        70836,
         2030,
         1200,
         201,
@@ -4454,9 +4454,9 @@
         200,
         2031,
         68,
-        71192,
-        71152,
-        70608,
+        71512,
+        71472,
+        70928,
         2031
       ],
       "unk_7": 0,
@@ -4752,6 +4752,34 @@
       "unk_10": 0
     },
     {
+      "teleport_id": 2051,
+      "unk_1": 200,
+      "client_visible": 0,
+      "unlock_condition": "",
+      "teleport_name": "TeleportName_2014",
+      "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconNiaKichi.png",
+      "unk_2": 100019,
+      "section_id": 201,
+      "transform_id": 9456,
+      "unk_3": "TeleportName_01_DecorativeText",
+      "unk_4": [
+        1886217556,
+        1631872364,
+        7957609,
+        -64400,
+        210,
+        2050,
+        972,
+        73428,
+        73460,
+        2050,
+        236
+      ],
+      "unk_7": 0,
+      "unk_8": 2034,
+      "unk_10": 0
+    },
+    {
       "teleport_id": 6001,
       "unk_1": 60,
       "client_visible": 1,
@@ -4850,7 +4878,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 151,
-      "transform_id": 10180,
+      "transform_id": 10500,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1631734101,
@@ -4905,7 +4933,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconNewsstand.png",
       "unk_2": 100009,
       "section_id": 1,
-      "transform_id": 5476,
+      "transform_id": 5796,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -4923,7 +4951,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 151,
-      "transform_id": 10324,
+      "transform_id": 10644,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1631734101,
@@ -5025,11 +5053,11 @@
         1920233071,
         1701604463,
         114,
-        -15208,
+        -15528,
         110,
         1101,
         172,
-        15424,
+        15744,
         88,
         1101,
         56,
@@ -5038,7 +5066,7 @@
         1,
         100011,
         1,
-        15424,
+        15744,
         22,
         1684955464,
         1634488415,
@@ -5366,7 +5394,7 @@
       "unlock_condition": "1100141821|1040140852",
       "teleport_name": "TeleportName_106103",
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconEcho.png",
-      "unk_2": 106059,
+      "unk_2": 100011,
       "section_id": 201,
       "transform_id": 16,
       "unk_3": "TeleportName_01_DecorativeText",
@@ -5380,19 +5408,37 @@
     {
       "teleport_id": 106104,
       "unk_1": 254,
-      "client_visible": 0,
-      "unlock_condition": "",
+      "client_visible": 1,
+      "unlock_condition": "-1",
       "teleport_name": "TeleportName_106104",
-      "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconEcho.png",
-      "unk_2": 106059,
+      "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconGolden.png",
+      "unk_2": 100011,
       "section_id": 254,
-      "transform_id": 16,
+      "transform_id": 20,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
       ],
       "unk_7": 0,
       "unk_8": 100,
+      "unk_10": 0
+    },
+    {
+      "teleport_id": 106105,
+      "unk_1": 201,
+      "client_visible": 1,
+      "unlock_condition": "1040140852",
+      "teleport_name": "TeleportName_106105",
+      "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconBanquetHall.png",
+      "unk_2": 100011,
+      "section_id": 201,
+      "transform_id": 20,
+      "unk_3": "TeleportName_01_DecorativeText",
+      "unk_4": [
+
+      ],
+      "unk_7": 0,
+      "unk_8": 20,
       "unk_10": 0
     },
     {
@@ -7797,7 +7843,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconZone.png",
       "unk_2": 100011,
       "section_id": 151,
-      "transform_id": 51128,
+      "transform_id": 51196,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -7815,7 +7861,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconInterior.png",
       "unk_2": 100011,
       "section_id": 151,
-      "transform_id": 42916,
+      "transform_id": 42984,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -7851,7 +7897,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconBattleTower.png",
       "unk_2": 100011,
       "section_id": 103,
-      "transform_id": 46028,
+      "transform_id": 46096,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -7869,7 +7915,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 103,
-      "transform_id": 46108,
+      "transform_id": 46176,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -7905,7 +7951,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconBattleTower.png",
       "unk_2": 100011,
       "section_id": 103,
-      "transform_id": 46304,
+      "transform_id": 46372,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -7923,7 +7969,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconBattleTower.png",
       "unk_2": 100011,
       "section_id": 103,
-      "transform_id": 46356,
+      "transform_id": 46424,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -7959,7 +8005,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 101,
-      "transform_id": 19712,
+      "transform_id": 19780,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -7977,7 +8023,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 101,
-      "transform_id": 19820,
+      "transform_id": 19888,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1816545621,
@@ -7992,24 +8038,24 @@
         70470,
         70472,
         70474,
-        -75840,
+        -76228,
         40,
-        69088,
-        77516,
-        77476,
-        19796,
-        77504,
+        69476,
+        77904,
+        77864,
+        19864,
+        77892,
         7020010,
-        77496,
+        77884,
         101,
-        19712,
+        19780,
         1,
         100011,
-        77476,
-        -75784,
+        77864,
+        -76172,
         10,
-        69032,
-        77460
+        69420,
+        77848
       ],
       "unk_7": 0,
       "unk_8": 0,
@@ -8042,7 +8088,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconBattleTower.png",
       "unk_2": 100011,
       "section_id": 103,
-      "transform_id": 46844,
+      "transform_id": 46912,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -8060,7 +8106,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconBattleTower.png",
       "unk_2": 100011,
       "section_id": 103,
-      "transform_id": 46900,
+      "transform_id": 46968,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -8125,10 +8171,10 @@
         925904947,
         892678192,
         0,
-        -76976,
+        -77364,
         10,
-        69516,
-        77944
+        69904,
+        78332
       ],
       "unk_7": 0,
       "unk_8": 0,
@@ -8172,10 +8218,10 @@
         925904947,
         892678192,
         0,
-        -76976,
+        -77364,
         10,
-        69516,
-        77944
+        69904,
+        78332
       ],
       "unk_7": 0,
       "unk_8": 0,
@@ -8219,10 +8265,10 @@
         925904947,
         892678192,
         0,
-        -76976,
+        -77364,
         10,
-        69516,
-        77944
+        69904,
+        78332
       ],
       "unk_7": 0,
       "unk_8": 6,
@@ -8529,13 +8575,13 @@
         49,
         1,
         12630001,
-        -78268,
+        -78656,
         130,
-        71516,
-        79944,
-        79904,
+        71904,
+        80332,
+        80292,
         100,
-        79932
+        80320
       ],
       "unk_7": 0,
       "unk_8": 0,
@@ -8586,7 +8632,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconSuibianTempleAtrium.png",
       "unk_2": 100011,
       "section_id": 201,
-      "transform_id": 13152,
+      "transform_id": 13220,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1967212885,
@@ -8597,20 +8643,20 @@
         1953394499,
         1819045746,
         29285,
-        -78620,
+        -79008,
         210,
-        71868,
-        80296,
-        80256,
+        72256,
+        80684,
+        80644,
         168,
-        80284,
+        80672,
         7090002,
-        80276,
+        80664,
         202,
         16,
         1,
         100011,
-        80256,
+        80644,
         34,
         1769235265,
         2037672310,
@@ -8663,7 +8709,7 @@
         117,
         123,
         141,
-        -49152
+        -49220
       ],
       "unk_7": 0,
       "unk_8": 0,
@@ -8822,7 +8868,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 253,
-      "transform_id": 69408,
+      "transform_id": 69796,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -8853,33 +8899,33 @@
         1852785509,
         1819243124,
         7497068,
-        -80476,
+        -80864,
         200,
-        73016,
-        81444,
-        81404,
-        81436,
+        73404,
+        81832,
+        81792,
+        81824,
         7120001,
-        81428,
+        81816,
         253,
-        69408,
+        69796,
         1,
         100011,
-        81408,
-        -81136,
+        81796,
+        -81524,
         200,
         19,
         92,
-        81352,
-        81384,
+        81740,
+        81772,
         7120000,
-        81240,
+        81628,
         201,
         20,
         1,
         100011,
         1,
-        81352,
+        81740,
         43,
         1769235265
       ],
@@ -9785,13 +9831,13 @@
         1867543141,
         861888371,
         0,
-        -52024,
+        -52092,
         10,
-        76644,
-        85072,
-        85032,
+        77032,
+        85460,
+        85420,
         140,
-        51280,
+        51348,
         7140001,
         4804
       ],
@@ -9826,7 +9872,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 103,
-      "transform_id": 14784,
+      "transform_id": 15104,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -9844,7 +9890,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 8020,
+      "transform_id": 8340,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
         1632454997,
@@ -10008,9 +10054,9 @@
         808857649,
         808465968,
         14389,
-        -15264,
+        -15584,
         70,
-        16192
+        16512
       ],
       "unk_7": 0,
       "unk_8": 0,
@@ -10115,7 +10161,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconRandom1F.png",
       "unk_2": 100001,
       "section_id": 2,
-      "transform_id": 17480,
+      "transform_id": 17800,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -11735,7 +11781,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 1,
-      "transform_id": 17508,
+      "transform_id": 17828,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -12798,20 +12844,20 @@
         1852785509,
         1819243124,
         7497068,
-        -29416,
+        -29736,
         10,
-        22664,
-        31092,
-        31052,
+        22984,
+        31412,
+        31372,
         68,
-        30236,
+        30556,
         113000005,
-        31072,
+        31392,
         1,
         16,
         1,
         100001,
-        31052,
+        31372,
         27,
         1735287106,
         1131376450,
@@ -12822,7 +12868,7 @@
         7237481,
         1,
         70240,
-        -29712,
+        -30032,
         40
       ],
       "unk_7": 0,
@@ -12856,7 +12902,7 @@
       "teleport_icon": "UI/Sprite/A3DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 107,
-      "transform_id": 18544,
+      "transform_id": 18560,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -12892,7 +12938,7 @@
       "teleport_icon": "UI/Sprite/A3DynamicLoad/NavigationPage/UnPacker/ShopPic/IconStorage.png",
       "unk_2": 100001,
       "section_id": 107,
-      "transform_id": 18656,
+      "transform_id": 18672,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -15988,7 +16034,7 @@
       "teleport_icon": "UI/Sprite/A1DynamicLoad/NavigationPage/UnPacker/ShopPic/IconCod.png",
       "unk_2": 100008,
       "section_id": 1,
-      "transform_id": 42440,
+      "transform_id": 42760,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16276,7 +16322,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39464,
+      "transform_id": 39784,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16294,7 +16340,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39520,
+      "transform_id": 39840,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16312,7 +16358,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39576,
+      "transform_id": 39896,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16348,7 +16394,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39744,
+      "transform_id": 40064,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16366,7 +16412,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39800,
+      "transform_id": 40120,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16384,7 +16430,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39856,
+      "transform_id": 40176,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16420,7 +16466,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 38924,
+      "transform_id": 38940,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16438,7 +16484,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 38980,
+      "transform_id": 38996,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16456,7 +16502,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39036,
+      "transform_id": 39052,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16474,7 +16520,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39092,
+      "transform_id": 39108,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16492,7 +16538,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39148,
+      "transform_id": 39164,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16564,7 +16610,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40536,
+      "transform_id": 40856,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16582,7 +16628,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40592,
+      "transform_id": 40912,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16600,7 +16646,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40648,
+      "transform_id": 40968,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16618,7 +16664,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40704,
+      "transform_id": 41024,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16690,7 +16736,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 39996,
+      "transform_id": 40012,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16708,7 +16754,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40052,
+      "transform_id": 40068,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16726,7 +16772,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40108,
+      "transform_id": 40124,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16744,7 +16790,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40164,
+      "transform_id": 40180,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16798,7 +16844,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 41588,
+      "transform_id": 41908,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16816,7 +16862,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 41640,
+      "transform_id": 41960,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16834,7 +16880,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 41692,
+      "transform_id": 42012,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16906,7 +16952,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40912,
+      "transform_id": 40928,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16924,7 +16970,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 40964,
+      "transform_id": 40980,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -16942,7 +16988,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 41016,
+      "transform_id": 41032,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17014,7 +17060,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 42500,
+      "transform_id": 42820,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17032,7 +17078,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 42552,
+      "transform_id": 42872,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17050,7 +17096,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 42604,
+      "transform_id": 42924,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17140,7 +17186,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 41988,
+      "transform_id": 42004,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17158,7 +17204,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 42040,
+      "transform_id": 42056,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17176,7 +17222,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 42092,
+      "transform_id": 42108,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17194,7 +17240,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 43252,
+      "transform_id": 43572,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17284,7 +17330,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 43736,
+      "transform_id": 44056,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17302,7 +17348,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 43788,
+      "transform_id": 44108,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17320,7 +17366,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 43840,
+      "transform_id": 44160,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17356,7 +17402,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 42900,
+      "transform_id": 42916,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17374,7 +17420,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 42952,
+      "transform_id": 42968,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -17392,7 +17438,7 @@
       "teleport_icon": "",
       "unk_2": 100011,
       "section_id": 108,
-      "transform_id": 43004,
+      "transform_id": 43020,
       "unk_3": "TeleportName_01_DecorativeText",
       "unk_4": [
 
@@ -19017,20 +19063,20 @@
         1852785509,
         1819243124,
         7497068,
-        -61904,
+        -62224,
         200,
-        55152,
-        63580,
-        63540,
+        55472,
+        63900,
+        63860,
         96,
-        63208,
+        63528,
         115000194,
-        63560,
+        63880,
         201,
         16,
         1,
         100001,
-        63540,
+        63860,
         53,
         1769235265,
         2037672310,
@@ -19173,20 +19219,20 @@
         1953394499,
         1819045746,
         29285,
-        -62576,
+        -62896,
         103,
-        55824,
-        64252,
-        64212,
+        56144,
+        64572,
+        64532,
         196,
-        64240,
+        64560,
         115000201,
-        64232,
+        64552,
         103,
         16,
         1,
         100001,
-        64212,
+        64532,
         46,
         1769235265,
         2037672310,
@@ -19310,20 +19356,20 @@
         1852785509,
         1819243124,
         7497068,
-        -61904,
+        -62224,
         200,
-        55152,
-        63580,
-        63540,
+        55472,
+        63900,
+        63860,
         96,
-        63208,
+        63528,
         115000194,
-        63560,
+        63880,
         201,
         16,
         1,
         100001,
-        63540,
+        63860,
         53,
         1769235265,
         2037672310,

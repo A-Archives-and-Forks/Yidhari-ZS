@@ -493,7 +493,7 @@
       "audio_bank": "BK_BanYue|BK_CHR_Common|BK_BanYue_VO",
       "unk_1": 0,
       "gender": 1,
-      "camp": 11
+      "camp": 12
     },
     {
       "id": 1481,
@@ -504,7 +504,7 @@
       "audio_bank": "BK_Azural|BK_CHR_Common|BK_Azural_VO",
       "unk_1": 0,
       "gender": 2,
-      "camp": 7
+      "camp": 12
     },
     {
       "id": 1491,
