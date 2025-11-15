@@ -9048,6 +9048,444 @@
       ]
     },
     {
+      "layer_id": 6203801,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 50,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62038011,
+        62038012
+      ],
+      "layer_items": [
+        62001381
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20953,
+        20953
+      ]
+    },
+    {
+      "layer_id": 6203802,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 55,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62038021,
+        62038022
+      ],
+      "layer_items": [
+        62001381
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20953,
+        20953
+      ]
+    },
+    {
+      "layer_id": 6203803,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 60,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62038031,
+        62038032
+      ],
+      "layer_items": [
+        62001381
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20954,
+        20954
+      ]
+    },
+    {
+      "layer_id": 6203804,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 65,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62038041,
+        62038042
+      ],
+      "layer_items": [
+        62001381
+      ],
+      "weather_list": [
+        "Fog"
+      ],
+      "unk_19": [
+        20954,
+        20954
+      ]
+    },
+    {
+      "layer_id": 6203805,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "",
+      "goal_type": 3,
+      "unk_11": 1270001003,
+      "unk_12": 1270001002,
+      "unk_13": 1270001001
+    },
+    {
+      "layer_id": 6203901,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 50,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62039011,
+        62039012
+      ],
+      "layer_items": [
+        62001391
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20953,
+        20953
+      ]
+    },
+    {
+      "layer_id": 6203902,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 55,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62039021,
+        62039022
+      ],
+      "layer_items": [
+        62001391
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20953,
+        20953
+      ]
+    },
+    {
+      "layer_id": 6203903,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 60,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62039031,
+        62039032
+      ],
+      "layer_items": [
+        62001391
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20954,
+        20954
+      ]
+    },
+    {
+      "layer_id": 6203904,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 65,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62039041,
+        62039042
+      ],
+      "layer_items": [
+        62001391
+      ],
+      "weather_list": [
+        "Fog"
+      ],
+      "unk_19": [
+        20954,
+        20954
+      ]
+    },
+    {
+      "layer_id": 6203905,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "",
+      "goal_type": 3,
+      "unk_11": 1270001003,
+      "unk_12": 1270001002,
+      "unk_13": 1270001001
+    },
+    {
+      "layer_id": 6204001,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 50,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62040011,
+        62040012
+      ],
+      "layer_items": [
+        62001401
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20953,
+        20953
+      ]
+    },
+    {
+      "layer_id": 6204002,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 55,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62040021,
+        62040022
+      ],
+      "layer_items": [
+        62001401
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20953,
+        20953
+      ]
+    },
+    {
+      "layer_id": 6204003,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 60,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62040031,
+        62040032
+      ],
+      "layer_items": [
+        62001401
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20954,
+        20954
+      ]
+    },
+    {
+      "layer_id": 6204004,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 65,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 0,
+      "unk_11": 300,
+      "unk_12": 420,
+      "unk_13": 600,
+      "layer_room_ids": [
+        62040041,
+        62040042
+      ],
+      "layer_items": [
+        62001401
+      ],
+      "weather_list": [
+        "Fog"
+      ],
+      "unk_19": [
+        20954,
+        20954
+      ]
+    },
+    {
+      "layer_id": 6204005,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "",
+      "goal_type": 3,
+      "unk_11": 1270001003,
+      "unk_12": 1270001002,
+      "unk_13": 1270001001
+    },
+    {
       "layer_id": 6900101,
       "unk_1": 0,
       "unk_2": 0,
@@ -11382,6 +11820,7 @@
         69025021
       ],
       "layer_items": [
+        69013004,
         69012602,
         69012603,
         69012102
@@ -11480,6 +11919,7 @@
         69026021
       ],
       "layer_items": [
+        69013004,
         69012602,
         69012603,
         69012102
@@ -11512,6 +11952,7 @@
         69026031
       ],
       "layer_items": [
+        69013003,
         69010505,
         69010107,
         69010506,
@@ -11522,6 +11963,397 @@
       ],
       "unk_19": [
         22461
+      ]
+    },
+    {
+      "layer_id": 6902701,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69027011
+      ],
+      "layer_items": [
+        69012704,
+        69012705,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22462
+      ]
+    },
+    {
+      "layer_id": 6902702,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69027021
+      ],
+      "layer_items": [
+        69013003,
+        69011602,
+        69011603,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22463
+      ]
+    },
+    {
+      "layer_id": 6902703,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69027031
+      ],
+      "layer_items": [
+        69013002,
+        69012302,
+        69012303,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22464
+      ]
+    },
+    {
+      "layer_id": 6902801,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69028011
+      ],
+      "layer_items": [
+        69013004,
+        69012602,
+        69012603,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22465
+      ]
+    },
+    {
+      "layer_id": 6902802,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69028021
+      ],
+      "layer_items": [
+        69011204,
+        69010109
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22466
+      ]
+    },
+    {
+      "layer_id": 6902803,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69028031
+      ],
+      "layer_items": [
+        69013002,
+        69011302,
+        69011303,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22467
+      ]
+    },
+    {
+      "layer_id": 6902901,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69029011
+      ],
+      "layer_items": [
+        69012704,
+        69012705,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22462
+      ]
+    },
+    {
+      "layer_id": 6902902,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69029021
+      ],
+      "layer_items": [
+        69010305,
+        69010307,
+        69010306
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22468
+      ]
+    },
+    {
+      "layer_id": 6902903,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69029031
+      ],
+      "layer_items": [
+        69013002,
+        69012302,
+        69012303,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22464
+      ]
+    },
+    {
+      "layer_id": 6903001,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69030011
+      ],
+      "layer_items": [
+        69013001,
+        69011902,
+        69011903,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22469
+      ]
+    },
+    {
+      "layer_id": 6903002,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69030021
+      ],
+      "layer_items": [
+        69013003,
+        69011602,
+        69011603,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22463
+      ]
+    },
+    {
+      "layer_id": 6903003,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 20000,
+      "unk_12": 14000,
+      "unk_13": 6000,
+      "layer_room_ids": [
+        69030031
+      ],
+      "layer_items": [
+        69013004,
+        69012602,
+        69012603,
+        69012102
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        22465
       ]
     },
     {
@@ -12712,6 +13544,294 @@
       ],
       "weather_list": [
         "SunShine"
+      ]
+    },
+    {
+      "layer_id": 62038051,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62038051
+      ],
+      "layer_items": [
+        62001381,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62038052,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62038052
+      ],
+      "layer_items": [
+        62001383,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62038053,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62038053
+      ],
+      "layer_items": [
+        62001382,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62039051,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62039051
+      ],
+      "layer_items": [
+        62001391,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62039052,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62039052
+      ],
+      "layer_items": [
+        62001392,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62039053,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62039053
+      ],
+      "layer_items": [
+        62001393,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62040051,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62040051
+      ],
+      "layer_items": [
+        62001401,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62040052,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62040052
+      ],
+      "layer_items": [
+        62001402,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
+      ]
+    },
+    {
+      "layer_id": 62040053,
+      "unk_1": 0,
+      "unk_2": 0,
+      "unk_3": 300,
+      "unk_4": 420,
+      "unk_5": 600,
+      "unk_6": 600,
+      "unk_7": 0,
+      "monster_level": 70,
+      "unk_9": 0,
+      "unk_10": 0,
+      "battle_failed_text": "BattleFailedInfo_AbyssInfo1",
+      "goal_type": 2,
+      "unk_11": 25000,
+      "unk_12": 16000,
+      "unk_13": 8000,
+      "layer_room_ids": [
+        62040053
+      ],
+      "layer_items": [
+        62001403,
+        62001001,
+        62001002
+      ],
+      "weather_list": [
+        "SunShine"
+      ],
+      "unk_19": [
+        20955
       ]
     }
   ]

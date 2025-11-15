@@ -2000,7 +2000,20 @@
       "base_avatar_id": 0,
       "unk_80": 100,
       "rp_max": 0,
-      "rp_recover": 0
+      "rp_recover": 0,
+      "unk_83": [
+        2052,
+        5512,
+        292
+      ],
+      "awake_ids": [
+        118100,
+        118101,
+        118102,
+        118103,
+        118104,
+        118105
+      ]
     },
     {
       "id": 1191,
@@ -2114,12 +2127,17 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        3560,
-        1496,
-        4028
+        3808,
+        1744,
+        4276
       ],
       "awake_ids": [
-        119100
+        119100,
+        119101,
+        119102,
+        119103,
+        119104,
+        119105
       ]
     },
     {
@@ -3578,6 +3596,117 @@
       "rp_recover": 0
     },
     {
+      "id": 1341,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5341,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 733,
+      "health_growth": 994816,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 110,
+      "attack_growth": 65027,
+      "defence": 56,
+      "defence_growth": 76592,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 93,
+      "element_abnormal_power": 93,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 96,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 325003995,
+      "unk_61": 1688865314,
+      "unk_62": 0,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Furry",
+        "Cut",
+        "Ice",
+        "Female",
+        "Camp0",
+        "Size0",
+        "AidTypeParry",
+        "XiaoZhao",
+        "EtherEyesSize0"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        1
+      ],
+      "weapon_type": 5,
+      "element": [
+        202
+      ],
+      "hit_type": [
+        101
+      ],
+      "unk_element_camp": [
+        "3:1:1",
+        "3:3:1",
+        "3:6:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
       "id": 1351,
       "unk_5": [
 
@@ -4474,6 +4603,113 @@
       "rp_recover": 0
     },
     {
+      "id": 1431,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5431,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 617,
+      "health_growth": 837238,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 135,
+      "attack_growth": 82578,
+      "defence": 49,
+      "defence_growth": 66203,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 93,
+      "element_abnormal_power": 94,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 93,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 2935218216,
+      "unk_61": 3414882423,
+      "unk_62": 2195694374,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Zhenzhen",
+        "Cut",
+        "Electric",
+        "Female",
+        "Camp1",
+        "Size2",
+        "AidTypeParry",
+        "Zhenzhen",
+        "EtherEyesSize2"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "weapon_type": 1,
+      "element": [
+        200
+      ],
+      "hit_type": [
+        101
+      ],
+      "unk_element_camp": [
+        "1:1:2",
+        "2:203:2"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
       "id": 1441,
       "unk_5": [
 
@@ -4672,6 +4908,9 @@
       ],
       "unk_69": [
 
+      ],
+      "unk_70": [
+        1
       ],
       "weapon_type": 4,
       "element": [
@@ -5824,6 +6063,113 @@
       "unk_75": 0,
       "unk_76": 0,
       "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 0,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
+      "id": 2041,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 6041,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 603,
+      "health_growth": 818426,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 95,
+      "attack_growth": 54230,
+      "defence": 49,
+      "defence_growth": 66882,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 118,
+      "element_abnormal_power": 94,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 93,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 608965802,
+      "unk_61": 573851692,
+      "unk_62": 0,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Zhenzhen",
+        "Cut",
+        "Electric",
+        "Female",
+        "Camp1",
+        "Size2",
+        "AidTypeParry",
+        "Zhenzhen",
+        "EtherEyesSize2"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "weapon_type": 5,
+      "element": [
+        1
+      ],
+      "hit_type": [
+        0
+      ],
+      "unk_element_camp": [
+        "1:1:2",
+        "2:203:2"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 1,
       "unk_78": 0,
       "base_avatar_id": 0,
       "unk_80": 100,
@@ -7940,7 +8286,20 @@
       "base_avatar_id": 1181,
       "unk_80": 100,
       "rp_max": 0,
-      "rp_recover": 0
+      "rp_recover": 0,
+      "unk_83": [
+        17876,
+        21336,
+        16116
+      ],
+      "awake_ids": [
+        118100,
+        118101,
+        118102,
+        118103,
+        118104,
+        118105
+      ]
     },
     {
       "id": 3111910,
@@ -8054,12 +8413,17 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        18232,
-        16168,
-        18700
+        19596,
+        17532,
+        20064
       ],
       "awake_ids": [
-        119100
+        119100,
+        119101,
+        119102,
+        119103,
+        119104,
+        119105
       ]
     },
     {
@@ -8174,12 +8538,17 @@
       "rp_max": 0,
       "rp_recover": 0,
       "unk_83": [
-        18660,
-        16596,
-        19128
+        20020,
+        17956,
+        20488
       ],
       "awake_ids": [
-        119100
+        119100,
+        119101,
+        119102,
+        119103,
+        119104,
+        119105
       ]
     },
     {
@@ -9862,6 +10231,117 @@
       "rp_recover": 0
     },
     {
+      "id": 3113410,
+      "unk_5": [
+
+      ],
+      "unk_6": [
+
+      ],
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "unk_9": 0,
+      "unk_10": 0,
+      "avatar_piece_id": 5341,
+      "unk_12": 0,
+      "unk_13": 0,
+      "hp_max": 733,
+      "health_growth": 994816,
+      "unk_16": 0,
+      "unk_17": 0,
+      "unk_18": 0,
+      "unk_19": 0,
+      "unk_20": 0,
+      "attack": 110,
+      "attack_growth": 65027,
+      "defence": 56,
+      "defence_growth": 76592,
+      "crit": 500,
+      "crit_damage": 5000,
+      "crit_res": 0,
+      "crit_damage_res": 0,
+      "pen_rate": 0,
+      "pen_delta": 0,
+      "luck": 0,
+      "stun": 0,
+      "break_stun": 93,
+      "element_abnormal_power": 93,
+      "sp_bar_point": 120,
+      "sp_recover": 120,
+      "element_mystery": 96,
+      "rbl": 1,
+      "rbl_correction_factor": 10000,
+      "rbl_probability": 0,
+      "unk_41": 0,
+      "unk_42": 0,
+      "unk_43": 0,
+      "unk_44": 0,
+      "unk_45": 0,
+      "unk_46": 0,
+      "unk_47": 0,
+      "unk_48": 0,
+      "unk_49": 0,
+      "unk_50": 0,
+      "unk_51": 0,
+      "unk_52": 0,
+      "unk_53": 0,
+      "unk_54": 0,
+      "unk_55": 0,
+      "unk_56": 0,
+      "unk_57": 0,
+      "unk_58": 0,
+      "unk_59": 0,
+      "unk_60": 325003995,
+      "unk_61": 1688865314,
+      "unk_62": 0,
+      "unk_63": 0,
+      "unk_64": 0,
+      "unk_65": 0,
+      "unk_66": 3000,
+      "tags": [
+        "Furry",
+        "Cut",
+        "Ice",
+        "Female",
+        "Camp0",
+        "Size0",
+        "AidTypeParry",
+        "XiaoZhao",
+        "EtherEyesSize0"
+      ],
+      "unk_68": [
+
+      ],
+      "unk_69": [
+
+      ],
+      "unk_70": [
+        1
+      ],
+      "weapon_type": 5,
+      "element": [
+        202
+      ],
+      "hit_type": [
+        101
+      ],
+      "unk_element_camp": [
+        "3:1:1",
+        "3:3:1",
+        "3:6:1"
+      ],
+      "unk_75": 0,
+      "unk_76": 5000,
+      "unk_77": 0,
+      "unk_78": 0,
+      "base_avatar_id": 1341,
+      "unk_80": 100,
+      "rp_max": 0,
+      "rp_recover": 0
+    },
+    {
       "id": 3113510,
       "unk_5": [
 
@@ -11406,6 +11886,9 @@
       ],
       "unk_69": [
 
+      ],
+      "unk_70": [
+        1
       ],
       "weapon_type": 4,
       "element": [

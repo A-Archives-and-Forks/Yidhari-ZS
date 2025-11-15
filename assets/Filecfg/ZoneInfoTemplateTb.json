@@ -7201,6 +7201,246 @@
       ]
     },
     {
+      "zone_id": 69027,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F1\u2014\u2014\u9ED1\u633D\u663C",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Vessel",
+      "layer_id": 6902701,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 69001,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69027,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F2\u2014\u2014\u540D\u53EF\u540D",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Awakener",
+      "layer_id": 6902702,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69027,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F3\u2014\u2014\u5F77\u5FA8\u730E\u624B",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_SacrificeBringer",
+      "layer_id": 6902703,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69028,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C28\u671F\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Awakener",
+      "layer_id": 6902801,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 69001,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69028,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C28\u671F\u2014\u2014\u53CC\u5B50\u821E\u8005\u4E9A\u79CD",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_NotoriousMarionette",
+      "layer_id": 6902802,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69028,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C28\u671F\u2014\u2014\u6885\u82E5\u62C9\u53EF",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_MentorMevorakh",
+      "layer_id": 6902803,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69029,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C29\u671F\u2014\u2014\u9ED1\u633D\u663C",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Vessel",
+      "layer_id": 6902901,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 69001,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69029,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C29\u671F\u2014\u2014\u590D\u5408\u4FB5\u8680\u4F53",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_ComplexCorrupted",
+      "layer_id": 6902902,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69029,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C29\u671F\u2014\u2014\u5F77\u5FA8\u730E\u624B",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_SacrificeBringer",
+      "layer_id": 6902903,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69030,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C30\u671F\u2014\u2014\u4EB5\u6E0E\u8005\u4F0A\u745F\u5C14\u5FB7",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_IsoldetheDefiler",
+      "layer_id": 6903001,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 69001,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69030,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C30\u671F\u2014\u2014\u540D\u53EF\u540D",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Awakener",
+      "layer_id": 6903002,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 69030,
+      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C30\u671F\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Awakener",
+      "layer_id": 6903003,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
       "zone_id": 620011,
       "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C1\u671F\u7B2C1\u5C42-beta",
       "on_schedule": true,
@@ -7481,18 +7721,18 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C36\u671F\u7B2C1\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C1\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName1",
-      "layer_id": 6203601,
+      "layer_id": 6203801,
       "layer_index": 1,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 62014,
       "entrance_id": 1,
       "unk_12": 0,
@@ -7501,18 +7741,18 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C36\u671F\u7B2C2\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C2\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName2",
-      "layer_id": 6203602,
+      "layer_id": 6203802,
       "layer_index": 2,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
       "entrance_id": 1,
       "unk_12": 0,
@@ -7521,18 +7761,18 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C36\u671F\u7B2C3\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C3\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName3",
-      "layer_id": 6203603,
+      "layer_id": 6203803,
       "layer_index": 3,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
       "entrance_id": 1,
       "unk_12": 0,
@@ -7541,18 +7781,18 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C36\u671F\u7B2C4\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C4\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName4",
-      "layer_id": 6203604,
+      "layer_id": 6203804,
       "layer_index": 4,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
       "entrance_id": 1,
       "unk_12": 0,
@@ -7561,18 +7801,18 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C36\u671F\u7B2C5\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C5\u5C42",
       "on_schedule": true,
-      "name": "62001_LayerName5",
-      "layer_id": 6203605,
+      "name": "",
+      "layer_id": 6203805,
       "layer_index": 5,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
       "entrance_id": 1,
       "unk_12": 0,
@@ -7581,18 +7821,18 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C36\u671F\u7B2C6\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C421",
       "on_schedule": true,
-      "name": "62001_LayerName6",
-      "layer_id": 6203606,
-      "layer_index": 6,
+      "name": "62001_ImpactLayerName_1",
+      "layer_id": 62038051,
+      "layer_index": 5,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
       "entrance_id": 1,
       "unk_12": 0,
@@ -7601,18 +7841,18 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C36\u671F\u7B2C7\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C422",
       "on_schedule": true,
-      "name": "62001_LayerName7",
-      "layer_id": 6203607,
-      "layer_index": 7,
+      "name": "62001_ImpactLayerName_2",
+      "layer_id": 62038052,
+      "layer_index": 5,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
       "entrance_id": 1,
       "unk_12": 0,
@@ -7621,140 +7861,340 @@
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C37\u671F\u7B2C1\u5C42beta",
+      "zone_id": 620381,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C38\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C423",
+      "on_schedule": true,
+      "name": "62001_ImpactLayerName_3",
+      "layer_id": 62038053,
+      "layer_index": 5,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 1,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C1\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName1",
-      "layer_id": 6203701,
-      "layer_index": 8,
+      "layer_id": 6203901,
+      "layer_index": 1,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 62014,
-      "entrance_id": 1,
+      "entrance_id": 13,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C37\u671F\u7B2C2\u5C42beta",
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C2\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName2",
-      "layer_id": 6203702,
-      "layer_index": 9,
+      "layer_id": 6203902,
+      "layer_index": 2,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
-      "entrance_id": 1,
+      "entrance_id": 13,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C37\u671F\u7B2C3\u5C42beta",
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C3\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName3",
-      "layer_id": 6203703,
-      "layer_index": 10,
+      "layer_id": 6203903,
+      "layer_index": 3,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
-      "entrance_id": 1,
+      "entrance_id": 13,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C37\u671F\u7B2C4\u5C42beta",
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C4\u5C42",
       "on_schedule": true,
       "name": "62001_LayerName4",
-      "layer_id": 6203704,
-      "layer_index": 11,
+      "layer_id": 6203904,
+      "layer_index": 4,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
-      "entrance_id": 1,
+      "entrance_id": 13,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C37\u671F\u7B2C5\u5C42beta",
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C5\u5C42",
       "on_schedule": true,
-      "name": "62001_LayerName5",
-      "layer_id": 6203705,
-      "layer_index": 12,
+      "name": "",
+      "layer_id": 6203905,
+      "layer_index": 5,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
-      "entrance_id": 1,
+      "entrance_id": 13,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C37\u671F\u7B2C6\u5C42beta",
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C421",
       "on_schedule": true,
-      "name": "62001_LayerName6",
-      "layer_id": 6203706,
-      "layer_index": 13,
+      "name": "62001_ImpactLayerName_1",
+      "layer_id": 62039051,
+      "layer_index": 5,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
-      "entrance_id": 1,
+      "entrance_id": 13,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
       ]
     },
     {
-      "zone_id": 620361,
-      "friendly_name": "\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C37\u671F\u7B2C7\u5C42beta",
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C422",
       "on_schedule": true,
-      "name": "62001_LayerName7",
-      "layer_id": 6203707,
-      "layer_index": 14,
+      "name": "62001_ImpactLayerName_2",
+      "layer_id": 62039052,
+      "layer_index": 5,
       "unk_6": 0,
       "unk_7": [
 
       ],
       "unk_8": 0,
-      "group_id": 201,
+      "group_id": 301,
       "zone_group_id": 0,
-      "entrance_id": 1,
+      "entrance_id": 13,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620391,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C39\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C423",
+      "on_schedule": true,
+      "name": "62001_ImpactLayerName_3",
+      "layer_id": 62039053,
+      "layer_index": 5,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 13,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C1\u5C42",
+      "on_schedule": true,
+      "name": "62001_LayerName1",
+      "layer_id": 6204001,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 62014,
+      "entrance_id": 14,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C2\u5C42",
+      "on_schedule": true,
+      "name": "62001_LayerName2",
+      "layer_id": 6204002,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 14,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C3\u5C42",
+      "on_schedule": true,
+      "name": "62001_LayerName3",
+      "layer_id": 6204003,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 14,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C4\u5C42",
+      "on_schedule": true,
+      "name": "62001_LayerName4",
+      "layer_id": 6204004,
+      "layer_index": 4,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 14,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C5\u5C42",
+      "on_schedule": true,
+      "name": "",
+      "layer_id": 6204005,
+      "layer_index": 5,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 14,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C421",
+      "on_schedule": true,
+      "name": "62001_ImpactLayerName_1",
+      "layer_id": 62040051,
+      "layer_index": 5,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 14,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C422",
+      "on_schedule": true,
+      "name": "62001_ImpactLayerName_2",
+      "layer_id": 62040052,
+      "layer_index": 5,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 14,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 620401,
+      "friendly_name": "\u3010Beta\u3011\u6DF1\u6E0A\u5237\u65B0\u533A\u7B2C40\u671F\u7B2C5\u5C42\u2014\u2014\u5B50\u5C423",
+      "on_schedule": true,
+      "name": "62001_ImpactLayerName_3",
+      "layer_id": 62040053,
+      "layer_index": 5,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 301,
+      "zone_group_id": 0,
+      "entrance_id": 14,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
@@ -8001,11 +8441,11 @@
       ]
     },
     {
-      "zone_id": 690251,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671FBeta1\u2014\u2014\u53CC\u5B50\u821E\u8005\u4E9A\u79CD",
+      "zone_id": 690271,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F1\u2014\u2014\u9ED1\u633D\u663C",
       "on_schedule": true,
-      "name": "OfficialName_Monster_NotoriousMarionette",
-      "layer_id": 6902501,
+      "name": "OfficialName_Monster_Vessel",
+      "layer_id": 6902701,
       "layer_index": 1,
       "unk_6": 0,
       "unk_7": [
@@ -8021,11 +8461,11 @@
       ]
     },
     {
-      "zone_id": 690251,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671FBeta2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
+      "zone_id": 690271,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F2\u2014\u2014\u540D\u53EF\u540D",
       "on_schedule": true,
       "name": "OfficialName_Monster_Awakener",
-      "layer_id": 6902502,
+      "layer_id": 6902702,
       "layer_index": 2,
       "unk_6": 0,
       "unk_7": [
@@ -8041,71 +8481,71 @@
       ]
     },
     {
-      "zone_id": 690251,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C25\u671FBeta3\u2014\u2014\u540D\u53EF\u540D",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_NamelessOne",
-      "layer_id": 6902503,
-      "layer_index": 3,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 0,
-      "entrance_id": 9,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 690261,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671FBeta1\u2014\u2014\u5F77\u5FA8\u730E\u624B",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_WanderingHunter",
-      "layer_id": 6902601,
-      "layer_index": 1,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 69001,
-      "entrance_id": 10,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 690261,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671FBeta2\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
-      "on_schedule": true,
-      "name": "OfficialName_Monster_Awakener",
-      "layer_id": 6902602,
-      "layer_index": 2,
-      "unk_6": 0,
-      "unk_7": [
-
-      ],
-      "unk_8": 0,
-      "group_id": 1001,
-      "zone_group_id": 0,
-      "entrance_id": 10,
-      "unk_12": 0,
-      "time_period_list": [
-        "Morning"
-      ]
-    },
-    {
-      "zone_id": 690261,
-      "friendly_name": "\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C26\u671FBeta3\u2014\u2014\u7272\u9B3C",
+      "zone_id": 690271,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C27\u671F3\u2014\u2014\u5F77\u5FA8\u730E\u624B",
       "on_schedule": true,
       "name": "OfficialName_Monster_SacrificeBringer",
-      "layer_id": 6902603,
+      "layer_id": 6902703,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 9,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690281,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C28\u671F\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Awakener",
+      "layer_id": 6902801,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 69001,
+      "entrance_id": 10,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690281,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C28\u671F\u2014\u2014\u53CC\u5B50\u821E\u8005\u4E9A\u79CD",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_NotoriousMarionette",
+      "layer_id": 6902802,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 10,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690281,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C28\u671F\u2014\u2014\u6885\u82E5\u62C9\u53EF",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_MentorMevorakh",
+      "layer_id": 6902803,
       "layer_index": 3,
       "unk_6": 0,
       "unk_7": [
@@ -8115,6 +8555,126 @@
       "group_id": 1001,
       "zone_group_id": 0,
       "entrance_id": 10,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690291,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C29\u671F\u2014\u2014\u9ED1\u633D\u663C",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Vessel",
+      "layer_id": 6902901,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 69001,
+      "entrance_id": 11,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690291,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C29\u671F\u2014\u2014\u590D\u5408\u4FB5\u8680\u4F53",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_ComplexCorrupted",
+      "layer_id": 6902902,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 11,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690291,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C29\u671F\u2014\u2014\u5F77\u5FA8\u730E\u624B",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_SacrificeBringer",
+      "layer_id": 6902903,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 11,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690301,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C30\u671F\u2014\u2014\u4EB5\u6E0E\u8005\u4F0A\u745F\u5C14\u5FB7",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_IsoldetheDefiler",
+      "layer_id": 6903001,
+      "layer_index": 1,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 69001,
+      "entrance_id": 12,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690301,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C30\u671F\u2014\u2014\u540D\u53EF\u540D",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Awakener",
+      "layer_id": 6903002,
+      "layer_index": 2,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 12,
+      "unk_12": 0,
+      "time_period_list": [
+        "Morning"
+      ]
+    },
+    {
+      "zone_id": 690301,
+      "friendly_name": "\u3010Beta\u3011\u5371\u5C40\u5F3A\u88AD\u6218\u7B2C30\u671F\u2014\u2014\u7D22\u8D1D\u514B\u4E0E\u5E08\u5144",
+      "on_schedule": true,
+      "name": "OfficialName_Monster_Awakener",
+      "layer_id": 6903003,
+      "layer_index": 3,
+      "unk_6": 0,
+      "unk_7": [
+
+      ],
+      "unk_8": 0,
+      "group_id": 1001,
+      "zone_group_id": 0,
+      "entrance_id": 12,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
@@ -8954,7 +9514,7 @@
       "unk_8": 0,
       "group_id": 1001,
       "zone_group_id": 0,
-      "entrance_id": 12,
+      "entrance_id": 901,
       "unk_12": 0,
       "time_period_list": [
         "Morning"
