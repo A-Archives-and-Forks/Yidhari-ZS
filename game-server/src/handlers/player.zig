@@ -165,6 +165,7 @@ pub fn onStartHadalZoneBattleCsReq(context: *NetContext, req: protocol.ByName(.S
         const first_room_buddy_id = protocol.getField(req, .first_room_buddy_id, u32) orelse 0;
         const second_room_buddy_id = protocol.getField(req, .second_room_buddy_id, u32) orelse 0;
         const zone_id = protocol.getField(req, .zone_id, u32) orelse break :blk 1;
+        const room_index = protocol.getField(req, .room_index, u32) orelse break :blk 0;
         const layer_index = protocol.getField(req, .layer_index, u32) orelse break :blk 1;
         const layer_item_id = protocol.getField(req, .layer_item_id, u32) orelse 0;
 
@@ -177,6 +178,7 @@ pub fn onStartHadalZoneBattleCsReq(context: *NetContext, req: protocol.ByName(.S
             second_room_buddy_id,
             zone_id,
             layer_index,
+            room_index,
             layer_item_id,
             context.gpa,
         ) catch |err| {
@@ -193,4 +195,30 @@ pub fn onStartHadalZoneBattleCsReq(context: *NetContext, req: protocol.ByName(.S
     };
 
     return protocol.makeProto(.StartHadalZoneBattleScRsp, .{ .retcode = retcode });
+}
+
+pub fn onSetupHadalZoneRoomCsReq(context: *NetContext, req: protocol.ByName(.SetupHadalZoneRoomCsReq)) !protocol.ByName(.SetupHadalZoneRoomScRsp) {
+    std.log.debug("SetupHadalZoneRoom: {}", .{req});
+
+    const retcode: i32 = blk: {
+        const zone_info = context.session.player_info.?.hadal_zone_data.getZoneInfo(
+            req.zone_id,
+            &context.session.globals.templates,
+            context.arena,
+        ) catch break :blk 1;
+
+        if (protocol.getField(req, .layer_setup_list, std.ArrayList(protocol.ByName(.LayerSetup)))) |layer_setup_list| {
+            for (layer_setup_list.items) |layer_setup| {
+                const layer_record = zone_info.*.layer_record_list.getPtr(layer_setup.layer_index) orelse continue;
+
+                layer_record.*.avatar_id_list = layer_setup.avatar_id_list.items;
+                layer_record.*.buddy_id = layer_setup.buddy_id;
+                layer_record.*.layer_item_id = layer_setup.layer_item_id;
+            }
+        }
+
+        break :blk 0;
+    };
+
+    return protocol.makeProto(.SetupHadalZoneRoomScRsp, .{ .retcode = retcode });
 }

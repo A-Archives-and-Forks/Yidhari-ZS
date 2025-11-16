@@ -20,6 +20,7 @@ const CollectMap = @import("CollectMap.zig");
 const PosInMainCity = @import("PosInMainCity.zig");
 const MapData = @import("MapData.zig");
 const TimeInfo = @import("TimeInfo.zig");
+const HadalZoneData = @import("HadalZoneData.zig");
 
 const GameplaySettings = @import("../../Globals.zig").GameplaySettings;
 
@@ -46,6 +47,7 @@ collect_map: CollectMap,
 pos_in_main_city: PosInMainCity,
 map_data: MapData,
 time_info: TimeInfo,
+hadal_zone_data: HadalZoneData,
 
 pub fn init(uid: u32, allocator: Allocator) !Self {
     return .{
@@ -66,6 +68,7 @@ pub fn init(uid: u32, allocator: Allocator) !Self {
         .pos_in_main_city = try .init(allocator),
         .map_data = .init(allocator),
         .time_info = .init(),
+        .hadal_zone_data = .init(allocator),
     };
 }
 

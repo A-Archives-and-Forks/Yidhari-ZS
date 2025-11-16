@@ -17,11 +17,13 @@ const hadal_zone_bosschallenge_zone_group: u32 = 69;
 
 const hadal_zone_enemy_property_scale: u32 = 19;
 const hadal_zone_bosschallenge_enemy_property_scale: u32 = 33;
+const hadal_zone_impact_battle_enemy_property_scale: u32 = 61;
 
 gpa: Allocator,
 scene_id: u32,
 zone_id: u32,
 layer_index: u32,
+room_index: u32,
 layer_item_id: u32,
 first_room_avatars: [3]?u32,
 second_room_avatars: [3]?u32,
@@ -32,6 +34,7 @@ pub fn create(
     scene_id: u32,
     zone_id: u32,
     layer_index: u32,
+    room_index: u32,
     layer_item_id: u32,
     first_room_avatar_list: []const u32,
     second_room_avatar_list: []const u32,
@@ -49,6 +52,7 @@ pub fn create(
         .scene_id = scene_id,
         .zone_id = zone_id,
         .layer_index = layer_index,
+        .room_index = room_index,
         .layer_item_id = layer_item_id,
         .first_room_avatars = first_room_avatars,
         .second_room_avatars = second_room_avatars,
@@ -81,16 +85,29 @@ pub fn clearTransitionState(self: *Self) bool {
     return false;
 }
 
-fn getPlayTypeByZoneId(zone_id: u32) LocalPlayType {
+fn getPlayTypeByZoneIdAndRoomIndex(zone_id: u32, room_index: u32) LocalPlayType {
     if (zone_id == hadal_zone_alivecount_zone_id) return .hadal_zone_alivecount;
-    if ((zone_id / 1000) == hadal_zone_bosschallenge_zone_group) return .hadal_zone_bosschallenge;
 
-    return .hadal_zone;
+    var last_digits: [2]u32 = @splat(0);
+    var i: u32 = zone_id;
+    while (i != 0) : (i /= 10) {
+        last_digits[1] = last_digits[0];
+        last_digits[0] = i % 10;
+    }
+    const zone_group = last_digits[0] * 10 + last_digits[1];
+
+    if (zone_group == hadal_zone_bosschallenge_zone_group) return .hadal_zone_bosschallenge;
+
+    return switch (room_index) {
+        0 => .hadal_zone,
+        else => .hadal_zone_impact_battle,
+    };
 }
 
 fn getEnemyPropertyScaleByPlayType(play_type: LocalPlayType) u32 {
     return switch (play_type) {
         .hadal_zone_bosschallenge => hadal_zone_bosschallenge_enemy_property_scale,
+        .hadal_zone_impact_battle => hadal_zone_impact_battle_enemy_property_scale,
         else => hadal_zone_enemy_property_scale,
     };
 }
@@ -100,6 +117,7 @@ pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.SceneData) {
         .scene_perform = protocol.makeProto(.ScenePerformInfo, .{}),
         .zone_id = self.zone_id,
         .layer_index = self.layer_index,
+        .room_index = self.room_index,
         .layer_item_id = self.layer_item_id,
         .first_room_buddy_id = self.buddy_ids[0],
         .second_room_buddy_id = self.buddy_ids[1],
@@ -113,7 +131,10 @@ pub fn toProto(self: *const Self, allocator: Allocator) !ByName(.SceneData) {
         if (avatar_id) |id| try protocol.addToList(allocator, &hadal_zone_data, .second_room_avatar_id_list, id);
     }
 
-    const play_type = getPlayTypeByZoneId(self.zone_id);
+    const play_type = getPlayTypeByZoneIdAndRoomIndex(
+        self.zone_id,
+        self.room_index,
+    );
 
     return protocol.makeProto(.SceneData, .{
         .scene_type = @intFromEnum(SceneType.hadal_zone),

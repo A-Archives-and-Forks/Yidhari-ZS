@@ -70,6 +70,11 @@ pub fn loadFightState(
 }
 
 const hadal_static_zone_group: u32 = 61;
+const hadal_periodic_zone_group: u32 = 62;
+const hadal_periodic_zone_id: u32 = 62001;
+const hadal_periodic_with_rooms_zone_id: u32 = 62010;
+const hadal_zone_bosschallenge_zone_group: u32 = 69;
+const hadal_zone_bosschallenge_zone_id: u32 = 69001;
 
 pub fn loadHadalZoneState(
     player_info: *PlayerInfo,
@@ -80,6 +85,7 @@ pub fn loadHadalZoneState(
     second_room_buddy_id: u32,
     zone_id: u32,
     layer_index: u32,
+    room_index: u32,
     layer_item_id: u32,
     allocator: Allocator,
 ) !Self {
@@ -102,30 +108,43 @@ pub fn loadHadalZoneState(
         try dungeon.addBuddyFighter(second_room_buddy_id, Dungeon.PackageType.player);
     }
 
-    const base_zone_id = if (zone_id / 1000 != hadal_static_zone_group) ((zone_id / 1000) * 1000) + 1 else zone_id;
+    var last_digits: [2]u32 = @splat(0);
+    var i: u32 = zone_id;
+    while (i != 0) : (i /= 10) {
+        last_digits[1] = last_digits[0];
+        last_digits[0] = i % 10;
+    }
+    const zone_group = last_digits[0] * 10 + last_digits[1];
 
-    const zone_info_template = for (templates.zone_info_template_tb.payload.data) |tmpl| {
-        if (tmpl.zone_id == base_zone_id and tmpl.layer_index == layer_index) {
-            break tmpl;
-        }
-    } else return error.InvalidZoneLayerIndex;
+    const layer_id: u32 = switch (zone_group) {
+        hadal_static_zone_group => (zone_id * 100) + layer_index,
+        hadal_periodic_zone_group => switch (room_index) {
+            0 => (hadal_periodic_zone_id * 100) + layer_index,
+            else => (hadal_periodic_with_rooms_zone_id * 100) + (layer_index * 10) + room_index,
+        },
+        hadal_zone_bosschallenge_zone_group => hadal_zone_bosschallenge_zone_id * 100 + layer_index,
+        else => 0,
+    };
+
+    if (layer_id == 0) return error.InvalidZoneId;
 
     // TODO: get time period from ZoneInfoTemplate and use it.
-
-    const layer_info_template = templates.getConfigByKey(.layer_info_template_tb, zone_info_template.layer_id) orelse return error.InvalidLayer;
-
     // TODO: get weather from LayerInfoTemplate and use it.
-    _ = layer_info_template;
 
-    const quest_template = templates.getConfigByKey(.hadal_zone_quest_template_tb, zone_info_template.layer_id) orelse return error.MissingQuestForLayer;
-    dungeon.setDungeonQuest(0, @intCast(quest_template.quest_id));
+    const hadal_zone_quest_template = templates.getConfigByKey(.hadal_zone_quest_template_tb, layer_id) orelse return error.MissingQuestForLayer;
+    const quest_config_template = templates.getConfigByKey(.quest_config_template_tb, hadal_zone_quest_template.quest_id) orelse return error.MissingQuestForLayer;
+    dungeon.setDungeonQuest(
+        quest_config_template.quest_type,
+        @intCast(hadal_zone_quest_template.quest_id),
+    );
 
     return .{
         .allocator = allocator,
         .scene = .{ .hadal_zone = try HadalZoneScene.create(
-            @intCast(zone_info_template.layer_id),
+            layer_id,
             zone_id,
             layer_index,
+            room_index,
             layer_item_id,
             first_room_avatars,
             second_room_avatars,

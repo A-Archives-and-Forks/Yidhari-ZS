@@ -12585,18 +12585,18 @@ pub const PHNDLADPPFF = struct {
     };
 };
 
-pub const BKJKEPLOPDP = struct {
+pub const SetupHadalZoneRoomCsReq = struct {
     pub const cmd_id: u16 = 9098;
 
     pb: protobuf.ProtobufMixins(@This()) = .{},
     JELNPPDAPOJ: KODPNMLFAIP = @enumFromInt(0),
     zone_id: u32 = 0,
-    GLCEDKOKBOF: ArrayList(FHKEMPPAKGJ) = .empty,
+    layer_setup_list: ArrayList(LayerSetup) = .empty,
 
     pub const _desc_table = .{
         .JELNPPDAPOJ = fd(1, null, .{ .Varint = .Simple }),
         .zone_id = fd(3, 15320, .{ .Varint = .Simple }),
-        .GLCEDKOKBOF = fd(14, null, .{ .List = .{ .SubMessage = {} } }),
+        .layer_setup_list = fd(14, null, .{ .List = .{ .SubMessage = {} } }),
     };
 };
 
@@ -23186,11 +23186,11 @@ pub const CGIOCAJGFKH = struct {
     };
 };
 
-pub const LPCOLHMOPIF = struct {
+pub const HadalEntranceSync = struct {
     pb: protobuf.ProtobufMixins(@This()) = .{},
     LFOKOBCBLJO: ?ZoneRecord = null,
     EDLDHCBMCCE: ArrayList(ZoneRecord) = .empty,
-    NAJBFNBGBLI: ?ZoneRecord = null,
+    cur_zone_record: ?ZoneRecord = null,
     state: EntranceState = @enumFromInt(0),
     ONMIHNINDGH: ArrayList(u32) = .empty,
     entrance_id: u32 = 0,
@@ -23198,7 +23198,7 @@ pub const LPCOLHMOPIF = struct {
     pub const _desc_table = .{
         .LFOKOBCBLJO = fd(1, null, .{ .SubMessage = {} }),
         .EDLDHCBMCCE = fd(3, null, .{ .List = .{ .SubMessage = {} } }),
-        .NAJBFNBGBLI = fd(8, null, .{ .SubMessage = {} }),
+        .cur_zone_record = fd(8, null, .{ .SubMessage = {} }),
         .state = fd(11, null, .{ .Varint = .Simple }),
         .ONMIHNINDGH = fd(13, null, .{ .PackedList = .{ .Varint = .Simple } }),
         .entrance_id = fd(14, 11038, .{ .Varint = .Simple }),
@@ -24024,7 +24024,7 @@ pub const DKLBLHAGDNH = struct {
     };
 };
 
-pub const DLDKBNGMHNI = struct {
+pub const SetupHadalZoneRoomScRsp = struct {
     pub const cmd_id: u16 = 9258;
 
     pb: protobuf.ProtobufMixins(@This()) = .{},
@@ -28092,7 +28092,7 @@ pub const POELBNEMGDH = struct {
     NNNAGEKIBDP: ?GDNPOKPHGOG = null,
     CJNHLIJKPBC: ?CIJMKMEAPHC = null,
     KBPIOACIIHK: ?LDJFICJMDFA = null,
-    IAGIDIIELIJ: ?LFCJDGCAGKM = null,
+    hadal_zone: ?LFCJDGCAGKM = null,
     FCDOHJKKEBO: ?LPDCBHBCILC = null,
     BDBOAJIGECI: ?ENFLLKOBPLC = null,
     NEDNIJCBKII: ?ICBHJJFLKIK = null,
@@ -28117,7 +28117,7 @@ pub const POELBNEMGDH = struct {
         .NNNAGEKIBDP = fd(9, null, .{ .SubMessage = {} }),
         .CJNHLIJKPBC = fd(10, null, .{ .SubMessage = {} }),
         .KBPIOACIIHK = fd(11, null, .{ .SubMessage = {} }),
-        .IAGIDIIELIJ = fd(12, null, .{ .SubMessage = {} }),
+        .hadal_zone = fd(12, null, .{ .SubMessage = {} }),
         .FCDOHJKKEBO = fd(13, null, .{ .SubMessage = {} }),
         .BDBOAJIGECI = fd(15, null, .{ .SubMessage = {} }),
         .NEDNIJCBKII = fd(700, null, .{ .SubMessage = {} }),
@@ -31270,7 +31270,7 @@ pub const FBDDIEDGEKC = struct {
     };
 };
 
-pub const FHKEMPPAKGJ = struct {
+pub const LayerSetup = struct {
     pb: protobuf.ProtobufMixins(@This()) = .{},
     layer_item_id: u32 = 0,
     EMHCBJEBOAI: OPMKKCLKFMB = @enumFromInt(0),
@@ -37277,7 +37277,7 @@ pub const PlayerSyncScNotify = struct {
     PPNHNFOLHPN: ?KOGGCAKHDII = null,
     KGLOADJLOLJ: bool = false,
     DNDJLDJGPBK: ?MKKDIDODDGJ = null,
-    IAGIDIIELIJ: ?PFINFPEFMBL = null,
+    hadal_zone: ?HadalZoneSync = null,
     GOBCEMBKKNC: ArrayList(ECJMDPKFDML) = .empty,
     KCILEPGKMOI: ?MEGIAOOJMCK = null,
     KHPEKICHBKM: ?ACJCAJKMDFH = null,
@@ -37343,7 +37343,7 @@ pub const PlayerSyncScNotify = struct {
         .PPNHNFOLHPN = fd(1454, null, .{ .SubMessage = {} }),
         .KGLOADJLOLJ = fd(1456, null, .{ .Varint = .Simple }),
         .DNDJLDJGPBK = fd(1535, null, .{ .SubMessage = {} }),
-        .IAGIDIIELIJ = fd(1558, null, .{ .SubMessage = {} }),
+        .hadal_zone = fd(1558, null, .{ .SubMessage = {} }),
         .GOBCEMBKKNC = fd(1585, null, .{ .List = .{ .SubMessage = {} } }),
         .KCILEPGKMOI = fd(1592, null, .{ .SubMessage = {} }),
         .KHPEKICHBKM = fd(1644, null, .{ .SubMessage = {} }),
@@ -37671,12 +37671,12 @@ pub const DNHBBMHHKAD = struct {
     pb: protobuf.ProtobufMixins(@This()) = .{},
     zone_id: u32 = 0,
     layer_index: u32 = 0,
-    PHAEKCHPJND: u32 = 0,
+    room_index: u32 = 0,
 
     pub const _desc_table = .{
         .zone_id = fd(3, 10127, .{ .Varint = .Simple }),
         .layer_index = fd(6, 13104, .{ .Varint = .Simple }),
-        .PHAEKCHPJND = fd(13, 8747, .{ .Varint = .Simple }),
+        .room_index = fd(13, 8747, .{ .Varint = .Simple }),
     };
 };
 
@@ -53873,7 +53873,7 @@ pub const StartHadalZoneBattleCsReq = struct {
 
     pb: protobuf.ProtobufMixins(@This()) = .{},
     first_room_avatar_id_list: ArrayList(u32) = .empty,
-    PHAEKCHPJND: u32 = 0,
+    room_index: u32 = 0,
     zone_id: u32 = 0,
     HFDHEDIHFLL: bool = false,
     layer_item_id: u32 = 0,
@@ -53884,7 +53884,7 @@ pub const StartHadalZoneBattleCsReq = struct {
 
     pub const _desc_table = .{
         .first_room_avatar_id_list = fd(2, null, .{ .PackedList = .{ .Varint = .Simple } }),
-        .PHAEKCHPJND = fd(3, 14885, .{ .Varint = .Simple }),
+        .room_index = fd(3, 14885, .{ .Varint = .Simple }),
         .zone_id = fd(4, 13060, .{ .Varint = .Simple }),
         .HFDHEDIHFLL = fd(5, null, .{ .Varint = .Simple }),
         .layer_item_id = fd(6, 15637, .{ .Varint = .Simple }),
@@ -64852,12 +64852,12 @@ pub const HKJIAMGDKJE = struct {
     };
 };
 
-pub const PFINFPEFMBL = struct {
+pub const HadalZoneSync = struct {
     pb: protobuf.ProtobufMixins(@This()) = .{},
-    IOODDHDACNA: ArrayList(LPCOLHMOPIF) = .empty,
+    hadal_entrance_list: ArrayList(HadalEntranceSync) = .empty,
 
     pub const _desc_table = .{
-        .IOODDHDACNA = fd(15, null, .{ .List = .{ .SubMessage = {} } }),
+        .hadal_entrance_list = fd(15, null, .{ .List = .{ .SubMessage = {} } }),
     };
 };
 
@@ -64918,7 +64918,7 @@ pub const HadalZoneSceneData = struct {
     scene_perform: ?ScenePerformInfo = null,
     first_room_avatar_id_list: ArrayList(u32) = .empty,
     EPGOLCKHFGP: ArrayList(u32) = .empty,
-    PHAEKCHPJND: u32 = 0,
+    room_index: u32 = 0,
 
     pub const _desc_table = .{
         .second_room_avatar_id_list = fd(1, null, .{ .PackedList = .{ .Varint = .Simple } }),
@@ -64933,7 +64933,7 @@ pub const HadalZoneSceneData = struct {
         .scene_perform = fd(10, null, .{ .SubMessage = {} }),
         .first_room_avatar_id_list = fd(11, null, .{ .PackedList = .{ .Varint = .Simple } }),
         .EPGOLCKHFGP = fd(14, null, .{ .PackedList = .{ .Varint = .Simple } }),
-        .PHAEKCHPJND = fd(15, 9416, .{ .Varint = .Simple }),
+        .room_index = fd(15, 9416, .{ .Varint = .Simple }),
     };
 };
 
@@ -65951,7 +65951,7 @@ pub const BLHLDGFPCFB = struct {
     };
 };
 
-pub const GetHadalZoneDataCsReq = struct {
+pub const OBPPJMDCKCJ = struct {
     pub const cmd_id: u16 = 9806;
 
     pb: protobuf.ProtobufMixins(@This()) = .{},
@@ -67035,25 +67035,25 @@ pub const ECCAMHFEDPA = struct {
     OMAKBKMLFIM: u32 = 0,
     total_time: u32 = 0,
     FBBOEINMEHP: u32 = 0,
-    HLCOIPAAHCB: u32 = 0,
+    buddy_id: u32 = 0,
     MOKIBKCLJHJ: u32 = 0,
     rank: JBLKELKDPKF = @enumFromInt(0),
     layer_item_id: u32 = 0,
     type: COPAHFBANKF = @enumFromInt(0),
     HHNPBGPNCCJ: u32 = 0,
-    GBKFFMNIFNN: ArrayList(u32) = .empty,
+    avatar_id_list: ArrayList(u32) = .empty,
 
     pub const _desc_table = .{
         .OMAKBKMLFIM = fd(2, 1621, .{ .Varint = .Simple }),
         .total_time = fd(3, 6704, .{ .Varint = .Simple }),
         .FBBOEINMEHP = fd(5, 1096, .{ .Varint = .Simple }),
-        .HLCOIPAAHCB = fd(6, 9239, .{ .Varint = .Simple }),
+        .buddy_id = fd(6, 9239, .{ .Varint = .Simple }),
         .MOKIBKCLJHJ = fd(8, 16114, .{ .Varint = .Simple }),
         .rank = fd(9, null, .{ .Varint = .Simple }),
         .layer_item_id = fd(10, 15919, .{ .Varint = .Simple }),
         .type = fd(13, null, .{ .Varint = .Simple }),
         .HHNPBGPNCCJ = fd(14, 5106, .{ .Varint = .Simple }),
-        .GBKFFMNIFNN = fd(15, null, .{ .PackedList = .{ .Varint = .Simple } }),
+        .avatar_id_list = fd(15, null, .{ .PackedList = .{ .Varint = .Simple } }),
     };
 };
 
@@ -71797,7 +71797,7 @@ pub const INIGLIIFIFH = struct {
     };
 };
 
-pub const HFFKOKPMOFB = struct {
+pub const GetHadalZoneDataCsReq = struct {
     pub const cmd_id: u16 = 1846;
 
     pb: protobuf.ProtobufMixins(@This()) = .{},
@@ -76297,12 +76297,12 @@ pub const LayerRecord = struct {
     fight_time_list: ArrayList(u32) = .empty,
     KKKDPIJHCPJ: bool = false,
     LHOMBFNHCDJ: u32 = 0,
-    GBKFFMNIFNN: ArrayList(u32) = .empty,
-    HLCOIPAAHCB: u32 = 0,
+    avatar_id_list: ArrayList(u32) = .empty,
+    buddy_id: u32 = 0,
     PKLMEOCMHJC: u32 = 0,
     layer_item_id: u32 = 0,
     PKFIOACABLN: INPEPMBOIMG = @enumFromInt(0),
-    PHAEKCHPJND: u32 = 0,
+    room_index: u32 = 0,
     DNICFGCMKAN: ArrayList(u32) = .empty,
     EILLFOMMAAD: ArrayList(u32) = .empty,
 
@@ -76314,12 +76314,12 @@ pub const LayerRecord = struct {
         .fight_time_list = fd(5, null, .{ .PackedList = .{ .Varint = .Simple } }),
         .KKKDPIJHCPJ = fd(6, null, .{ .Varint = .Simple }),
         .LHOMBFNHCDJ = fd(7, null, .{ .Varint = .Simple }),
-        .GBKFFMNIFNN = fd(8, null, .{ .PackedList = .{ .Varint = .Simple } }),
-        .HLCOIPAAHCB = fd(9, null, .{ .Varint = .Simple }),
+        .avatar_id_list = fd(8, null, .{ .PackedList = .{ .Varint = .Simple } }),
+        .buddy_id = fd(9, null, .{ .Varint = .Simple }),
         .PKLMEOCMHJC = fd(10, null, .{ .Varint = .Simple }),
         .layer_item_id = fd(11, null, .{ .Varint = .Simple }),
         .PKFIOACABLN = fd(12, null, .{ .Varint = .Simple }),
-        .PHAEKCHPJND = fd(14, null, .{ .Varint = .Simple }),
+        .room_index = fd(14, null, .{ .Varint = .Simple }),
         .DNICFGCMKAN = fd(15, null, .{ .PackedList = .{ .Varint = .Simple } }),
         .EILLFOMMAAD = fd(16, null, .{ .PackedList = .{ .Varint = .Simple } }),
     };
