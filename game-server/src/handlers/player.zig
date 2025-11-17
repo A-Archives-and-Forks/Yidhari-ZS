@@ -204,16 +204,23 @@ pub fn onSetupHadalZoneRoomCsReq(context: *NetContext, req: protocol.ByName(.Set
         const zone_info = context.session.player_info.?.hadal_zone_data.getZoneInfo(
             req.zone_id,
             &context.session.globals.templates,
-            context.arena,
+            context.gpa,
         ) catch break :blk 1;
 
         if (protocol.getField(req, .layer_setup_list, std.ArrayList(protocol.ByName(.LayerSetup)))) |layer_setup_list| {
             for (layer_setup_list.items) |layer_setup| {
                 const layer_record = zone_info.*.layer_record_list.getPtr(layer_setup.layer_index) orelse continue;
 
-                layer_record.*.avatar_id_list = layer_setup.avatar_id_list.items;
+                if (layer_setup.layer_item_id > 0) {
+                    layer_record.*.layer_item_id = layer_setup.layer_item_id;
+                }
+
+                context.gpa.free(layer_record.*.avatar_id_list);
+                layer_record.*.avatar_id_list = try context.gpa.dupe(
+                    u32,
+                    layer_setup.avatar_id_list.items,
+                );
                 layer_record.*.buddy_id = layer_setup.buddy_id;
-                layer_record.*.layer_item_id = layer_setup.layer_item_id;
             }
         }
 
